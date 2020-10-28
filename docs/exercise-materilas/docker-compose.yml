@@ -1,0 +1,40 @@
+version: "3.7"
+
+services:
+    app:
+        container_name: todos
+        image: node:12-alpine
+        networks: 
+            - mysql
+        command: sh -c "yarn install && yarn run dev"
+        ports:
+            - 3000:3000
+        working_dir: /app
+        volumes:
+            - ./:/app
+        environment:
+            MYSQL_HOST: mysql-db
+            MYSQL_USER: root
+            MYSQL_PASSWORD: secret
+            MYSQL_DB: todos
+
+    mysql:
+        container_name: mysql
+        image: mysql:5.7
+        networks: 
+            mysql:
+                aliases: 
+                    - mysql-db
+        volumes:
+            - todo-mysql-data:/var/lib/mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: secret
+            MYSQL_DATABASE: todos
+
+volumes:
+    todo-mysql-data:
+
+networks:
+    mysql:
+        name: mysql
+        driver: bridge

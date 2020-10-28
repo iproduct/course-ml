@@ -13,7 +13,7 @@ services:
         volumes:
             - ./:/app
         environment:
-            MYSQL_HOST: mysql
+            MYSQL_HOST: mysql-db
             MYSQL_USER: root
             MYSQL_PASSWORD: secret
             MYSQL_DB: todos
@@ -22,7 +22,9 @@ services:
         container_name: mysql
         image: mysql:5.7
         networks: 
-            - mysql
+            mysql:
+                aliases: 
+                    - mysql-db
         volumes:
             - todo-mysql-data:/var/lib/mysql
         environment: 
@@ -34,3 +36,5 @@ volumes:
 
 networks:
     mysql:
+        name: mysql
+        driver: bridge
