@@ -62,7 +62,7 @@ public class WordCount01 {
         FileInputFormat.addInputPaths(job, args[0]);
         Path outPath = new Path(args[1]);
         outPath.getFileSystem(conf).delete(outPath, true);
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        FileOutputFormat.setOutputPath(job, outPath);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
