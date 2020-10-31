@@ -1,0 +1,1 @@
+hdfs://localhost:9000/user/trayan/wordcount/data/input/file01.txt,hdfs://localhost:9000/user/trayan/wordcount/data/input/file02.txt hdfs://localhost:9000/user/trayan/wordcount/data/output
