@@ -59,7 +59,7 @@ public class WordCount01 {
         job.setReducerClass(IntSumReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
-        FileInputFormat.addInputPaths(job, args[0]);
+        FileInputFormat.addInputPath(job, new Path(args[0]));
         Path outPath = new Path(args[1]);
         outPath.getFileSystem(conf).delete(outPath, true);
         FileOutputFormat.setOutputPath(job, outPath);
