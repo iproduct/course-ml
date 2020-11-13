@@ -28,7 +28,7 @@ destinations:
     distance:
       exchange: alerts
       routing-key: DISTANCE
-      durable-queue: false
+      durable-queue: true
     commands:
       exchange: alerts
       routing-key: COMMANDS
