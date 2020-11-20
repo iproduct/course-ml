@@ -23,7 +23,6 @@
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/mov_bbb.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/valve.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example05.py" beforeDir="false" afterPath="$PROJECT_DIR$/example05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605889731439</updated>
-      <workItem from="1605889744294" duration="11988000" />
+      <workItem from="1605889744294" duration="12679000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -285,7 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605900140645</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="interactive image unwarping demo added">
+      <created>1605902609875</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605902609875</updated>
+    </task>
+    <task id="LOCAL-00012" summary="background subtraction demo added">
+      <created>1605902900214</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605902900214</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,13 +312,15 @@
     <MESSAGE value="canny edge detection and harris corner detection - interactive" />
     <MESSAGE value="draw circle on mouse click" />
     <MESSAGE value="draw bounding contour" />
-    <option name="LAST_COMMIT_MESSAGE" value="draw bounding contour" />
+    <MESSAGE value="interactive image unwarping demo added" />
+    <MESSAGE value="background subtraction demo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="background subtraction demo added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605900139929">
+    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605902899520">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605900139929" />
+    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605902899520" />
     <state width="1663" height="322" key="GridCell.Tab.0.bottom" timestamp="1605901779512">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
