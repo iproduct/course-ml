@@ -4,7 +4,7 @@ import numpy as np
 
 if __name__ == '__main__':
     print(f'OpenCV imported: {cv.version.opencv_version}')
-    img = cv.imread("resources/valve.png")
+    img = cv.imread("resources/cards.jpg")
     if img is None:
         sys.exit("Could not read the image.")
     print(img.shape)
