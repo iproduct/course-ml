@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exampe04-corenrs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example03.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -24,8 +22,6 @@
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/lena.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/mov_bbb.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/valve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example02.py" beforeDir="false" afterPath="$PROJECT_DIR$/example02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605889731439</updated>
-      <workItem from="1605889744294" duration="6183000" />
+      <workItem from="1605889744294" duration="6492000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -199,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605893228473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="canny edge detection and harris corner detection - interactive">
+      <created>1605896868338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605896868338</updated>
+    </task>
+    <task id="LOCAL-00006" summary="canny edge detection and harris corner detection - interactive">
+      <created>1605896893785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605896893785</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,13 +220,14 @@
     <MESSAGE value="image and video loading demos added" />
     <MESSAGE value="video capture and resizing" />
     <MESSAGE value="video capture and resizing + release" />
-    <option name="LAST_COMMIT_MESSAGE" value="video capture and resizing + release" />
+    <MESSAGE value="canny edge detection and harris corner detection - interactive" />
+    <option name="LAST_COMMIT_MESSAGE" value="canny edge detection and harris corner detection - interactive" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605893225846">
+    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605896891097">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605893225846" />
+    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605896891097" />
     <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1605896493140">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
