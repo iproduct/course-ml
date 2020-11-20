@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example02.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -24,7 +23,7 @@
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/mov_bbb.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/valve.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example02.py" beforeDir="false" afterPath="$PROJECT_DIR$/example02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605889731439</updated>
-      <workItem from="1605889744294" duration="2166000" />
+      <workItem from="1605889744294" duration="3214000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605890744108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="image and video loading demos added">
+      <created>1605891955104</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605891955104</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,29 +161,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="07-opencv-lab initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="07-opencv-lab initial commit" />
+    <MESSAGE value="image and video loading demos added" />
+    <option name="LAST_COMMIT_MESSAGE" value="image and video loading demos added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605890741007">
+    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605891954295">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605890741007" />
-    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1605891910745">
+    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605891954295" />
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1605892952148">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1605891910745" />
-    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1605891910745">
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1605892952148" />
+    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1605892952148">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1605891910745" />
-    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1605891910744">
+    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1605892952148" />
+    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1605892952147">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1605891910744" />
-    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1605891910745">
+    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1605892952147" />
+    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1605892952148">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1605891910745" />
+    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1605892952148" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605889978825">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -189,7 +196,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/07_opencv_lab$main.coverage" NAME="example01 Coverage Results" MODIFIED="1605891399592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/07_opencv_lab$example02__1_.coverage" NAME="example02 (1) Coverage Results" MODIFIED="1605891910739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_opencv_lab$example02__1_.coverage" NAME="example02 (1) Coverage Results" MODIFIED="1605892952106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example02.coverage" NAME="example02 Coverage Results" MODIFIED="1605891406145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
