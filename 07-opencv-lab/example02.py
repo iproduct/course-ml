@@ -26,4 +26,5 @@ if __name__ == '__main__':
         if cv.waitKey(30) & 0xFF == ord('q'):
             break;
 
+    video.release()
     cv.destroyAllWindows()
