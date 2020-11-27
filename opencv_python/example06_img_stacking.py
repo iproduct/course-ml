@@ -11,7 +11,7 @@ def stack_images_line(img_line, scale = 1.0):
         shape = img.shape
         if len(shape) == 2:
             img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
-        img_scaled = cv2.resize(img, (int(shape[1] * scale), int(shape[0] * scale)))
+        img_scaled = cv2.resize(img, (int(shape[0] * scale), int(shape[1] * scale)))
         if index == 0:
             result = img_scaled
         else:
