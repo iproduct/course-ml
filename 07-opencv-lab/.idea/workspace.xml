@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="background subtraction demo added">
-      <change afterPath="$PROJECT_DIR$/example08_classify_shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/geometric-shapes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/example06_img_stacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/example07_select_by_color.py" afterDir="false" />
+    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/linear_regression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/logistic_regression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/ml-01-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/pandas_intro_linear_regression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/data/.ipynb_checkpoints/PewDiePie-checkpoint.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/07-opencv-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/07-opencv-lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example06_img_stacking.py" beforeDir="false" afterPath="$PROJECT_DIR$/example06_img_stacking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../opencv_python/example02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/machine_learning_jupyter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/machine_learning_jupyter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/linear_regression-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/logistic_regression-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/ml-01-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/pandas_intro_linear_regression-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/data/.ipynb_checkpoints/PewDiePie-checkpoint.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/data/PewDiePie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/data/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/linear_regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/logistic_regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/ml-01.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/pandas_intro_linear_regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/opencv_python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/background_subtraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example06_img_stacking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example07_select_by_color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/mouse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/cards.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/lena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/mov_bbb.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/valve.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +78,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -48,6 +91,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.example08_classify_shapes">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="07-opencv-lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="example02" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="07-opencv-lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,7 +264,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605889731439</updated>
       <workItem from="1605889744294" duration="13036000" />
-      <workItem from="1606499268824" duration="6659000" />
+      <workItem from="1606499268824" duration="8506000" />
+      <workItem from="1606515259389" duration="175000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -299,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606501720159</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="shapes clasification demo completed">
+      <created>1606505976240</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606505976240</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,37 +389,38 @@
     <MESSAGE value="interactive image unwarping demo added" />
     <MESSAGE value="background subtraction demo added" />
     <MESSAGE value="select object by color demo added" />
-    <option name="LAST_COMMIT_MESSAGE" value="select object by color demo added" />
+    <MESSAGE value="shapes clasification demo completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="shapes clasification demo completed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1606501719287">
+    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1606507666995">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1606501719287" />
-    <state width="1663" height="322" key="GridCell.Tab.0.bottom" timestamp="1606505519001">
+    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1606507666995" />
+    <state width="1663" height="322" key="GridCell.Tab.0.bottom" timestamp="1606512397168">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606505519001" />
-    <state width="1663" height="322" key="GridCell.Tab.0.center" timestamp="1606505519001">
+    <state width="1663" height="322" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606512397168" />
+    <state width="1663" height="322" key="GridCell.Tab.0.center" timestamp="1606512397168">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606505519001" />
-    <state width="1663" height="322" key="GridCell.Tab.0.left" timestamp="1606505519000">
+    <state width="1663" height="322" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606512397168" />
+    <state width="1663" height="322" key="GridCell.Tab.0.left" timestamp="1606512397168">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606505519000" />
-    <state width="1663" height="322" key="GridCell.Tab.0.right" timestamp="1606505519001">
+    <state width="1663" height="322" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606512397168" />
+    <state width="1663" height="322" key="GridCell.Tab.0.right" timestamp="1606512397168">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606505519001" />
+    <state width="1663" height="322" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606512397168" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605898769090">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605898769090" />
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2" timestamp="1606501727323">
+    <state x="446" y="180" key="Vcs.Push.Dialog.v2" timestamp="1606505977640">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606501727323" />
+    <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606505977640" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/07_opencv_lab$example03.coverage" NAME="example03 Coverage Results" MODIFIED="1605897600201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
