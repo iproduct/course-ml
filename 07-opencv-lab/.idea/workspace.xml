@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="background subtraction demo added">
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/opencv_python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/background_subtraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/example01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/example02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/example03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/example04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/example05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/mouse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/resources/cards.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/resources/lena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/resources/mov_bbb.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_python/resources/valve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example06_img_stacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example07_select_by_color.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/1242806520466741385Similar-geometric-shapes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/customized-red-hot-rod-car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/vintage-car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../opencv_python/example06_img_stacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../opencv_python/example07_select_by_color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_python/example02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../opencv_python/example02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +49,7 @@
       <recent name="D:\CourseDML\git\course-ml\07-opencv-lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.example05">
-    <configuration name="example01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="07-opencv-lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\CourseDML\git\course-ml\07-opencv-lab\example01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.example07_select_by_color">
     <configuration name="example02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="07-opencv-lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,13 +160,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="example07_select_by_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="07-opencv-lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example07_select_by_color.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example07_select_by_color" />
         <item itemvalue="Python.example05" />
         <item itemvalue="Python.example03" />
         <item itemvalue="Python.example04-corners" />
         <item itemvalue="Python.example02 (1)" />
-        <item itemvalue="Python.example01" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605889731439</updated>
       <workItem from="1605889744294" duration="13036000" />
+      <workItem from="1606499268824" duration="2270000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -327,22 +317,22 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605903391851" />
-    <state width="1663" height="322" key="GridCell.Tab.0.bottom" timestamp="1605903634826">
+    <state width="1663" height="322" key="GridCell.Tab.0.bottom" timestamp="1606501180447">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
-    <state width="1663" height="322" key="GridCell.Tab.0.center" timestamp="1605903634826">
+    <state width="1663" height="322" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606501180447" />
+    <state width="1663" height="322" key="GridCell.Tab.0.center" timestamp="1606501180447">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
-    <state width="1663" height="322" key="GridCell.Tab.0.left" timestamp="1605903634826">
+    <state width="1663" height="322" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606501180447" />
+    <state width="1663" height="322" key="GridCell.Tab.0.left" timestamp="1606501180447">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
-    <state width="1663" height="322" key="GridCell.Tab.0.right" timestamp="1605903634826">
+    <state width="1663" height="322" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606501180447" />
+    <state width="1663" height="322" key="GridCell.Tab.0.right" timestamp="1606501180447">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
+    <state width="1663" height="322" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606501180447" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605898769090">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -356,6 +346,7 @@
     <SUITE FILE_PATH="coverage/07_opencv_lab$example03.coverage" NAME="example03 Coverage Results" MODIFIED="1605897600201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$main.coverage" NAME="example01 Coverage Results" MODIFIED="1605891399592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example04_corners.coverage" NAME="example04-corners Coverage Results" MODIFIED="1605897071394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_opencv_lab$example07_select_by_color.coverage" NAME="example07_select_by_color Coverage Results" MODIFIED="1606501180440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example02__1_.coverage" NAME="example02 (1) Coverage Results" MODIFIED="1605895202881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example02.coverage" NAME="example02 Coverage Results" MODIFIED="1605891406145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example05.coverage" NAME="example05 Coverage Results" MODIFIED="1605901712838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
