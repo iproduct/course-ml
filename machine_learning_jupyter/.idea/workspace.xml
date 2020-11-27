@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="" />
+    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="linear-regression.py example added">
+      <change beforePath="$PROJECT_DIR$/../machine_learning2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine_learning2/linear-regression.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -105,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606515363729</updated>
-      <workItem from="1606515375990" duration="827000" />
+      <workItem from="1606515375990" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>
@@ -114,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606516029460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="linear-regression.py example added">
+      <created>1606516422274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606516422274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,24 +133,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="machine_learning_jupyter project config updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="machine_learning_jupyter project config updated" />
+    <MESSAGE value="linear-regression.py example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="linear-regression.py example added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="284" key="#Notifications" timestamp="1606515460395">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="593" y="284" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1606515460395" />
-    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1606516028479">
+    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1606516482585">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1606516028479" />
+    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1606516482585" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1606515678957">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1606515678957" />
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2" timestamp="1606516034393">
+    <state x="446" y="180" key="Vcs.Push.Dialog.v2" timestamp="1606516424100">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606516034393" />
+    <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606516424100" />
   </component>
 </project>
