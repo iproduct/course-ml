@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="">
+    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="background subtraction demo added">
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -22,7 +22,6 @@
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/lena.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/mov_bbb.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../opencv_python/resources/valve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605889731439</updated>
-      <workItem from="1605889744294" duration="12679000" />
+      <workItem from="1605889744294" duration="13036000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -298,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605902900214</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="background subtraction demo added">
+      <created>1605903283775</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605903283775</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,34 +323,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="background subtraction demo added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605902899520">
+    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1605903391851">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605902899520" />
-    <state width="1663" height="322" key="GridCell.Tab.0.bottom" timestamp="1605901779512">
+    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1605903391851" />
+    <state width="1663" height="322" key="GridCell.Tab.0.bottom" timestamp="1605903634826">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1605901779512" />
-    <state width="1663" height="322" key="GridCell.Tab.0.center" timestamp="1605901779512">
+    <state width="1663" height="322" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
+    <state width="1663" height="322" key="GridCell.Tab.0.center" timestamp="1605903634826">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1605901779512" />
-    <state width="1663" height="322" key="GridCell.Tab.0.left" timestamp="1605901779512">
+    <state width="1663" height="322" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
+    <state width="1663" height="322" key="GridCell.Tab.0.left" timestamp="1605903634826">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1605901779512" />
-    <state width="1663" height="322" key="GridCell.Tab.0.right" timestamp="1605901779512">
+    <state width="1663" height="322" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
+    <state width="1663" height="322" key="GridCell.Tab.0.right" timestamp="1605903634826">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="322" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1605901779512" />
+    <state width="1663" height="322" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1605903634826" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605898769090">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605898769090" />
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2" timestamp="1605890745714">
+    <state x="446" y="180" key="Vcs.Push.Dialog.v2" timestamp="1605903407006">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1605890745714" />
+    <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1605903407006" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/07_opencv_lab$example03.coverage" NAME="example03 Coverage Results" MODIFIED="1605897600201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
