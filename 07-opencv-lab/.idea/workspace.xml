@@ -2,53 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/linear_regression-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/logistic_regression-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/ml-01-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/.ipynb_checkpoints/pandas_intro_linear_regression-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../machine_learning_jupyter_01/data/.ipynb_checkpoints/PewDiePie-checkpoint.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/07-opencv-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/07-opencv-lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/face_recognition_python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_IRreceiver/sketch_IRreceiver.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_IRremote/sketch_IRremote.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_Ultrasonic_IR/sketch_Ultrasonic_IR.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_ultrasonic_distance/sketch_ultrasonic_distance.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/SinglePicture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/camPictures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/capture.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/coctail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_basic_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_camera_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_camera_tresholding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_haar_cascade_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_io_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_single_picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_video_picamera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_video_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/alan_grant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/claire_dearing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/ellie_sattler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/ian_malcolm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/john_hammond.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/own_grady.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/extract_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/face_detection_model/deploy.prototxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/face_detection_model/res10_300x300_ssd_iter_140000.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/adrian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/joro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/joro2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/mitko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/patrick_bateman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/savedImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/team.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/trayan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/trisha_adrian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/video_29_04_2020_01.h264" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactive.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactivePhotos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactivePhotos.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/openface_nn4.small2.v1.t7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/embeddings.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/le.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/recognizer.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/recognize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/recognize_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step1.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/train.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/video.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/machine_learning_jupyter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/machine_learning_jupyter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_camera_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_camera_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/linear_regression-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/logistic_regression-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/ml-01-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.ipynb_checkpoints/pandas_intro_linear_regression-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/data/.ipynb_checkpoints/PewDiePie-checkpoint.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/data/PewDiePie.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/data/example.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/linear_regression.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/logistic_regression.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/ml-01.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/pandas_intro_linear_regression.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/opencv_python.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/background_subtraction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example06_img_stacking.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/example07_select_by_color.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/mouse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/cards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/lena.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/mov_bbb.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_python/resources/valve.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,6 +297,7 @@
       <workItem from="1605889744294" duration="13036000" />
       <workItem from="1606499268824" duration="8506000" />
       <workItem from="1606515259389" duration="175000" />
+      <workItem from="1606517368867" duration="1171000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>

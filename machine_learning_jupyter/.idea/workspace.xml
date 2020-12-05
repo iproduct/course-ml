@@ -1,29 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="linear-regression.py example added">
-      <change beforePath="$PROJECT_DIR$/../machine_learning2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning2/linear-regression.py" beforeDir="false" />
+    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/face_recognition_python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_IRreceiver/sketch_IRreceiver.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_IRremote/sketch_IRremote.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_Ultrasonic_IR/sketch_Ultrasonic_IR.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_ultrasonic_distance/sketch_ultrasonic_distance.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/SinglePicture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/camPictures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/capture.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/coctail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_basic_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_camera_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_camera_tresholding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_haar_cascade_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_io_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_single_picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_video_picamera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_video_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/alan_grant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/claire_dearing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/ellie_sattler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/ian_malcolm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/john_hammond.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/own_grady.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/extract_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/face_detection_model/deploy.prototxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/face_detection_model/res10_300x300_ssd_iter_140000.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/adrian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/joro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/joro2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/mitko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/patrick_bateman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/savedImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/team.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/trayan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/trisha_adrian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/video_29_04_2020_01.h264" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactive.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactivePhotos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactivePhotos.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/openface_nn4.small2.v1.t7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/embeddings.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/le.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/recognizer.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/recognize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/recognize_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step1.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/train.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../face_recognition_python/video.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/matplotlib_demo-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib_demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_camera_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_camera_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_haar_cascade_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_haar_cascade_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../image-recognition-python/cv2_haar_cascade_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image-recognition-python/cv2_haar_cascade_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/linear_regression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/linear_regression-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ml-01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_intro_linear_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_intro_linear_regression.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JupyterTrust" id="fc85bae8-a9c9-43a2-bf0c-e4843a0a33e1" />
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
   <component name="ProjectId" id="1ktMJdUhSMXoyycLW17m5mGNIl7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../07-opencv-lab" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -36,7 +138,7 @@
       <recent name="D:\CourseDML\git\course-ml\machine_learning_jupyter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.linear-regression">
+  <component name="RunManager" selected="Python.matplotlib_demo">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="machine_learning_jupyter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +165,9 @@
       <module name="machine_learning_jupyter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -100,9 +205,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="matplotlib_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine_learning_jupyter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.linear-regression" />
+        <item itemvalue="Python.matplotlib_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +238,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606515363729</updated>
-      <workItem from="1606515375990" duration="1168000" />
+      <workItem from="1606515375990" duration="2493000" />
+      <workItem from="1606637921107" duration="59000" />
+      <workItem from="1606638014929" duration="102000" />
+      <workItem from="1606638125380" duration="91000" />
+      <workItem from="1606638235347" duration="597000" />
+      <workItem from="1606918665403" duration="16000" />
+      <workItem from="1606926287463" duration="14000" />
+      <workItem from="1607099093606" duration="1072000" />
+      <workItem from="1607107308708" duration="4674000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>
@@ -130,33 +262,31 @@
       <option name="project" value="LOCAL" />
       <updated>1606516422274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="machine_learning2 project removed">
+      <created>1606516591562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606516591562</updated>
+    </task>
+    <task id="LOCAL-00004" summary="machine_learning2 project removed">
+      <created>1606516605970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606516605970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="machine_learning_jupyter project config updated" />
     <MESSAGE value="linear-regression.py example added" />
-    <option name="LAST_COMMIT_MESSAGE" value="linear-regression.py example added" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="593" y="284" key="#Notifications" timestamp="1606515460395">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="593" y="284" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1606515460395" />
-    <state x="477" y="26" key="CommitChangelistDialog2" timestamp="1606516482585">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="477" y="26" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1606516482585" />
-    <state x="355" y="105" key="SettingsEditor" timestamp="1606515678957">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1606515678957" />
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2" timestamp="1606516424100">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606516424100" />
+    <MESSAGE value="machine_learning2 project removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="machine_learning2 project removed" />
   </component>
 </project>
