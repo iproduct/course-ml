@@ -12,7 +12,7 @@ if __name__ == "__main__":
         # Capture frame-by-frame
         ret, frame = video_capture.read()
 
-        # gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+        gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
         faces = faceCascade.detectMultiScale(
             gray,

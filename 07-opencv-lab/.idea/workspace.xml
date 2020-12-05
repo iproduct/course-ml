@@ -1,86 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/face_recognition_python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_IRreceiver/sketch_IRreceiver.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_IRremote/sketch_IRremote.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_Ultrasonic_IR/sketch_Ultrasonic_IR.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/Arduino simple programs/sketch_ultrasonic_distance/sketch_ultrasonic_distance.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/SinglePicture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/camPictures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/capture.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/coctail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_basic_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_camera_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_camera_tresholding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_haar_cascade_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_io_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_single_picture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_video_picamera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/cv2_video_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/trayan/image9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/alan_grant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/claire_dearing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/ellie_sattler.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/ian_malcolm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/john_hammond.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/dataset/unknown/own_grady.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/extract_embeddings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/face_detection_model/deploy.prototxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/face_detection_model/res10_300x300_ssd_iter_140000.caffemodel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/adrian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/joro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/joro2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/mitko.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/output.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/patrick_bateman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/savedImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/team.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/trayan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/trisha_adrian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/images/video_29_04_2020_01.h264" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactive.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactivePhotos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/interactivePhotos.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/openface_nn4.small2.v1.t7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/embeddings.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/le.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/output/recognizer.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/recognize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/recognize_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/step3.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/train.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/train_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../face_recognition_python/video.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_camera_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image-recognition-opencv-dnn/cv2_camera_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,6 +219,7 @@
       <workItem from="1606499268824" duration="8506000" />
       <workItem from="1606515259389" duration="175000" />
       <workItem from="1606517368867" duration="1171000" />
+      <workItem from="1607155969519" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -455,13 +377,13 @@
     <state x="446" y="180" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606505977640" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/07_opencv_lab$example03.coverage" NAME="example03 Coverage Results" MODIFIED="1605897600201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/07_opencv_lab$main.coverage" NAME="example01 Coverage Results" MODIFIED="1605891399592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/07_opencv_lab$example04_corners.coverage" NAME="example04-corners Coverage Results" MODIFIED="1605897071394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/07_opencv_lab$example07_select_by_color.coverage" NAME="example07_select_by_color Coverage Results" MODIFIED="1606501180440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/07_opencv_lab$example08_classify_shapes.coverage" NAME="example08_classify_shapes Coverage Results" MODIFIED="1606505518993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example02__1_.coverage" NAME="example02 (1) Coverage Results" MODIFIED="1605895202881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_opencv_lab$example07_select_by_color.coverage" NAME="example07_select_by_color Coverage Results" MODIFIED="1606501180440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_opencv_lab$example04_corners.coverage" NAME="example04-corners Coverage Results" MODIFIED="1605897071394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example02.coverage" NAME="example02 Coverage Results" MODIFIED="1605891406145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_opencv_lab$example08_classify_shapes.coverage" NAME="example08_classify_shapes Coverage Results" MODIFIED="1606505518993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_opencv_lab$main.coverage" NAME="example01 Coverage Results" MODIFIED="1605891399592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_opencv_lab$example05.coverage" NAME="example05 Coverage Results" MODIFIED="1605901712838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_opencv_lab$example03.coverage" NAME="example03 Coverage Results" MODIFIED="1605897600201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
