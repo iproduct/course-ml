@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
-      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.ipynb_checkpoints/plot_iris_dataset-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_compare_calibration.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_iris_dataset.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_iris_random_forest.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_caffe_dnn_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_caffe_face_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-image-recognition-python/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/logistic_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/logistic_regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -1,9 +1,10 @@
-# Autonomous Robot Image Recognition with OpenCV 4 Deep Neural Network (DNN), Caffe, openface_nn4.small2 and Scikit
+facescrub
+=========
 
-## Main Components
-1. OpenCV 4 Deep Neural Network (DNN) framework
-2. Face detection using Caffe deep learning model: res10_300x300_ssd_iter_140000.caffemodel
-3. DNN feature extraction model: openface_nn4.small2 
-4. Face recognition: Scikit Learn SVM classifier
-5. Hardware platform: Raspberry Pi 3/4.
+Download dataset from http://vintage.winklerbros.net/facescrub.html
 
+simply rum `python download.py`, all images are downloaded under `download`.
+
+### Notice
+
+Since I want to vertify the image and extract face region from the images, opencv-python package needed. If you are on Windows, this [url](http://www.lfd.uci.edu/~gohlke/pythonlibs/) can be very helpful to install packages.

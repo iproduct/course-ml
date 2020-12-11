@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/plot_iris_dataset-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_compare_calibration.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_iris_dataset.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_iris_random_forest.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_caffe_dnn_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_caffe_face_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-image-recognition-python/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistic_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/logistic_regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
