@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linear-regression-lab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/linear_regresssion_lab-checkpoint.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/Readme.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/Readme.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.centerlight" afterDir="false" />
@@ -337,7 +337,7 @@
       <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.wink" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear-regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear-regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regresssion_lab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_regresssion_lab.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -348,8 +348,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -371,11 +371,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/linear-regression-lab.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -503,6 +504,7 @@
       <workItem from="1607107308708" duration="4674000" />
       <workItem from="1607156599029" duration="12151000" />
       <workItem from="1607695563333" duration="4433000" />
+      <workItem from="1607707643629" duration="4569000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>
@@ -532,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606516605970</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="leanear regression with Titanic dataset lab added">
+      <created>1607707906388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607707906388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,6 +552,7 @@
     <MESSAGE value="machine_learning_jupyter project config updated" />
     <MESSAGE value="linear-regression.py example added" />
     <MESSAGE value="machine_learning2 project removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="machine_learning2 project removed" />
+    <MESSAGE value="leanear regression with Titanic dataset lab added" />
+    <option name="LAST_COMMIT_MESSAGE" value="leanear regression with Titanic dataset lab added" />
   </component>
 </project>
