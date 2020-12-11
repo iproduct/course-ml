@@ -1,7 +1,345 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="" />
+    <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/linear-regression-lab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject01.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject02.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject03.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject04.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject05.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject06.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject07.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject08.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject09.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject10.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject11.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject12.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject13.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject14.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/data/subject15.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject01.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject02.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject03.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject04.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject05.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject06.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject07.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject08.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject09.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject10.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject11.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject12.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject13.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject14.wink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.centerlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.glasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.happy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.leftlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.noglasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.normal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.rightlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.sad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.sleepy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.surprised" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/archive/subject15.wink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear-regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear-regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +348,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,7 +381,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,7 +412,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear-regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="linear-regression.ipynb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machine_learning_jupyter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +425,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear-regression.py" />
+      <option name="SCRIPT_NAME" value="D:\CourseDML\git\course-ml\08-machine_learning_jupyter\linear-regression.ipynb" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +502,7 @@
       <workItem from="1607099093606" duration="1072000" />
       <workItem from="1607107308708" duration="4674000" />
       <workItem from="1607156599029" duration="12151000" />
-      <workItem from="1607695563333" duration="3766000" />
+      <workItem from="1607695563333" duration="4433000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>
