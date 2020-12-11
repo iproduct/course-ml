@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/plot_iris_dataset-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_compare_calibration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_iris_dataset.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_iris_random_forest.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_caffe_dnn_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_caffe_face_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-image-recognition-python/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/logistic_regression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/logistic_regression-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logistic_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/logistic_regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +175,8 @@
       <workItem from="1606926287463" duration="14000" />
       <workItem from="1607099093606" duration="1072000" />
       <workItem from="1607107308708" duration="4674000" />
-      <workItem from="1607156599029" duration="11429000" />
+      <workItem from="1607156599029" duration="12151000" />
+      <workItem from="1607695563333" duration="3766000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>
