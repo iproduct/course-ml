@@ -42,3 +42,5 @@ f.close()
 f = open(args["le"], "wb")
 f.write(pickle.dumps(le))
 f.close()
+
+print("[INFO] training completed successfully ...")

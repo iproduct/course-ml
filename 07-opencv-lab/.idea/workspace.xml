@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed" />
+    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
+      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.ipynb_checkpoints/linear_regresssion_lab-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.ipynb_checkpoints/plot_classification-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_classification.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/glm_model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/mlmodel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/test/java/org/iproduct/ml/h2o/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/linear_regresssion_lab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/linear_regresssion_lab.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_iris_svc.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_iris_svc.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/image-recognition-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/image-recognition-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_video_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_video_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/alan_grant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/claire_dearing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/ellie_sattler.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/ian_malcolm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/john_hammond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/own_grady.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/embeddings.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/embeddings.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/le.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/le.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/recognizer.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/recognizer.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/recognize_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/recognize_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/train_model.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +86,7 @@
       <recent name="D:\CourseDML\git\course-ml\07-opencv-lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.example08_classify_shapes">
+  <component name="RunManager" selected="Python.example02 (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="07-opencv-lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +101,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="07-opencv-lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,28 +164,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="example04-corners" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="07-opencv-lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example04-corners.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example02 (1)" />
         <item itemvalue="Python.example08_classify_shapes" />
         <item itemvalue="Python.example07_select_by_color" />
         <item itemvalue="Python.example05" />
         <item itemvalue="Python.example03" />
-        <item itemvalue="Python.example04-corners" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +261,9 @@
       <workItem from="1606515259389" duration="175000" />
       <workItem from="1606517368867" duration="1171000" />
       <workItem from="1607155969519" duration="1034000" />
-      <workItem from="1607701705100" duration="607000" />
+      <workItem from="1607701705100" duration="1206000" />
+      <workItem from="1608111815824" duration="599000" />
+      <workItem from="1608322032055" duration="2726000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>

@@ -5,13 +5,10 @@
 #	--le output/le.pickle
 
 # import the necessary packages
-from imutils.video import VideoStream
-from imutils.video import FPS
 import numpy as np
 import argparse
 import imutils
 import pickle
-import time
 import cv2
 import os
 
@@ -46,16 +43,14 @@ le = pickle.loads(open(args["le"], "rb").read())
 
 # initialize the video stream, then allow the camera sensor to warm up
 print("[INFO] starting video stream...")
-vs = VideoStream(src=0).start()
-time.sleep(2.0)
-
-# start the FPS throughput estimator
-fps = FPS().start()
+cap = cv2.VideoCapture(0)
 
 # loop over frames from the video file stream
 while True:
 	# grab the frame from the threaded video stream
-	frame = vs.read()
+	ret, frame = cap.read()
+	# normalize brightness and contrast
+	cv2.normalize(frame, frame, 20, 1.2* 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
 
 	# resize the frame to have a width of 600 pixels (while
 	# maintaining the aspect ratio), and then grab the image
@@ -117,26 +112,16 @@ while True:
 			cv2.putText(frame, text, (startX, y),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
-	# update the FPS counter
-	fps.update()
-
 	# show the output frame
 	cv2.imshow("Frame", frame)
-	key = cv2.waitKey(1) & 0xFF
 
 	# if the `q` key was pressed, break from the loop
-	if key == ord("q"):
+	if cv2.waitKey(10) & 0xFF == 27:
 		break
 
-# stop the timer and display FPS information
-fps.stop()
-print("[INFO] elasped time: {:.2f}".format(fps.elapsed()))
-print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
-
-
 # do a bit of cleanup
-cv2.waitKey(0)
 cv2.destroyAllWindows()
-vs.stop()
-cv2.waitKey(1)
-cv2.destroyAllWindows()
+cap.release()
+exit(0)
+
+
