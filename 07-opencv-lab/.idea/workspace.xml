@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
-      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.ipynb_checkpoints/linear_regresssion_lab-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.ipynb_checkpoints/plot_classification-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_classification.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/glm_model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/mlmodel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/test/java/org/iproduct/ml/h2o/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/linear_regresssion_lab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/linear_regresssion_lab.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_iris_svc.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/plot_iris_svc.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/image-recognition-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/.idea/image-recognition-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_video_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/cv2_video_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/trayan/image9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/alan_grant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/claire_dearing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/ellie_sattler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/ian_malcolm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/john_hammond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/dataset/unknown/own_grady.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/embeddings.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/embeddings.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/le.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/le.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/recognizer.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/recognizer.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/recognize_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/recognize_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/train_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
