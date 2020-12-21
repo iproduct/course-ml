@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bagging_vs_bosting.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_lle_digits.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stacking.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +171,7 @@
       <workItem from="1607707643629" duration="10348000" />
       <workItem from="1608111814207" duration="603000" />
       <workItem from="1608315583880" duration="1489000" />
-      <workItem from="1608487938054" duration="3100000" />
+      <workItem from="1608487938054" duration="4004000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607712991856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ensemble learning - statcking, bagging (Random Rorest), and boosting (AdaBoost) books added">
+      <created>1608543635014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608543635014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +235,7 @@
     <MESSAGE value="machine_learning2 project removed" />
     <MESSAGE value="leanear regression with Titanic dataset lab added" />
     <MESSAGE value="leanear regression with Titanic dataset lab completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="leanear regression with Titanic dataset lab completed" />
+    <MESSAGE value="ensemble learning - statcking, bagging (Random Rorest), and boosting (AdaBoost) books added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ensemble learning - statcking, bagging (Random Rorest), and boosting (AdaBoost) books added" />
   </component>
 </project>
