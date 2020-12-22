@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/embeddings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/domain/CpuLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/domain/ProcessInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/domain/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodels/deeplearning/deeplearning_699a1500_b9e4_44af_8e89_772f3b6628e3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodels/mlmodel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/services/Profiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/services/QuotesGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/web/ReactiveWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/webclient/ReactiveWebSocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/resources/deeplearning/embeddings.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/extract_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/extract_embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/embeddings.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/embeddings.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodels/deeplearning/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/glm_model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodels/mlmodel/glm_model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodel/mlmodel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10-ml-h2o/src/main/java/org/iproduct/ml/h2o/mlmodels/mlmodel/mlmodel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +188,7 @@
       <workItem from="1607707643629" duration="10348000" />
       <workItem from="1608111814207" duration="603000" />
       <workItem from="1608315583880" duration="1489000" />
-      <workItem from="1608487938054" duration="4004000" />
+      <workItem from="1608487938054" duration="5873000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>

@@ -10,6 +10,7 @@ import imutils
 import pickle
 import cv2
 import os
+import pandas as pd
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
@@ -116,3 +117,12 @@ data = {"embeddings": knownEmbeddings, "names": knownNames}
 f = open(args["embeddings"], "wb")
 f.write(pickle.dumps(data))
 f.close()
+
+# create a pandas DataFrame and dump to CSV file
+print("[INFO] serializing {} encodings to CSV file ...".format(total))
+features = pd.DataFrame(knownEmbeddings)
+print(features.head(20))
+labeled_features = pd.concat([pd.DataFrame({'Label': knownNames}), features ], axis=1)
+print(labeled_features.head(20))
+csv_file = args["embeddings"].split('.')[0] + '.csv'
+labeled_features.to_csv(csv_file, index=False)

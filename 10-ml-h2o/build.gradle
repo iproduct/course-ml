@@ -13,7 +13,7 @@ idea {
 
 group = 'org.iproduct.ml'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '1.8'
 
 configurations {
     compileOnly {
@@ -26,6 +26,9 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.openpnp:opencv:4.3.0-2'
+//    implementation files("libs/opencv-450.jar")
+//    runtimeOnly files("libs/x64/opencv_java450.dll")
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
 //    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
 //    implementation 'org.springframework.boot:spring-boot-starter-rsocket'
