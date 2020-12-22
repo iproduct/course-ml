@@ -23,8 +23,6 @@ import reactor.core.publisher.Mono;
 
 import java.time.Duration;
 
-import static org.opencv.imgcodecs.Imgcodecs.IMREAD_COLOR;
-
 @Component
 @Slf4j
 public class ReactiveWebSocketHandler implements WebSocketHandler {
@@ -40,7 +38,6 @@ public class ReactiveWebSocketHandler implements WebSocketHandler {
     @Autowired
     ObjectMapper mapper;
 
-    @Override
 
     public Mono<Void> handle(WebSocketSession webSocketSession) {
         Flux<RecognitionResult> recognitions = webSocketSession.receive()
@@ -82,6 +79,17 @@ public class ReactiveWebSocketHandler implements WebSocketHandler {
 
         return output;
     }
+
+
+    public Mono<Void> handle2(WebSocketSession webSocketSession) {
+        return webSocketSession.send(Flux.interval(Duration.ofMillis(1000))
+                .map(n -> n+ "")
+                .map(webSocketSession::textMessage))
+                .and(webSocketSession.receive()
+                        .map(WebSocketMessage::getPayloadAsText)
+                        .log());
+    }
+
 }
 
 //generator.getQuoteStream(Duration.ofMillis(5000))
