@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Main {
     private static final String COMMA_DELIMITER = ",";
-    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_699a1500_b9e4_44af_8e89_772f3b6628e3";
+    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_7319b7b0_7a4b_465b_bf46_8dfd12a5cd44";
 
     public static void main(String[] args) throws Exception {
         hex.genmodel.GenModel rawModel;

@@ -21,7 +21,7 @@ import java.util.Locale;
 @Slf4j
 public class DnnRecognizerService {
     private static final String COMMA_DELIMITER = ",";
-    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_699a1500_b9e4_44af_8e89_772f3b6628e3";
+    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_7319b7b0_7a4b_465b_bf46_8dfd12a5cd44";
 
     private EasyPredictModelWrapper model;
     List<String> names = new ArrayList<>();;
@@ -65,8 +65,8 @@ public class DnnRecognizerService {
         }
 
         MultinomialModelPrediction p = model.predictMultinomial(row);
-        System.out.println("\nPredicted class index: " + p.label);
-        System.out.println("Predicted class: " + names.get(p.labelIndex));
+        System.out.println("\nPredicted class label: " + p.label);
+        System.out.printf("Predicted class: %d -> %s (%f)%n", p.labelIndex, p.label, p.classProbabilities[p.labelIndex]);
         System.out.print("Class probabilities: ");
         for (int i = 0; i < p.classProbabilities.length; i++) {
             if (i > 0) {
@@ -75,7 +75,7 @@ public class DnnRecognizerService {
             System.out.print(p.classProbabilities[i]);
         }
         System.out.println("");
-        return new RecognitionResult(names.get(p.labelIndex), p.labelIndex,
+        return new RecognitionResult(p.label, p.labelIndex,
                 p.classProbabilities[p.labelIndex], p.classProbabilities);
     }
 }

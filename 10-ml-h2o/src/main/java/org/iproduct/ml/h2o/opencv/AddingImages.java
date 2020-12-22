@@ -24,7 +24,8 @@ class AddingImagesRun {
 //    }
     public static final double CONFIDENCE_TRESHOLD = 0.5;
 //    public static final String TEST_IMAGE_FILE =  "src/main/resources/data/messi5.jpg";
-    public static final String TEST_IMAGE_FILE =  "src/main/resources/data/trayan7.jpg";
+//    public static final String TEST_IMAGE_FILE =  "src/main/resources/data/trayan7.jpg";
+    public static final String TEST_IMAGE_FILE =  "src/main/resources/data/4b1f51c4499c1088b759cdbe30b755e117bd0afa.jpg";
 
     public void run() {
         // load our serialized face detector from disk
@@ -109,7 +110,7 @@ class AddingImagesRun {
                 recognizer.init();
                 try {
                     RecognitionResult result = recognizer.recognize(embeddings);
-                    System.out.printf("Recognition result: %s%n", result);
+                    System.out.printf("Recognition result: %s: %f%n", result, result.getClassProbabilites()[result.getLabelIndex()]);
                 } catch (PredictException e) {
                     log.error("Error predicting embedding: ", e);
                 }

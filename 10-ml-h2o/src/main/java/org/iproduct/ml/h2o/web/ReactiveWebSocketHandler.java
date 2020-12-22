@@ -38,7 +38,7 @@ public class ReactiveWebSocketHandler implements WebSocketHandler {
     @Autowired
     ObjectMapper mapper;
 
-
+    @Override
     public Mono<Void> handle(WebSocketSession webSocketSession) {
         Flux<RecognitionResult> recognitions = webSocketSession.receive()
                 .map(WebSocketMessage::getPayloadAsText)
