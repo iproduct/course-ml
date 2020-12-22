@@ -3,7 +3,6 @@ package org.iproduct.ml.h2o.opencv;
 import hex.genmodel.easy.exception.PredictException;
 import lombok.extern.slf4j.Slf4j;
 import nu.pattern.OpenCV;
-import org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider;
 import org.iproduct.ml.h2o.domain.RecognitionResult;
 import org.iproduct.ml.h2o.services.DnnRecognizerService;
 import org.opencv.core.*;
@@ -13,12 +12,8 @@ import org.opencv.highgui.HighGui;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Scanner;
-
 @Slf4j
-class AddingImagesRun {
+class FaceRecognitionRun {
 //    static {
 //        System.loadLibrary("opencv_java450");
 //    }
@@ -126,11 +121,11 @@ class AddingImagesRun {
     }
 }
 
-public class AddingImages {
+public class FaceRecognition {
     public static void main(String[] args) {
         // Load the native library.
 //        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         OpenCV.loadShared();
-        new AddingImagesRun().run();
+        new FaceRecognitionRun().run();
     }
 }
