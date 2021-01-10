@@ -50,7 +50,7 @@ if __name__ == '__main__':
         gradients = tape.gradient(loss_value, model.trainable_weights)
         # Update the weights of the model.
         optimizer.apply_gradients(zip(gradients, model.trainable_weights))
-        print(f'Iteration: {i} - loss: {loss_value}')
+        print(f'Iteration: {i} - loss: {loss_value[:20]}')
 
 
     test_loss, test_acc = model.evaluate(test_images, test_labels)

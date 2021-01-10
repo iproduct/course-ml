@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/11-dnn-keras.iml" filepath="$PROJECT_DIR$/.idea/11-dnn-keras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/11-dnn-keras-tf.iml" filepath="$PROJECT_DIR$/.idea/11-dnn-keras-tf.iml" />
     </modules>
   </component>
 </project>

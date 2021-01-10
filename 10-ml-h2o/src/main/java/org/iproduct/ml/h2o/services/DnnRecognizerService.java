@@ -21,7 +21,7 @@ import java.util.Locale;
 @Slf4j
 public class DnnRecognizerService {
     private static final String COMMA_DELIMITER = ",";
-    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_7319b7b0_7a4b_465b_bf46_8dfd12a5cd44";
+    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_012ff792_aaa7_460f_ba40_c66e47e420ac";
 
     private EasyPredictModelWrapper model;
     List<String> names = new ArrayList<>();;

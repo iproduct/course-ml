@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Main {
     private static final String COMMA_DELIMITER = ",";
-    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_7319b7b0_7a4b_465b_bf46_8dfd12a5cd44";
+    private static String modelClassName = "org.iproduct.ml.h2o.mlmodels.deeplearning.deeplearning_012ff792_aaa7_460f_ba40_c66e47e420ac";
 
     public static void main(String[] args) throws Exception {
         hex.genmodel.GenModel rawModel;
@@ -37,9 +37,10 @@ public class Main {
                 names.add(records.get(i).get(0));
             }
         }
-        System.out.printf("Names: %s", names.toString());
+        System.out.printf("Names: %s%n", names.toString());
 
-        List<String> myPictureEmbedings = records.get(2000);
+        List<String> myPictureEmbedings = records.get(11);
+        System.out.println(myPictureEmbedings);
 
         RowData row = new RowData();
         for(int i = 1; i < myPictureEmbedings.size(); i++) {
@@ -47,8 +48,8 @@ public class Main {
         }
 
         MultinomialModelPrediction p = model.predictMultinomial(row);
-        System.out.println("\nPredicted class index: " + p.label);
-        System.out.println("Predicted class: " + names.get(p.labelIndex));
+        System.out.println("\nPredicted class index: " + p.labelIndex);
+        System.out.println("Predicted class: " + p.label);
         System.out.print("Class probabilities: ");
         for (int i = 0; i < p.classProbabilities.length; i++) {
             if (i > 0) {
