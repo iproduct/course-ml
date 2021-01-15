@@ -8,7 +8,7 @@ import org.apache.spark.sql.Dataset;
 
 public class SimpleApp {
     public static void main(String[] args) {
-        String inputFile = "D:\\CourseDML\\spark-3.0.1-bin-hadoop3.2\\README.md"; // Should be some file on your system
+        String inputFile = "README.md"; // Should be some file on your system
         SparkSession spark = SparkSession.builder().master("local").appName("Simple Application").getOrCreate();
         Dataset<String> data = spark.read().textFile(inputFile).cache();
 
