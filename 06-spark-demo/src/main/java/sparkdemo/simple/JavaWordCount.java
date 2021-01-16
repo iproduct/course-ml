@@ -38,8 +38,8 @@ public final class JavaWordCount {
 
         SparkSession spark = SparkSession
                 .builder()
-//                .master("local")
-                .master("spark://192.168.0.12:7077")
+                .master("local")
+//                .master("spark://192.168.0.12:7077")
                 .appName("JavaWordCount")
                 .getOrCreate();
 

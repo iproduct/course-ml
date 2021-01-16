@@ -54,11 +54,11 @@ public final class JavaWordCountDataset {
         Dataset<String> words = lines
                 .flatMap((String s) -> Arrays.asList(s.split("[:,.!?]*\\s+")).iterator(), Encoders.STRING())
                 .filter((String word) -> word.length() > 3);
-        ;
 
-//        Dataset<Tuple2<String, Integer>> ones = words
-//                .map((MapFunction<String, Tuple2<String, Integer>>)  s ->
-//                        new Tuple2<>(s, 1), Encoders.tuple(Encoders.STRING(), Encoders.INT()));
+
+        Dataset<Tuple2<String, Integer>> ones = words
+                .map((MapFunction<String, Tuple2<String, Integer>>)  s ->
+                        new Tuple2<>(s, 1), Encoders.tuple(Encoders.STRING(), Encoders.INT()));
 
         words.groupBy("value").count().sort(org.apache.spark.sql.functions.col("count").desc()).show();
 
