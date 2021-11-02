@@ -25,9 +25,17 @@ public class DemoProducer {
     public void run() {
         for(int i = 0; i < 10; i++){
             ProducerRecord<String, String> record =
-                    new ProducerRecord<>("events2", "" + i, "Message " + i);
+                    new ProducerRecord<>("course-dml-topic", "" + i, "DML Course " + i);
+//            producer.send(record);
             producer.send(record, (recordMetadata, exception) -> {
-                System.out.println(">>>" + recordMetadata);
+                System.out.println(">>>" +
+                        String.format("Topic %s, Partition: %d Offset: %d, Timestamp: %d\n",
+                                recordMetadata.topic(),
+                                recordMetadata.partition(),
+                                recordMetadata.offset(),
+                                recordMetadata.timestamp()
+                        )
+                );
                 if (exception != null) {
                     log.error("Consumer eror: ", exception);
                 }

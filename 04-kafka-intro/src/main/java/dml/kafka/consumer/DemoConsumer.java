@@ -5,6 +5,7 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.producer.RecordMetadata;
+import org.apache.kafka.common.TopicPartition;
 
 import java.time.Duration;
 import java.util.*;
@@ -27,13 +28,19 @@ public class DemoConsumer {
     }
 
     public void run() {
-        consumer.subscribe(Collections.singletonList("events2"));
+        //        consumer.subscribe(Collections.singletonList("course-dml-topic"));
+
+        TopicPartition partition = new TopicPartition("course-dml-topic", 0);
+        consumer.assign(List.of(partition));
+        consumer.seek(partition, 0);
+
         try {
             while (true) {
                 ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
-                if(records.count() > 0) {
+                if (records.count() > 0) {
                     for (ConsumerRecord<String, String> record : records) {
-                        System.out.printf("offset = %d, key = %s, value = %s%n", record.offset(), record.key(), record.value());
+                        System.out.printf("offset = %d, key = %s, value = %s, headers = %s, topic = %s, partition = %d%n",
+                                record.offset(), record.key(), record.value(), record.headers(), record.topic(), record.partition());
                     }
                 }
             }
