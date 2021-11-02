@@ -4,7 +4,7 @@ function App() {
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
-                    <h2>Docker TODOs Demo</h2>
+                    <h2>My TODOs Demo</h2>
                 </Col>
             </Row>
             <Row>

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20bd9b06-c192-45b3-a33b-9c17a62dd8bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/01-kafkademo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/DemoConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/DemoProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/SecureDemoConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/SecureDemoProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/StockPriceConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/StockPriceConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/StockPriceLogicalConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/StockPriceProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/StockPriceRebalanceListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/dao/PricesDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/model/StockPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/partitioner/SimplePartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/serialization/CustomerDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/serialization/JsonDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/serialization/JsonSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/serialization/JsonSimpleDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/course/kafka/serialization/JsonSimpleSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/.idea/kafka-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/DemoConsumer$DemoProducerCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/DemoConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/DemoProducer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/DemoProducer$DemoProducerCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/DemoProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/SimplePartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/dao/PersonDBController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/exception/EntityExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/exception/InvalidRequestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/exception/NonexistingEntityException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/model/Book$BookBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/model/Person$PersonBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/model/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/serialization/JsonDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/serialization/JsonSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/serialization/JsonSimpleDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/classes/java/main/org/iproduct/kafka/serialization/JsonSimpleSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/resources/main/connect-file-sink.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/resources/main/connect-file-source.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/resources/main/connect-standalone.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-demo/build/resources/main/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/course.kafka.demos.01-kafkademo.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/DemoConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/DemoProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/SecureDemoConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/SecureDemoProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/StockPriceConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/StockPriceConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/StockPriceLogicalConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/StockPriceProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/StockPriceRebalanceListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/dao/PricesDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/model/StockPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/partitioner/SimplePartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/serialization/CustomerDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/serialization/JsonDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/serialization/JsonSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/serialization/JsonSimpleDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/course/kafka/serialization/JsonSimpleSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course/kafka/DemoConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/kafka/DemoConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course/kafka/DemoProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/kafka/DemoProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-demo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-demo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-demo/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-demo/src/main/java/org/iproduct/kafka/dao/PersonDBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-demo/src/main/java/org/iproduct/kafka/dao/PersonDBController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="01-kafkademo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="1UAV4BojttWV0IvtC5u4T3iGOJ2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560694882134" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.23772103" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CourseKafka\git\course-apache-kafka\01-kafkademo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="course.kafka" />
+      <recent name="course.kafka.serialization" />
+      <recent name="course.kafka.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CourseKafka\git\course-apache-kafka\01-kafkademo\sql" />
+      <recent name="D:\CourseKafka\git\course-apache-kafka\01-kafkademo\src\sql" />
+      <recent name="D:\CourseKafka\git\course-apache-kafka\01-kafkademo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DemoConsumer">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoConsumer" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.kafka.DemoConsumer" />
+      <module name="01-kafkademo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.kafka.DemoProducer" />
+      <module name="01-kafkademo.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockPriceConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.kafka.StockPriceConsumer" />
+      <module name="01-kafkademo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockPriceLogicalConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.kafka.StockPriceLogicalConsumer" />
+      <module name="course.kafka.demos.01-kafkademo.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockPriceProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.kafka.StockPriceProducer" />
+      <module name="01-kafkademo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DemoConsumer" />
+      <item itemvalue="Application.StockPriceProducer" />
+      <item itemvalue="Application.StockPriceConsumer" />
+      <item itemvalue="Application.StockPriceLogicalConsumer" />
+      <item itemvalue="Application.DemoProducer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StockPriceProducer" />
+        <item itemvalue="Application.StockPriceConsumer" />
+        <item itemvalue="Application.DemoProducer" />
+        <item itemvalue="Application.DemoConsumer" />
+        <item itemvalue="Application.StockPriceLogicalConsumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20bd9b06-c192-45b3-a33b-9c17a62dd8bc" name="Default Changelist" comment="" />
+      <created>1560494932816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560494932816</updated>
+      <workItem from="1560494936380" duration="35948000" />
+      <workItem from="1560592200017" duration="40183000" />
+      <workItem from="1574799196149" duration="50000" />
+      <workItem from="1574799285929" duration="2524000" />
+      <workItem from="1574815348434" duration="811000" />
+      <workItem from="1574817340899" duration="123000" />
+      <workItem from="1575040926890" duration="1265000" />
+      <workItem from="1575369301634" duration="59000" />
+      <workItem from="1575922752310" duration="645000" />
+      <workItem from="1575933100399" duration="598000" />
+      <workItem from="1576070014880" duration="651000" />
+      <workItem from="1603461441117" duration="3629000" />
+      <workItem from="1635869433026" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1651" height="211" key="GridCell.Tab.0.bottom" timestamp="1603695522251">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1651" height="211" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1603695522251" />
+    <state width="1651" height="211" key="GridCell.Tab.0.center" timestamp="1603695522251">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1651" height="211" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1603695522251" />
+    <state width="1651" height="211" key="GridCell.Tab.0.left" timestamp="1603695522251">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1651" height="211" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1603695522251" />
+    <state width="1651" height="211" key="GridCell.Tab.0.right" timestamp="1603695522251">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1651" height="211" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1603695522251" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cust" language="JAVA" />
+        <watch expression="rec" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>rec</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cust</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.springframework:spring-context:5.0.5.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23772103" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>course.kafka.demos.01-kafkademo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23772103" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

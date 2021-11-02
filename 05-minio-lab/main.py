@@ -9,8 +9,10 @@ def list_objects(client, bucket_name):
 if __name__ == '__main__':
     # Init Minio client
     client = Minio('localhost:9000',
-                   access_key='AKIAIOSFODNN7EXAMPLE',
-                   secret_key='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
+                   # access_key='AKIAIOSFODNN7EXAMPLE',
+                   # secret_key='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
+                   access_key='minioadmin',
+                   secret_key='minioadmin',
                    secure=False)
     # client.remove_bucket(bucket.name)
 
@@ -43,7 +45,7 @@ if __name__ == '__main__':
 
     #Copy object with new name
     try:
-        client.copy_object('posts-bucket', 'new-posts9.json', '/posts-bucket/posts.json')
+        client.copy_object('posts-bucket', 'posts9.json', '/mybucket/posts.json')
     except ResponseError as err:
         print(err)
     list_objects(client, 'posts-bucket')
