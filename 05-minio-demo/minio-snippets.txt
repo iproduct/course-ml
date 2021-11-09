@@ -1,3 +1,5 @@
+D:\CourseDML>minio.exe server D:\CourseDML\minio\data
+
 docker run -p 9000:9000 `
   --name minio1 `
   -v D:\CourseDML\minio\data:/data `

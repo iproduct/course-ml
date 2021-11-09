@@ -1,3 +1,5 @@
+import json
+
 from minio import Minio
 from minio.error import (ResponseError, BucketAlreadyOwnedByYou, BucketAlreadyExists)
 
@@ -9,8 +11,10 @@ def list_objects(client, bucket_name):
 if __name__ == '__main__':
     # Init Minio client
     client = Minio('localhost:9000',
-                   access_key='AKIAIOSFODNN7EXAMPLE',
-                   secret_key='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
+                   # access_key='AKIAIOSFODNN7EXAMPLE',
+                   # secret_key='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
+                   access_key='minioadmin',
+                   secret_key='minioadmin',
                    secure=False)
 
 
@@ -21,6 +25,7 @@ if __name__ == '__main__':
                                                 's3:ObjectRemoved:*',
                                                 's3:ObjectAccessed:*'])
     for event in events:
-        print(event)
+        print("\nEvent received:")
+        print(json.dumps(event, indent=4))
 
 
