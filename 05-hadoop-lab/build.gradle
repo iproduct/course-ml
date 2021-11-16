@@ -13,6 +13,9 @@ repositories {
 dependencies {
     implementation 'org.apache.hadoop:hadoop-common:3.3.1'
     implementation 'org.apache.hadoop:hadoop-mapreduce-client-common:3.3.1'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
