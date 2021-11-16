@@ -17,6 +17,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import javax.naming.Context;
 
+@Slf
 public class WordCount01 {
     public static class TokenizerMapper
             extends Mapper<Object, Text, Text, IntWritable> {
@@ -26,6 +27,7 @@ public class WordCount01 {
 
         public void map(Object key, Text value, Context context
         ) throws IOException, InterruptedException {
+
             StringTokenizer itr = new StringTokenizer(value.toString());
             while (itr.hasMoreTokens()) {
                 word.set(itr.nextToken());
