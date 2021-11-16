@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc78d836-c674-4295-a7f2-457528043898" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-hadoop-demo/src/main/java/course/dml/hadoop/WordCount01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-demo/src/main/java/course/dml/hadoop/WordCount01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -14,12 +13,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/jvm-command-line-options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/jvm-command-line-options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/input/file02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/file02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course/dml/hadoop/WordCounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/dml/hadoop/WordCounting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
     <configuration name="WordCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course.dml.hadoop.WordCounting" />
       <module name="05-hadoop-lab.main" />
-      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/user/trayan/wordcount/data/output hdfs://localhost:9000/user/trayan/wordcount/data/input " />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/user/trayan/wordcount/data/output hdfs://localhost:9000/user/trayan/wordcount/data/input" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course.dml.hadoop.*" />
@@ -133,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637088973306</updated>
       <workItem from="1637088977979" duration="1802000" />
-      <workItem from="1637090879875" duration="1399000" />
+      <workItem from="1637090879875" duration="4661000" />
     </task>
     <task id="LOCAL-00001" summary="make word counting gradle managed project">
       <created>1637089457501</created>
@@ -142,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637089457501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="logback dependencies and config added">
+      <created>1637092320390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637092320390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +156,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="make word counting gradle managed project" />
-    <option name="LAST_COMMIT_MESSAGE" value="make word counting gradle managed project" />
+    <MESSAGE value="logback dependencies and config added" />
+    <option name="LAST_COMMIT_MESSAGE" value="logback dependencies and config added" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/05_hadoop_lab$WordCounting.ic" NAME="WordCounting Coverage Results" MODIFIED="1637092531268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>course.dml.hadoop.*</FILTER>
+    </SUITE>
   </component>
 </project>
