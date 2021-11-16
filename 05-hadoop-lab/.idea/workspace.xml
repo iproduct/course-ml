@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d07075-af50-4e28-9692-3e48d4c895e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/hadoop_commands_snippets.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637084071034</updated>
       <workItem from="1637084073831" duration="229000" />
-      <workItem from="1637084352757" duration="1352000" />
+      <workItem from="1637084352757" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="hadoop lab project added">
       <created>1637084212168</created>
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637084212168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hadoop command line snippets added">
+      <created>1637085875615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637085875615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hadoop lab project added" />
-    <option name="LAST_COMMIT_MESSAGE" value="hadoop lab project added" />
+    <MESSAGE value="hadoop command line snippets added" />
+    <option name="LAST_COMMIT_MESSAGE" value="hadoop command line snippets added" />
   </component>
 </project>

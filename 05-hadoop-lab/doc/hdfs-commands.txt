@@ -1,0 +1,5 @@
+ # Copy input files to HDFS (assuming you are in the root directory of this project)
+ hdfs dfs -put ./data /user/trayan/wordcount
+
+ # Print results
+ hdfs dfs -cat /user/trayan/wordcount/data/output/part-r-00000

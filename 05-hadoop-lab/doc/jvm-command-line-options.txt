@@ -1,0 +1,1 @@
+hdfs://localhost:9000/user/trayan/wordcount/data/input hdfs://localhost:9000/user/trayan/wordcount/data/output
