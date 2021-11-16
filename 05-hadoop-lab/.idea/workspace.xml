@@ -1,8 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="90d07075-af50-4e28-9692-3e48d4c895e6" name="Changes" comment="">
+    <list default="true" id="cc78d836-c674-4295-a7f2-457528043898" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/data/input/file01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/data/input/file02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/doc/hadoop-configs/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/doc/hadoop-configs/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/doc/hadoop-configs/mapred-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/doc/hadoop-configs/yarn-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/doc/hadoop_commands_snippets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/doc/hdfs-commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/doc/jvm-command-line-options.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/src/course/dml/hadoop/WordCounting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/course/dml/hadoop/WordCounting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-hadoop-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab-old/05-hadoop-lab-old.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/hdfs-commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/hdfs-commands.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +62,11 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -24,23 +76,25 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="210hmD8JL4ABGw1JYGCiCjHf5IN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="210rhaTcG1ZC3M32L9JWWACoV2n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/hadoop-configs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.23772103" />
@@ -48,7 +102,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CourseDML\git\course-ml\05-hadoop-lab\doc\hadoop-configs" />
+      <recent name="D:\CourseDML\git\course-ml\05-hadoop-lab" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CourseDML\git\course-ml\05-hadoop-lab\src\main\course" />
+      <recent name="D:\CourseDML\git\course-ml\05-hadoop-lab\src\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,37 +136,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="90d07075-af50-4e28-9692-3e48d4c895e6" name="Changes" comment="" />
-      <created>1637084071034</created>
+      <changelist id="cc78d836-c674-4295-a7f2-457528043898" name="Changes" comment="" />
+      <created>1637088973306</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637084071034</updated>
-      <workItem from="1637084073831" duration="229000" />
-      <workItem from="1637084352757" duration="1984000" />
+      <updated>1637088973306</updated>
+      <workItem from="1637088977979" duration="294000" />
     </task>
-    <task id="LOCAL-00001" summary="hadoop lab project added">
-      <created>1637084212168</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1637084212168</updated>
-    </task>
-    <task id="LOCAL-00002" summary="hadoop command line snippets added">
-      <created>1637085875615</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1637085875615</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hadoop lab project added" />
-    <MESSAGE value="hadoop command line snippets added" />
-    <option name="LAST_COMMIT_MESSAGE" value="hadoop command line snippets added" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

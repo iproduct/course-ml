@@ -1,3 +1,8 @@
+
+ # Create /user/trayan/wordcount directory in hdfs -p for create parent path
+ hdfs dfs -mkdir -p /user/trayan/wordcount
+ hdfs dfs -mkdir -p /user/trayan/wordcount/data/output
+
  # Copy input files to HDFS (assuming you are in the root directory of this project)
  hdfs dfs -put ./data /user/trayan/wordcount
 
