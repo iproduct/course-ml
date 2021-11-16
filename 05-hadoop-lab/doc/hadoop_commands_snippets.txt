@@ -1,0 +1,15 @@
+hadoop -version
+
+hdfs
+
+hdfs namenode -format
+
+start-dfs.cmd
+
+start-yarn.cmd
+
+jps
+
+http://localhost:9870/
+
+
