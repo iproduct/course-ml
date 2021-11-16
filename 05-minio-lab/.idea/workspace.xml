@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1320b11a-abc6-41d0-b7c8-8a014f9fa635" name="Default Changelist" comment="minio demo initial commit">
-      <change afterPath="$PROJECT_DIR$/results/posts9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minio-demo/minio-snippets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minio-demo/minio-snippets.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/posts2.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/posts8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio-snippets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/minio-snippets.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/minio_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/posts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/posts8.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/postFromMyblogs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/posts9.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/posts2.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +65,7 @@
       <recent name="D:\CourseDML\git\course-ml\05-minio-lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.minio_demo">
     <configuration name="events" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="05-minio-lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,8 +110,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="minio_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="05-minio-lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minio_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minio_demo" />
         <item itemvalue="Python.events" />
       </list>
     </recent_temporary>
@@ -123,7 +151,7 @@
       <workItem from="1605867498189" duration="103000" />
       <workItem from="1635863578543" duration="721000" />
       <workItem from="1635865190572" duration="877000" />
-      <workItem from="1636467374065" duration="3891000" />
+      <workItem from="1636467374065" duration="8072000" />
     </task>
     <task id="LOCAL-00001" summary="minio demo initial commit">
       <created>1604077898001</created>
@@ -139,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604083101640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="snippets added">
+      <created>1636484021148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636484021148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,10 +183,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="minio demo initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="minio demo initial commit" />
+    <MESSAGE value="snippets added" />
+    <option name="LAST_COMMIT_MESSAGE" value="snippets added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/05_minio_lab$events.coverage" NAME="events Coverage Results" MODIFIED="1636469857464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/05_minio_lab$main.coverage" NAME="main Coverage Results" MODIFIED="1636470219014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/05_minio_lab$main.coverage" NAME="main Coverage Results" MODIFIED="1636486772739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/05_minio_lab$events.coverage" NAME="events Coverage Results" MODIFIED="1636487165942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/05_minio_lab$minio_demo.coverage" NAME="minio_demo Coverage Results" MODIFIED="1636487173008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

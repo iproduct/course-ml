@@ -1,7 +1,6 @@
 import json
 
 from minio import Minio
-from minio.error import (ResponseError, BucketAlreadyOwnedByYou, BucketAlreadyExists)
 
 def list_objects(client, bucket_name):
     objects = client.list_objects(bucket_name, recursive=True)
@@ -13,8 +12,8 @@ if __name__ == '__main__':
     client = Minio('localhost:9000',
                    # access_key='AKIAIOSFODNN7EXAMPLE',
                    # secret_key='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
-                   access_key='minioadmin',
-                   secret_key='minioadmin',
+                   access_key='admin',
+                   secret_key='password',
                    secure=False)
 
 
