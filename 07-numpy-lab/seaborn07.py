@@ -10,7 +10,8 @@ if __name__ == '__main__':
 
     arr = random.normal(loc=50, scale=20, size=100)
     print(arr)
-    sb.distplot(arr)
+    # sb.histplot(arr, color="lightblue")
+    fig = sb.distplot(arr, kde=True)
 
     # x = random.binomial(n=100, p=0.8, size=100)
     # print(x)
@@ -22,5 +23,7 @@ if __name__ == '__main__':
 
     x = random.logistic(loc=50, scale=10, size=100)
     print(x)
-    sb.distplot(x)
+    # sb.histplot(x, color="darkorange")
+    sb.distplot(x, kde=True)
+
     plt.show()
