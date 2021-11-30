@@ -9,7 +9,10 @@ if __name__ == '__main__':
     print(arr)
     print(np.__version__)
 
-    arr = np.fromiter({1, 2, 3, 4, 5, 6}, float)
+    arr = np.fromiter({1, 2, 3, 4, 5, 6}, dtype=np.uint64)
+    arr = np.fromiter({1, 2, 3, 4, 5, 6}, dtype=np.float64)
+    arr = np.fromiter({1, 2, 3, 4, 5, 6}, dtype='U1')
+    arr = np.fromiter({1, 2, 3, 4, 5, 6}, dtype=(str, 1))
     print(arr)
     print(type(arr))
 
