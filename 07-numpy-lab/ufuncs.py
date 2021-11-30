@@ -17,3 +17,16 @@ if __name__ == '__main__':
     print(arrx)
     print(arry)
     print(uconcat(arrx, arry))
+
+    # with broadcasting
+    x = [1, 2, 3, 4]
+    y = [4, 5, 6]
+    arrx = np.array(x)
+    arry = np.array(y).reshape((3,1))
+    print(arrx)
+    print(arry)
+    print(uconcat(arrx, arry))
+
+    z = np.array([[1, 2, 3], [4, 5, 6]])
+    w = np.array([1, 2])
+    print((z.T + w).T) # T means transposed
