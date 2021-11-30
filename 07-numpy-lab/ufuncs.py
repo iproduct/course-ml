@@ -2,7 +2,7 @@ import numpy as np
 
 if __name__ == '__main__':
     x = [1, 2, 3, 4]
-    y = [4, 5, 6, 7]
+    y = [5, 6, 7, 8]
     z = []
 
     for i, j in zip(x, y):
@@ -16,17 +16,18 @@ if __name__ == '__main__':
     arry = np.array(y).reshape(2, 2)
     print(arrx)
     print(arry)
-    print(uconcat(arrx, arry))
+    print("\nDot:\n", arrx.dot(arry))
+    print("\nConcat:\n",uconcat(arrx, arry))
 
     # with broadcasting
     x = [1, 2, 3, 4]
     y = [4, 5, 6]
     arrx = np.array(x)
     arry = np.array(y).reshape((3,1))
-    print(arrx)
+    print("\n", arrx)
     print(arry)
     print(uconcat(arrx, arry))
 
     z = np.array([[1, 2, 3], [4, 5, 6]])
     w = np.array([1, 2])
-    print((z.T + w).T) # T means transposed
+    print("\n", (z.T + w).T) # T means transposed
