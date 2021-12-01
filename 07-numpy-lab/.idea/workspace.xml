@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa97030-a026-44e5-a17a-65dac4745cbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/matplotlib08.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seaborn07.py" beforeDir="false" afterPath="$PROJECT_DIR$/seaborn07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib08.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib08.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +172,8 @@
       <option name="presentableId" value="Default" />
       <updated>1638304917558</updated>
       <workItem from="1638304919187" duration="5687000" />
-      <workItem from="1638313244680" duration="3933000" />
+      <workItem from="1638313244680" duration="4050000" />
+      <workItem from="1638318074349" duration="1016000" />
     </task>
     <task id="LOCAL-00001" summary="numpy demos updated">
       <created>1638305932023</created>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638312680341</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="matplotlib + seaborn example added">
+      <created>1638317274853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638317274853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,13 +225,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="numpy demos updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="numpy demos updated" />
+    <MESSAGE value="matplotlib + seaborn example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="matplotlib + seaborn example added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/07_numpy_lab$sets.coverage" NAME="sets Coverage Results" MODIFIED="1638308527612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_numpy_lab$seaborn07.coverage" NAME="seaborn07 Coverage Results" MODIFIED="1638310332527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_numpy_lab$numpy01.coverage" NAME="numpy01 Coverage Results" MODIFIED="1638305837135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/07_numpy_lab$matplotlib08.coverage" NAME="matplotlib08 Coverage Results" MODIFIED="1638317017989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/07_numpy_lab$matplotlib08.coverage" NAME="matplotlib08 Coverage Results" MODIFIED="1638319083932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/07_numpy_lab$ufuncs.coverage" NAME="ufuncs Coverage Results" MODIFIED="1638312447144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

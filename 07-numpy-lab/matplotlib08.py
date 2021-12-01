@@ -18,7 +18,8 @@ if __name__ == '__main__':
     plt.legend(['Sine', 'Cosine'])
     plt.show()
 
-    fig, ax = plt.subplots(4, 1)
+    fig, ax = plt.subplots(5, 1, sharex="all")
+    fig.set_figheight(10)
     arr = random.normal(loc=50, scale=20, size=1000)
     print(arr)
     # sb.histplot(arr, color="lightblue")
@@ -35,12 +36,15 @@ if __name__ == '__main__':
     sb.distplot(arr, kde=True, ax=ax[2])
     ax[2].set_title("Poison Distribution")
 
-    x = random.logistic(loc=50, scale=10, size=1000)
+    x = random.logistic(loc=50, scale=2, size=1000)
     print(x)
-    # sb.histplot(x, color="darkorange")
-    sb.distplot(x, kde=True, ax=ax[3])
+    sb.distplot(x, ax=ax[3])
     ax[3].set_title("Logistic Distribution")
     ax[3].legend(["KDE", "Histogram"])
 
-    plt.subplots_adjust(hspace=0.9)
+    sb.ecdfplot(x, ax=ax[4])
+    ax[4].set_title("Logistic Distribution (Cumulative)")
+    ax[4].legend(["KDE", "Histogram"])
+
+    plt.subplots_adjust(hspace=0.3)
     plt.show()
