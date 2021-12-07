@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
-      <change afterPath="$PROJECT_DIR$/../08-opencv-lab2/example05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-opencv-lab2/resources/book_cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/example03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../08-opencv-lab2/example03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/example04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../08-opencv-lab2/example04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/opencv_lab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/1242806520466741385Similar-geometric-shapes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/cards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/customized-red-hot-rod-car.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/geometric-shapes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/lena.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/mov_bbb.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/valve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/vintage-car.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +229,7 @@
       <workItem from="1610545937590" duration="3004000" />
       <workItem from="1613397747298" duration="636000" />
       <workItem from="1638290511440" duration="1316000" />
-      <workItem from="1638893248309" duration="3604000" />
+      <workItem from="1638893248309" duration="4006000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
