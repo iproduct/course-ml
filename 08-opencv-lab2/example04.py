@@ -23,10 +23,9 @@ if __name__ == '__main__':
     cv.createTrackbar("Max Line Gap Hough Transform", "Trackbars", 10, 300, empty)
 
     # open a video file
-    video_path = "resources/mov_bbb.mp4"
     cap = cv.VideoCapture(0)
     if cap.isOpened():
-        print(f"Video '{video_path}' is opened.")
+        print(f"Video capture is opened.")
         kernel = np.ones((3, 3), np.uint8)
         print(kernel)
 

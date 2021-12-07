@@ -2,50 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/.idea/08-open-cv-python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/ReadMe_CV.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/colorMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/cv_ex9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/lena.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/opencv-python-tutroals.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/target.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv-python/test.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv/.idea/08-open-cv.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-open-cv/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/opencv_lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/example01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/1242806520466741385Similar-geometric-shapes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/cards.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/customized-red-hot-rod-car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/geometric-shapes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/lena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/mov_bbb.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/valve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../opencv_lab2/resources/vintage-car.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-opencv-lab2/example05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-opencv-lab2/resources/book_cover.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/example03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../08-opencv-lab2/example03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/example04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../08-opencv-lab2/example04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/opencv_lab2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/1242806520466741385Similar-geometric-shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/cards.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/customized-red-hot-rod-car.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/geometric-shapes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/lena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/mov_bbb.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/valve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv_lab2/resources/vintage-car.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +41,15 @@
   </component>
   <component name="JupyterTrust" id="fc85bae8-a9c9-43a2-bf0c-e4843a0a33e1" />
   <component name="ProjectId" id="1kYuE7qbBzfE4aL6OpVKg8dwsAN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -271,7 +251,7 @@
       <workItem from="1610545937590" duration="3004000" />
       <workItem from="1613397747298" duration="636000" />
       <workItem from="1638290511440" duration="1316000" />
-      <workItem from="1638893248309" duration="1514000" />
+      <workItem from="1638893248309" duration="3604000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
@@ -385,6 +365,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="07-opencv-lab initial commit" />
     <MESSAGE value="image and video loading demos added" />
     <MESSAGE value="video capture and resizing" />

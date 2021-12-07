@@ -18,10 +18,9 @@ if __name__ == '__main__':
     cv.createTrackbar("Threshold Max", "Trackbars", 200, 300, empty)
 
     # open a video file
-    video_path = "resources/mov_bbb.mp4"
     cap = cv.VideoCapture(0)
     if cap.isOpened():
-        print(f"Video '{video_path}' is opened.")
+        print(f"Video capture is opened.")
         kernel = np.ones((3,3), np.uint8)
 
         while (cv.waitKey(1) & 0xFF != ord('q') and cv.waitKey(30) & 0xFF != 27):
