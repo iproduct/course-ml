@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed" />
+    <list default="true" id="35f45fed-3f31-4f6b-b83b-31eb199e27c4" name="Default Changelist" comment="shapes clasification demo completed">
+      <change afterPath="$PROJECT_DIR$/../08-opencv-lab2/example07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-opencv-lab2/example08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-opencv-lab2/example09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/example03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/example04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/example6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../08-opencv-lab2/example06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-opencv-lab2/resources/book_cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../08-opencv-lab2/resources/book_cover.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +238,7 @@
       <workItem from="1610545937590" duration="3004000" />
       <workItem from="1613397747298" duration="636000" />
       <workItem from="1638290511440" duration="1316000" />
-      <workItem from="1638893248309" duration="4006000" />
+      <workItem from="1638893248309" duration="4881000" />
     </task>
     <task id="LOCAL-00001" summary="07-opencv-lab initial commit">
       <created>1605890744108</created>
