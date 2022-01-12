@@ -11,7 +11,7 @@ public class SimpleApp {
         String inputFile = "README.md"; // Should be some file on your system
         SparkSession spark = SparkSession.builder()
 //                .master("local")
-                .master("spark://192.168.0.12:7077")
+                .master("spark://192.168.56.1:7077")
                 .appName("Simple Application").getOrCreate();
         Dataset<String> data = spark.read().textFile(inputFile).cache();
         System.out.printf("Count Lines: %d", data.count());
