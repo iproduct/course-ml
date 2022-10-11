@@ -2,7 +2,7 @@ FROM openjdk:8u292-slim-buster
 
 WORKDIR /opt
 
-ARG kafkaversion=3.2.0
+ARG kafkaversion=3.3.1
 ARG scalaversion=2.13
 
 ENV KAFKA_CONTAINER_HOST_NAME=kafka-broker-03
@@ -12,7 +12,7 @@ ENV BROKER_EXTERNAL_PORT=9093
 ENV BROKER_EXTERNAL_PORT_SSL=8093
 ENV CONTROLLER_QUORUM_VOTERS=1@localhost:19092
 ENV KAFKA_CREATE_TOPICS=temperature
-ENV KAFKA_PARTITIONS_PER_TOPIC=12
+ENV KAFKA_PARTITIONS_PER_TOPIC=1
 ENV KAFKA_PARTITIONS_REPLICATION_FACTOR=1
 ENV MIN_IN_SYNC_REPLICAS=1
 ENV KAFKA_OPTS="-javaagent:./jmx_prometheus_javaagent-0.17.0.jar=8282:./config/kafka_broker.yml -Djava.security.auth.login.config=/opt/kafka/kafka_server_jaas.conf"
