@@ -65,3 +65,4 @@ else
 fi
 
 wait "$child"
+unset KAFKA_OPTS
