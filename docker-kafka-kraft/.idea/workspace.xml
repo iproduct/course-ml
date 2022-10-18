@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6198410-ec1d-4556-8276-39af5209cfb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +43,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CourseKafka/git/docker-kafka-kraft/security&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CourseDML/git/course-ml/docker-kafka-kraft&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CourseDML\git\course-ml\docker-kafka-kraft" />
       <recent name="D:\CourseKafka\git\docker-kafka-kraft\security" />
       <recent name="D:\CourseKafka\git\docker-kafka-kraft" />
       <recent name="D:\CourseKafka\git\docker-kafka-kraft\examples" />
@@ -207,7 +207,8 @@
       <workItem from="1656091680333" duration="521000" />
       <workItem from="1656346419820" duration="34132000" />
       <workItem from="1656595748202" duration="36000" />
-      <workItem from="1665512553116" duration="1440000" />
+      <workItem from="1665512553116" duration="2110000" />
+      <workItem from="1666106876088" duration="3809000" />
     </task>
     <task id="LOCAL-00001" summary="docker image updated">
       <created>1651608417241</created>
@@ -328,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665512661382</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="kafka commands text">
+      <created>1665514056466</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665514056466</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +355,8 @@
     <MESSAGE value="kafka Dockerfile image tag changed to tiliev/docker-kafka-kraft" />
     <MESSAGE value="SSL + SASL + JAAS PLAIN authentication confidured for docker-compose-standalone.yml" />
     <MESSAGE value="docker-kafka-kraft initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker-kafka-kraft initial commit" />
+    <MESSAGE value="kafka commands text" />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka commands text" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
