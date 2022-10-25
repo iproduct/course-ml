@@ -5,46 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6198410-ec1d-4556-8276-39af5209cfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/7.4/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/src/main/java/course/dml/model/StockPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/src/main/java/course/dml/service/StockPricesGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/course-ml.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/src/main/java/course/dml/exception/JsonSerializationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/src/main/java/course/dml/producer/StockPricesProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/src/main/java/course/dml/serde/JsonSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fmi-2022-01-kafka/src/main/java/course/dml/service/StockPricesGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/src/main/java/course/dml/service/StockPricesGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +215,8 @@
       <workItem from="1656595748202" duration="36000" />
       <workItem from="1665512553116" duration="2110000" />
       <workItem from="1666106876088" duration="3809000" />
-      <workItem from="1666111831055" duration="3546000" />
+      <workItem from="1666111831055" duration="3548000" />
+      <workItem from="1666712840476" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="docker image updated">
       <created>1651608417241</created>
