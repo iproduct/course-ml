@@ -31,7 +31,6 @@ public class StockPricesProducer implements Callable<String> {
     private long producerId = 1L;
     private long maxDelayMs = 10000;
     private long numReadings = 10;
-    private ExecutorService executor;
 
     public StockPricesProducer(long producerId, long maxDelayMs, long numReadings) {
         this.producerId = producerId;
@@ -68,7 +67,7 @@ public class StockPricesProducer implements Callable<String> {
                                     if (exception != null) {
                                         log.error("Error sending price quotation", exception);
                                     }
-                                    log.info("SYMBOL: {}, ID: {}, PRICE: {}, TOPIC: {}, PARTITION: {}, OFFSET: {}, TIMESTAMP: {}",
+                                    log.info("!!!!!!!!!!!!!!!!!!!!!!!  --> SYMBOL: {}, ID: {}, PRICE: {}, TOPIC: {}, PARTITION: {}, OFFSET: {}, TIMESTAMP: {}",
                                             record.key(), record.value().getId(), record.value().getPrice(),
                                             metadata.topic(), metadata.partition(), metadata.offset(), metadata.timestamp());
                                 }),
