@@ -30,7 +30,7 @@ public class StockPricesGenerator {
                     quote.setPrice(quote.getPrice() * (0.9 + 0.2 * Math.random()));
                     return new StockPrice(index, quote.getSymbol(), quote.getName(), quote.getPrice(), new Date());
                 })
-                .log()
+//                .log()
                 .share();
     }
 
