@@ -1,0 +1,15 @@
+setx MINIO_ROOT_USER admin
+setx MINIO_ROOT_PASSWORD password
+
+set MINIO_ROOT_USER=admin
+set MINIO_ROOT_PASSWORD=password
+echo %MINIO_ROOT_PASSWORD%
+
+minio.exe server D:\CourseDML\minio\data --console-address ":9001"
+
+docker run -p 9000:9000 `
+  --name minio1 `
+  -v D:\CourseDML\minio\data:/data `
+  -e "MINIO_ACCESS_KEY=AKIAIOSFODNN7EXAMPLE" `
+  -e "MINIO_SECRET_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" `
+  minio/minio server /data

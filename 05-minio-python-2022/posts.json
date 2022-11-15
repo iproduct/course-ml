@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "NEW IN SPRING",
+    "content": "Spring 5 is here ...",
+    "author": "Trayan Iliev",
+    "keywords": [
+      "spring",
+      "java",
+      "webflux"
+    ],
+    "created": "2020-10-30T13:51:45.984134",
+    "modified": "2020-10-30T13:51:45.984134"
+  },
+  {
+    "id": 2,
+    "title": "DI in Spring",
+    "content": "Many ways to do it ...",
+    "author": "Trayan Iliev",
+    "keywords": [
+      "spring",
+      "di"
+    ],
+    "created": "2020-10-30T13:51:45.984134",
+    "modified": "2020-10-30T13:51:45.984134"
+  },
+  {
+    "id": 3,
+    "title": "Reactive Web Programmiing",
+    "content": "Webflux uses Reactor ...",
+    "author": "Trayan Iliev",
+    "keywords": [
+      "spring",
+      "reactor",
+      "webflux"
+    ],
+    "created": "2020-10-30T13:51:45.984134",
+    "modified": "2020-10-30T13:51:45.984134"
+  },
+  {
+    "id": 4,
+    "title": "JPA Made Easy",
+    "content": "Spring Data DSL automates JPQL creation ...",
+    "author": "Trayan Iliev",
+    "keywords": [
+      "jpql",
+      "spring",
+      "spring data"
+    ],
+    "created": "2020-10-30T13:51:45.984134",
+    "modified": "2020-10-30T13:51:45.984134"
+  }
+]
