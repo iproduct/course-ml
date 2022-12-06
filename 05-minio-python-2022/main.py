@@ -1,4 +1,5 @@
 from minio import Minio
+from minio.commonconfig import CopySource
 from minio.error import InvalidResponseError, MinioException
 import json
 
@@ -11,7 +12,6 @@ def list_objects(client, bucket):
         try:
             response = client.get_object(bucket_name=bucket.name, object_name=obj.object_name)
             data = json.loads(response.data)
-            json.dumps(data, indent=4)
             print(json.dumps(data, indent=4))
         finally:
             response.close()
@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     # Copy object under new name
     try:
-        client.fput_object('posts', 'posts.json', './posts.json', content_type='application/json')
+        client.copy_object('posts', 'new_posts.json', CopySource('posts', 'posts.json'))
     except MinioException as err:
         print('Minio exception:', err)
     except InvalidResponseError as err:

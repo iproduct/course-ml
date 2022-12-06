@@ -15,3 +15,4 @@ if __name__ == '__main__':
 
     arr_float = arr_ints.astype(str)
     print("\n", arr_float)
+

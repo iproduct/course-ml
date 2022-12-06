@@ -2,54 +2,204 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../06-functions-lab2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k-means-clustering.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/events.out.tfevents.1641915622.OFFICE27.31928.208.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/events.out.tfevents.1641915642.OFFICE27.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/plugins/profile/2022_01_11_15_40_42/OFFICE27.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/plugins/profile/2022_01_11_15_40_42/OFFICE27.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/plugins/profile/2022_01_11_15_40_42/OFFICE27.memory_profile.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/plugins/profile/2022_01_11_15_40_42/OFFICE27.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/plugins/profile/2022_01_11_15_40_42/OFFICE27.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/plugins/profile/2022_01_11_15_40_42/OFFICE27.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20220111-174021/train/plugins/profile/2022_01_11_15_40_42/OFFICE27.xplane.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/06-functions-lab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-functions-lab2/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.idea/06-spark-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-minio-python-2022/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/add_ufunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/assets/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/assets/cat_tinted.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/data/air_quality_no2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/dectobin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/jupyter-notebook-tutorial.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/pandas00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-numpy-pandas-lab/scipy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/docs/kafka-commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/.idea/fmi-2022-07-numpy-lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/normal_distribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2022-07-numpy-lab/numpy01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-hadoop-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-hadoop-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minio-python-2022/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minio-python-2022/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-numpy-lab/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-numpy-lab/manipulation02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/manipulation02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-numpy-lab/numpy01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/numpy01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-numpy-lab/seaborn07.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/seaborn07.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/pandas_intro_linear_regression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/pandas_intro_linear_regression-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bagging_vs_bosting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bagging_vs_bosting.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linear_regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistic_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/logistic_regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib_demo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml-01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ml-01.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas_intro_linear_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_intro_linear_regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/le.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/le.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/recognizer.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../09-image-recognition-opencv-dnn/output/recognizer.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-dnn-keras/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-dnn-keras/mnist_ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras/mnist_ann.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-dnn-keras/tensorboard_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras/tensorboard_demo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12-pyspark-mlib/.idea/12-pyspark-mlib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-pyspark-mlib/.idea/12-pyspark-mlib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12-pyspark-mlib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-pyspark-mlib/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-kafka-kraft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-kafka-kraft/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fmi-2022-01-kafka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/7.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/modules/kafka-2022-02-stock-prices.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/build/resources/main/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/build/resources/main/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/connect-configs/connect-file-sink.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/connect-configs/connect-file-source-transform.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/connect-configs/connect-file-source.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/connect-configs/connect-standalone.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/connect-configs/mysql-connector.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/docs/kafka-commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/sql/dbo.Offset.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/admin/AdminClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/consumer/StockPricesToDbConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/consumer/TemperatureReadingConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/consumer/TimestampedTemperatureReadingConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/dao/PricesDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/exception/JsonSerializationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/interceptor/CountingProducerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/interceptor/MetricsTuple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/listener/StockPriceRebalanceListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/metrics/MetricPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/metrics/ProducerMetricReporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/model/CountSumAvg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/model/DoubleStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/model/StockPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/model/TempDifference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/model/TemperatureReading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/model/Timestamped.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/model/TimestampedTemperatureReading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/partitioner/StockPricePartitioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/partitioner/TemperatureReadingsPartitioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/partitioner/TimestampedTemperatureReadingsPartitioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/producer/SimpleTemperatureReadingsProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/producer/StockPricesProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/producer/TimestampedTemperatureReadingsProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/serialization/JsonDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/serialization/JsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/service/StockPricesGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/FilteredTemperatureReadingsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/HeatingBillsAggregationDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/JoinedTemperatureReadings05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/LineSplit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/Pipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedAggregationDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedAverageDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedCountingTemperatureReadings01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedStatisticsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedStatisticsDemoSuppression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedStatisticsInternalExternalTemperatureReadings04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedStatisticsSuppressionTemperatureReadings03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WindowedStatisticsTemperatureReadings02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WordCountDslDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WordCountDslDemoBranching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WordCountProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/streams/WordCountProcessorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/transformer/TemperatureReadingTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/util/CustomTimeExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/java/course/kafka/util/JdbcUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/ssl-configs/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/ssl-configs/openssl-ca.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-group2/ssl-configs/serial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/7.1.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/modules/kafka-2022-02-stock-prices.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/build/resources/main/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/build/resources/main/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/docs/kafka-commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/sql/dbo.Offset.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/consumer/StockPricesToDbConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/consumer/TemperatureReadingConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/dao/PricesDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/exception/JsonSerializationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/interceptor/CountingProducerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/interceptor/MetricsTuple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/listener/StockPriceRebalanceListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/metrics/MetricPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/metrics/ProducerMetricReporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/model/StockPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/model/TemperatureReading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/model/Timestamped.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/partitioner/StockPricePartitioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/partitioner/TemperatureReadingsPartitioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/producer/SimpleTemperatureReadingsProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/producer/StockPricesProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/serialization/JsonDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/serialization/JsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/service/StockPricesGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/streams/LineSplit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/streams/Pipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/streams/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/streams/WordCountProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/transformer/TemperatureReadingTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/util/CustomTimeExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/util/JdbcUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/java/course/kafka/util/Temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams-next/src/main/resources/logback.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +375,7 @@
       <workItem from="1641310944489" duration="5077000" />
       <workItem from="1641389475271" duration="223000" />
       <workItem from="1641913270361" duration="1201000" />
+      <workItem from="1670347230890" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>
