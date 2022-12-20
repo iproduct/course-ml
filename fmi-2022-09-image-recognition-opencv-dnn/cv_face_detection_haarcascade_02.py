@@ -5,6 +5,8 @@ import cv2 as cv
 
 
 if __name__ == '__main__':
+   face_cascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
+   eye_cascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_eye.xml')
    video = cv.VideoCapture(0)
    cv.namedWindow('My Video')
    if(not video.isOpened()):
