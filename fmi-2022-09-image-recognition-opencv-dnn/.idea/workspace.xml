@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625e53ef-51fd-44ed-894a-647e5a2c4032" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cv_face_detection_dnn_resnet_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facescrub_actors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facescrub_actresses.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07-numpy-pandas-lab/.idea/10-numpy-pandas-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-pandas-lab/.idea/10-numpy-pandas-lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv_face_detection_haarcascade_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv_face_detection_haarcascade_02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,29 @@
       <recent name="D:\CourseDML\git\course-ml\fmi-2022-09-image-recognition-opencv-dnn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cv_face_detection_haarcascade_02">
+  <component name="RunManager" selected="Python.cv_face_detection_dnn_resnet_03">
+    <configuration name="cv_face_detection_dnn_resnet_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fmi-2022-09-image-recognition-opencv-dnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cv_face_detection_dnn_resnet_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cv_face_detection_haarcascade_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fmi-2022-09-image-recognition-opencv-dnn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cv_face_detection_dnn_resnet_03" />
         <item itemvalue="Python.cv_face_detection_haarcascade_02" />
         <item itemvalue="Python.cv_video_01" />
       </list>
@@ -131,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671557227576</updated>
       <workItem from="1671557232433" duration="1289000" />
-      <workItem from="1671558543176" duration="6209000" />
+      <workItem from="1671558543176" duration="8361000" />
     </task>
     <task id="LOCAL-00001" summary="cv video demos added">
       <created>1671561585047</created>
@@ -147,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671562916126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dnn face detection model added">
+      <created>1671565335844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671565335844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +189,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cv video demos added" />
     <MESSAGE value="haar cascade demo added" />
-    <option name="LAST_COMMIT_MESSAGE" value="haar cascade demo added" />
+    <MESSAGE value="dnn face detection model added" />
+    <option name="LAST_COMMIT_MESSAGE" value="dnn face detection model added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -170,7 +204,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fmi_2022_09_image_recognition_opencv_dnn$cv_face_detection_dnn_resnet_03.coverage" NAME="cv_face_detection_dnn_resnet_03 Coverage Results" MODIFIED="1671566850278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fmi_2022_09_image_recognition_opencv_dnn$cv_video_01.coverage" NAME="cv_video_01 Coverage Results" MODIFIED="1671563753051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fmi_2022_09_image_recognition_opencv_dnn$cv_face_detection_haarcascade_02.coverage" NAME="cv_face_detection_haarcascade_02 Coverage Results" MODIFIED="1671564657267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fmi_2022_09_image_recognition_opencv_dnn$cv_face_detection_haarcascade_02.coverage" NAME="cv_face_detection_haarcascade_02 Coverage Results" MODIFIED="1671566842490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
