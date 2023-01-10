@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625e53ef-51fd-44ed-894a-647e5a2c4032" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cv_face_detection_dnn_resnet_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facescrub_actors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facescrub_actresses.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07-numpy-pandas-lab/.idea/10-numpy-pandas-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-pandas-lab/.idea/10-numpy-pandas-lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671557227576</updated>
       <workItem from="1671557232433" duration="1289000" />
-      <workItem from="1671558543176" duration="8361000" />
+      <workItem from="1671558543176" duration="8627000" />
     </task>
     <task id="LOCAL-00001" summary="cv video demos added">
       <created>1671561585047</created>
@@ -180,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671565335844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="facescrub script and actor lists added">
+      <created>1671567341665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671567341665</updated>
+    </task>
+    <task id="LOCAL-00005" summary="facescrub script and actor lists added">
+      <created>1671567550350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671567550350</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +199,8 @@
     <MESSAGE value="cv video demos added" />
     <MESSAGE value="haar cascade demo added" />
     <MESSAGE value="dnn face detection model added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dnn face detection model added" />
+    <MESSAGE value="facescrub script and actor lists added" />
+    <option name="LAST_COMMIT_MESSAGE" value="facescrub script and actor lists added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

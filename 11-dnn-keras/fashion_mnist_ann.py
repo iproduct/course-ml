@@ -17,8 +17,8 @@ if __name__ == '__main__':
     print(x_train.shape)
     print(x_train.dtype)
 
-    x_slice = x_train[:10, :, :]
-    y_slice = y_train[:10]
+    x_slice = x_train[:20, :, :]
+    y_slice = y_train[:20]
     for i in range(len(x_slice)):
         digit = x_train[i]
         img = plt.imshow(digit, cmap=plt.cm.binary)
