@@ -1,0 +1,1 @@
+kafka-console-consumer.bat --bootstrap-server localhost:9093 --topic sweepDistances --from-beginning

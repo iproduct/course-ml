@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Robot Demo</title>
+</head>
+<body>
+<h1>WebSocket Chat</h1>
+<form action="" onsubmit="sendMessage(event)">
+    <textarea rows="20" type="text" id="messageText" style="width:80%"></textarea>
+    <button>Send</button>
+</form>
+<div>Distances: <span id="distances"></span></div>
+<div>Speeds: <span id="speeds"></span></div>
+<ul id='messages'>
+</ul>
+<script>
+    var ws = new WebSocket("ws://localhost:8080/ws");
+    var distances = document.getElementById('distances')
+    var speeds = document.getElementById('speeds')
+    var messages = document.getElementById('messages')
+    ws.onmessage = function(message) {
+        const event = JSON.parse(message.data)
+        if(event.type === 'command_ack') {
+            var li = document.createElement('li')
+            var content = document.createTextNode(event.payload)
+            li.appendChild(content)
+            messages.appendChild(li)
+        } else if(event.type === 'distance') {
+            distances.innerHTML += `${Math.round(event.distance)}, `
+        } else if(event.type === 'move') {
+            speeds.innerHTML = `encoderL: ${event.encoderL}, encoderR: ${event.encoderR}, speedL: ${event.speedL}, speedR: ${event.speedR}`
+        }
+    };
+    function sendMessage(event) {
+        var input = document.getElementById("messageText")
+        ws.send(input.value)
+        // input.value = ''
+        event.preventDefault()
+    }
+</script>
+</body>
+</html>
