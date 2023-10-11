@@ -7,8 +7,6 @@ from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
 
-REFLECTION_TRESHOLD = 20
-
 
 # This program requires LEGO EV3 MicroPython v2.0 or higher.
 # Click "Open user guide" on the EV3 extension tab for more information.
@@ -40,9 +38,12 @@ robot = DriveBase(left_motor, right_motor, wheel_diameter=32, axle_track=172)
 # Play a sound to tell us when we are ready to start moving
 ev3.speaker.beep()
 ev3.screen.draw_text(10,10, 'Hi')
-ev3.speaker.set_speech_options('en', 'm1', 150, 50)
-ev3.speaker.set_volume(100)
-ev3.speaker.say('''I like to talk because I am a robot''')
+# ev3.speaker.set_speech_options('en', 'm1', 150, 50)
+# ev3.speaker.set_volume(100)
+# ev3.speaker.say('''I like to talk because I am a robot.
+# Did you know that robots like to make sounds?
+# Beep. Boop. Dit. Dit. Meep.
+# I am just such a chatterbox.''')
 
 # Run the grip motor up to 500 degrees per second. To a target angle of 360 degrees.
 # grip_motor.run_target(500, 360)
@@ -54,34 +55,55 @@ ev3.speaker.say('''I like to talk because I am a robot''')
 # obstacle. Then it backs up and turns around. It keeps on doing this
 # until you stop the program.
 i = 0
+turn_dir = 1
+turn_angle = 3
+turn_increment = 3
+current_turn = 0
 while True:
-    # Begin driving forward at 200 millimeters per second.
+    # Begin driving forward at 100 millimeters per second.
     robot.drive(100, 0)
 
     # Wait until an obstacle is detected. This is done by repeatedly
     # doing nothing (waiting for 10 milliseconds) while the measured
     # distance is still greater than 300 mm.
-    reflection = color_sensor.reflection()
-    while not touch_sensor.pressed() and reflection >= REFLECTION_TRESHOLD:
-        wait(10)
-        reflection = color_sensor.reflection()
-        if i%10 == 0:
-            # print(infrared_sensor.keypad())
-            buttons = infrared_sensor.buttons(1)
-            print(buttons)
-            if Button.BEACON in buttons:
-                beacon = infrared_sensor.beacon(1)
-                print(beacon)
-        i += 1
 
-    # Drive backward for 300 millimeters.
-    robot.straight(-200)
+    obstacle = touch_sensor.pressed()
+    color = color_sensor.color()
+    if i%10 == 0:
+        print(color)
 
-    # Turn around by 90 degrees
-    if reflection < REFLECTION_TRESHOLD:
-        robot.turn(180)
-    else:
+    while not obstacle and color == Color.RED:
+        turn_dir = 1
+        turn_angle = 3
+        current_turn = 0
+        obstacle = touch_sensor.pressed()
+        color = color_sensor.color()
+        # print(infrared_sensor.keypad())
+        # buttons = infrared_sensor.buttons(1)
+        # print(buttons)
+        # if Button.BEACON in buttons:
+        #     beacon = infrared_sensor.beacon(1)
+        #     print(beacon)
+        
+    if color != Color.RED:
+        if abs(current_turn) > turn_angle: 
+            turn_dir = -turn_dir
+            turn_angle += turn_increment
+        robot.turn(turn_dir*turn_increment)
+        current_turn += turn_dir*turn_increment
+        
+    elif obstacle:
+         # Drive backward for 300 millimeters.
+        robot.straight(-300)
+        # Turn around by 90 degrees
         robot.turn(90)
+
+    else:
+        wait(10)
+        
+    i += 1
+
+   
 
 
 
