@@ -8,7 +8,7 @@
 			"name": "Download and Run",
 			"type": "ev3devBrowser",
 			"request": "launch",
-			"program": "/home/robot/${workspaceRootFolderName}/${file}",
+			"program": "/home/robot/${workspaceRootFolderName}/${relativeFile}",
 			"interactiveTerminal": false
 		}
 	]
