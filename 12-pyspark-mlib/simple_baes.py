@@ -1,34 +1,31 @@
-from pyspark.ml.classification import LogisticRegression, OneVsRest
+from pyspark.ml.classification import NaiveBayes
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 from pyspark.sql import SparkSession
 
 if __name__ == "__main__":
-
     spark = SparkSession.builder.master("local[*]").appName("Word Count").config("spark.some.config.option",
                                                                                      "some-value").getOrCreate()
 
-    # load data file.
-    inputData = spark.read.format("libsvm") \
-        .load("data/mllib/sample_multiclass_classification_data.txt")
+    # Load training data
+    data = spark.read.format("libsvm").load("data/mllib/sample_libsvm_data.txt")
 
-    # generate the train/test split.
-    (train, test) = inputData.randomSplit([0.8, 0.2])
+    # Split the data into train and test
+    splits = data.randomSplit([0.6, 0.4])
+    train = splits[0]
+    test = splits[1]
 
-    # instantiate the base classifier.
-    lr = LogisticRegression(maxIter=10, tol=1E-6, fitIntercept=True)
+    # create the trainer and set its parameters
+    nb = NaiveBayes(smoothing=1.0, modelType="multinomial")
 
-    # instantiate the One Vs Rest Classifier.
-    ovr = OneVsRest(classifier=lr)
+    # train the model
+    model = nb.fit(train)
 
-    # train the multiclass model.
-    ovrModel = ovr.fit(train)
+    # select example rows to display.
+    predictions = model.transform(test)
+    predictions.show()
 
-    # score the model on test data.
-    predictions = ovrModel.transform(test)
-
-    # obtain evaluator.
-    evaluator = MulticlassClassificationEvaluator(metricName="accuracy")
-
-    # compute the classification error on test data.
+    # compute accuracy on the test set
+    evaluator = MulticlassClassificationEvaluator(labelCol="label", predictionCol="prediction",
+                                                  metricName="accuracy")
     accuracy = evaluator.evaluate(predictions)
-    print("Test Error = %g" % (1.0 - accuracy))
+    print("Test set accuracy = " + str(accuracy))

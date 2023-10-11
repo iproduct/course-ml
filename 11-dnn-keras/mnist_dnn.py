@@ -18,15 +18,15 @@ import datetime
 
 
 if __name__ == '__main__':
-    # os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-    os.environ["XLA_FLAGS"] = '--xla_gpu_cuda_data_dir="D:/Program Files/CUDA/v11.2/development"'
-    os.environ["TF_GPU_THREAD_MODE"] = 'gpu_private'
-
-    physical_devices = tf.config.list_physical_devices('GPU')
-    tf.config.experimental.set_memory_growth(physical_devices[0], True) # important!
-    # tf.config.experimental.enable_mlir_bridge()
-    # tf.config.experimental.enable_mlir_graph_optimization()
-    tf.config.optimizer.set_jit(True)
+    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+    # os.environ["XLA_FLAGS"] = '--xla_gpu_cuda_data_dir="D:/Program Files/CUDA/v11.2/development"'
+    # os.environ["TF_GPU_THREAD_MODE"] = 'gpu_private'
+    #
+    # physical_devices = tf.config.list_physical_devices('GPU')
+    # tf.config.experimental.set_memory_growth(physical_devices[0], True) # important!
+    # # tf.config.experimental.enable_mlir_bridge()
+    # # tf.config.experimental.enable_mlir_graph_optimization()
+    # tf.config.optimizer.set_jit(True)
 
     model = models.Sequential()
     model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)))

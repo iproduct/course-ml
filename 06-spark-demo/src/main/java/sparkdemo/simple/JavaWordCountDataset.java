@@ -43,6 +43,7 @@ public final class JavaWordCountDataset {
         SparkSession spark = SparkSession
                 .builder()
                 .master("local")
+//                .master("spark://10.108.6.196:7077")
                 .appName("JavaWordCount")
                 .getOrCreate();
 
