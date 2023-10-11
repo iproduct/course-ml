@@ -40,10 +40,7 @@ ev3.speaker.beep()
 ev3.screen.draw_text(10,10, 'Hi')
 ev3.speaker.set_speech_options('en', 'm1', 150, 50)
 ev3.speaker.set_volume(100)
-ev3.speaker.say('''I like to talk because I am a robot.
-Did you know that robots like to make sounds?
-Beep. Boop. Dit. Dit. Meep.
-I am just such a chatterbox.''')
+ev3.speaker.say('''I like to talk because I am a robot.''')
 
 while True:
     # Begin driving forward at 200 millimeters per second.
@@ -52,6 +49,7 @@ while True:
     # Wait until an obstacle is detected. This is done by repeatedly
     # doing nothing (waiting for 10 milliseconds) while the measured
     # distance is still greater than 300 mm.
+    i = 0
     while not touch_sensor.pressed():
         wait(10)
         if i%10 == 0:
