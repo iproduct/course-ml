@@ -83,6 +83,7 @@ void setup() {
 
   // test if coap server is running
   coap.get(remote_ip, 5683, "time");
+  coap.get(remote_ip, 5683, "whoami");
   coap.get(remote_ip, 5683, "sensors");
 }
 

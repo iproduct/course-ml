@@ -118,6 +118,7 @@ async def start_coap_server():
 
     root.add_resource(['.well-known', 'core'], resource.WKCResource(root.get_resources_as_linkheader))
     root.add_resource(['time'], TimeResource())
+    root.add_resource(['whoami'], WhoAmI())
     root.add_resource(['sensors'], BlockResource())
     return await aiocoap.Context.create_server_context(root, bind=[SERVER_IP, 5683])
 
