@@ -5,13 +5,12 @@
 
 #define SSID "robots"
 #define PASS "robot123"
-define MAX_JSON_SIZE 1024
+#define MAX_JSON_SIZE 1024
 
-char apiUrl[] = "http://192.168.1.100:3000/api/events";
-
-IPAddress remote_ip(192.168.1.100);
+IPAddress remote_ip(192, 168, 1, 100);
 const int remote_port = 5683;
-
+WiFiUDP udp;
+Coap coap(udp, MAX_JSON_SIZE);
 
 // CoAP client response callback
 void callback_response(CoapPacket &packet, IPAddress ip, int port) {
@@ -70,9 +69,6 @@ void setup() {
   Serial.print("Signal strength: ");
   Serial.println(WiFi.RSSI());
 
-  WiFiUdp udp;
-  Coap coap(udp, MAX_JSON_SIZE);
-
   Serial.println("Setup Callback Commands");
   coap.server(callback_commands, "commands");
 
@@ -85,8 +81,7 @@ void setup() {
   // start coap server/client
   coap.start();
 
-  coap.get(remote_ip, 5683, "time");
-
+  coap.get(remote_ip, 5683, "sensors");
 }
 
 void loop() {
