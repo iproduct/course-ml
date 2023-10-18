@@ -81,9 +81,11 @@ void setup() {
   // start coap server/client
   coap.start();
 
+  // test if coap server is running
+  coap.get(remote_ip, 5683, "time");
   coap.get(remote_ip, 5683, "sensors");
 }
 
 void loop() {
-  
+    coap.loop();
 }
