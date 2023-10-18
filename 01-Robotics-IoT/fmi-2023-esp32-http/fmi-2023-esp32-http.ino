@@ -40,7 +40,8 @@ void loop() {
   int status = http.GET();
   if (status > 0 && status < 400) {
     Serial.printf("Status: %d\n", status);
-    Serial.printf("Response: %s\n", http.getString());
+    String response = http.getString();
+    Serial.println(response);
   } else {
     Serial.printf("HTTP Error: %d\n", status);
   }
