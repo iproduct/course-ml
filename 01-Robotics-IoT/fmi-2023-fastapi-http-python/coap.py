@@ -1,5 +1,6 @@
 import asyncio
 import datetime
+import random
 from concurrent.futures import ProcessPoolExecutor
 from contextlib import asynccontextmanager
 
@@ -15,7 +16,8 @@ import aiocoap.resource as resource
 
 SERVER_IP='192.168.1.100'
 WEBAPP_PORT=3000
-ROBOT_IP='192.168.1.101'
+COAP_PORT=5683
+ROBOT_IP='192.168.1.105'
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger("coap-server").setLevel(logging.INFO)
@@ -27,6 +29,7 @@ ws: WebSocket = None
 async def lifespan(app: FastAPI):
     global coap_ctx
     coap_ctx = await start_coap_server()
+    await send_command('{"command":"SWEEP_DISTANCE"}')
     # coap_ctx = await aiocoap.Context.create_client_context()
     yield
     await coap_ctx.shutdown()
@@ -91,12 +94,14 @@ class TimeResource(resource.ObservableResource):
             self.handle = None
 
     async def render_get(self, request):
+        logging.info("GET /time received")
         payload = datetime.datetime.now().\
                 strftime("%Y-%m-%d %H:%M").encode('ascii')
         return aiocoap.Message(payload=payload)
 
 class WhoAmI(resource.Resource):
     async def render_get(self, request):
+        logging.info("GET /whoami received")
         text = ["Used protocol: %s." % request.remote.scheme]
 
         text.append("Request came from %s." % request.remote.hostinfo)
@@ -108,8 +113,7 @@ class WhoAmI(resource.Resource):
         else:
             text.append("No claims authenticated.")
 
-        return aiocoap.Message(content_format=0,
-                payload="\n".join(text).encode('utf8'))
+        return aiocoap.Message(content_format=0, payload="\n".join(text).encode('utf8'))
 
 
 async def start_coap_server():
@@ -120,9 +124,20 @@ async def start_coap_server():
     root.add_resource(['time'], TimeResource())
     root.add_resource(['whoami'], WhoAmI())
     root.add_resource(['sensors'], BlockResource())
-    return await aiocoap.Context.create_server_context(root, bind=[SERVER_IP, 5683])
+    return await aiocoap.Context.create_server_context(root, bind=[SERVER_IP, COAP_PORT])
 
+async def send_command(message):
+    logging.info(f'Sending to ESP32: {message}')
+    req = aiocoap.Message(code=aiocoap.PUT, token=bytes(random.randint(1, 255)), payload=message.encode(encoding='utf-8'), uri='coap://' + ROBOT_IP + ':5683/commands')
 
+    try:
+        response = await coap_ctx.request(req).response
+    except Exception as e:
+        print('Failed to fetch resource:')
+        print(e)
+    else:
+        print('Code: %r, Token: %d\nResult: %s\n' % (response.code, int(response.token[0]), response.payload.decode('utf8')))
+        return response.payload.decode('utf8')
 
 if __name__ == "__main__":
-    uvicorn.run("coap:app", port=3000, host="192.168.1.100", reload=True, access_log=False)
+    uvicorn.run("coap:app", port=3000, host=SERVER_IP, reload=True, access_log=False)

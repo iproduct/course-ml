@@ -6,9 +6,9 @@
 #define SSID "robots"
 #define PASS "robot123"
 #define MAX_JSON_SIZE 1024
+#define REMOTE_PORT 5683
 
 IPAddress remote_ip(192, 168, 1, 100);
-const int remote_port = 5683;
 WiFiUDP udp;
 Coap coap(udp, MAX_JSON_SIZE);
 
@@ -85,11 +85,11 @@ void setup() {
   coap.start();
 
   // test if coap server is running
-  coap.get(remote_ip, 5683, "time");
+  coap.get(remote_ip, REMOTE_PORT, "time");
   delay(10);
-  coap.get(remote_ip, 5683, "whoami");
+  coap.get(remote_ip, REMOTE_PORT, "whoami");
   delay(10);
-  coap.get(remote_ip, 5683, "sensors");
+  coap.get(remote_ip, REMOTE_PORT, "sensors");
 }
 
 void loop() {
