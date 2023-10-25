@@ -128,7 +128,8 @@ async def start_coap_server():
 
 async def send_command(message):
     logging.info(f'Sending to ESP32: {message}')
-    req = aiocoap.Message(code=aiocoap.PUT, token=bytes(random.randint(1, 255)), payload=message.encode(encoding='utf-8'), uri='coap://' + ROBOT_IP + ':5683/commands')
+    req = aiocoap.Message(code=aiocoap.PUT, token=bytes(random.randint(1, 255)), payload=message.encode(encoding='utf-8'),
+                          uri='coap://' + ROBOT_IP + f':{COAP_PORT}/commands')
 
     try:
         response = await coap_ctx.request(req).response

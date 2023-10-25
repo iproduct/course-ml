@@ -45,7 +45,8 @@ void callback_commands(CoapPacket &packet, IPAddress ip, int port) {
   Serial.println(port);
 
   const char *responseStr = reinterpret_cast<const char *>(&message[0]);
-  coap.sendResponse(ip, port, packet.messageid, responseStr, strlen(responseStr), COAP_CONTENT, COAP_APPLICATION_JSON, reinterpret_cast<const uint8_t *>(&t[0]), packet.tokenlen);
+  coap.sendResponse(ip, port, packet.messageid, responseStr, strlen(responseStr), COAP_CONTENT, COAP_APPLICATION_JSON, 
+    reinterpret_cast<const uint8_t *>(&t[0]), packet.tokenlen);
 }
 
 
