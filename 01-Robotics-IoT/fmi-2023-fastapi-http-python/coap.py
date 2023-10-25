@@ -1,6 +1,7 @@
 import asyncio
 import datetime
 import random
+import time
 from concurrent.futures import ProcessPoolExecutor
 from contextlib import asynccontextmanager
 
@@ -25,6 +26,51 @@ logging.getLogger("coap-server").setLevel(logging.INFO)
 coap_ctx: aiocoap.Context = None
 ws: WebSocket = None
 
+html = """
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+    </head>
+    <body>
+        <h1>WebSocket Chat</h1>
+        <form action="" onsubmit="sendMessage(event)">
+            <textarea rows="20" type="text" id="messageText" style="width:80%"></textarea>
+            <button>Send</button>
+        </form>
+        <div>Distances: <span id="distances"></span></div>
+        <div>Speeds: <span id="speeds"></span></div>
+        <ul id='messages'>
+        </ul>
+        <script>
+            var ws = new WebSocket("ws://""" + SERVER_IP +":" + str(WEBAPP_PORT) + """/ws");
+            var distances = document.getElementById('distances')
+            var speeds = document.getElementById('speeds')
+            var messages = document.getElementById('messages')
+            ws.onmessage = function(message) {
+                const event = JSON.parse(message.data)
+                if(event.type === 'command_ack') {
+                    var li = document.createElement('li')
+                    var content = document.createTextNode(event.payload)
+                    li.appendChild(content)
+                    messages.appendChild(li)
+                } else if(event.type === 'distance') {
+                    distances.innerHTML += `${event.angle} -> ${event.distance}, `
+                } else if(event.type === 'move') {
+                    speeds.innerHTML = `encoderL: ${event.encoderL}, encoderR: ${event.encoderR}, speedL: ${event.speedL}, speedR: ${event.speedR}`
+                }
+            };
+            function sendMessage(event) {
+                var input = document.getElementById("messageText")
+                ws.send(input.value)
+                // input.value = ''
+                event.preventDefault()
+            }
+        </script>
+    </body>
+</html>
+"""
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global coap_ctx
@@ -37,9 +83,23 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan, debug=True)
 
-@app.get("/api/events")
-async def hello():
-    return {"message": "Hello World"}
+@app.get("/")
+async def get():
+    return HTMLResponse(html)
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    global ws
+    ws = websocket
+    while True:
+        message = await websocket.receive_text()
+        start_time = time.time()
+        resp = await send_command(message)
+        end_time = time.time()
+        coap_ctx.log.info(f'CoAP request time: {(end_time - start_time) * 1000} ms')
+        await websocket.send_json({'type': 'command_ack', 'payload': resp})
+
 
 class SensorsResource(resource.Resource):
     """Example resource which supports the GET and PUT methods. It sends large
