@@ -8,9 +8,18 @@
 #define MAX_JSON_SIZE 1024
 #define REMOTE_PORT 5683
 
-IPAddress remote_ip(192, 168, 1, 100);
+IPAddress remote_ip(192, 168, 1, 101);
 WiFiUDP udp;
 Coap coap(udp, MAX_JSON_SIZE);
+StaticJsonDocument<MAX_JSON_SIZE> doc;
+char eventString[MAX_JSON_SIZE];
+
+bool isSweeping = false;
+int sweepingAngle = 0;
+int sweepingDelta = 15;
+
+const int potPin = 32;
+int potVal;
 
 // CoAP client response callback
 void callback_response(CoapPacket &packet, IPAddress ip, int port) {
@@ -44,9 +53,26 @@ void callback_commands(CoapPacket &packet, IPAddress ip, int port) {
   Serial.println(ip);
   Serial.println(port);
 
+  // Parse the JSON input
+  DeserializationError err = deserializeJson(doc, message);
+  // Parse succeeded?
+  if (err) {
+    Serial.print(F("deserializeJson() returned "));
+    Serial.println(err.f_str());
+    const char *responseStr = "Can not parse JSON content";
+    coap.sendResponse(ip, port, packet.messageid, responseStr, strlen(responseStr), COAP_BAD_REQUEST, COAP_APPLICATION_JSON, packet.token, packet.tokenlen);
+    return;
+  }
+
+   String cmd = doc["command"];
+   if (cmd.equals("SWEEP_DISTANCE")) {
+      isSweeping = true;
+      sweepingAngle = 0;
+   }
+
   const char *responseStr = reinterpret_cast<const char *>(&message[0]);
   coap.sendResponse(ip, port, packet.messageid, responseStr, strlen(responseStr), COAP_CONTENT, COAP_APPLICATION_JSON, 
-    reinterpret_cast<const uint8_t *>(&t[0]), packet.tokenlen);
+    packet.token, packet.tokenlen);
 }
 
 
@@ -94,5 +120,18 @@ void setup() {
 }
 
 void loop() {
+    if(isSweeping) {
+      sweepingAngle += sweepingDelta;
+      potVal = analogRead(potPin);
+      Serial.printf("potVal: %d\n", potVal); 
+      sprintf(eventString, "{\"type\":\"distance\", \"time\":%d, \"angle\":%d, \"distance\":%f}", millis();, sweepingAngle, potVal);
+      Serial.println(eventString);
+      coap.put(remote_ip, 5683, "sensors", eventString, strlen(eventString));
+      if(sweepingAngle >= 180) {
+        sweepingAngle = 0;
+        isSweeping = false;
+      }
+    }
     coap.loop();
+    delay(1000);
 }

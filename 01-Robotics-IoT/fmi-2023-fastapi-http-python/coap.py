@@ -41,7 +41,7 @@ app = FastAPI(lifespan=lifespan, debug=True)
 async def hello():
     return {"message": "Hello World"}
 
-class BlockResource(resource.Resource):
+class SensorsResource(resource.Resource):
     """Example resource which supports the GET and PUT methods. It sends large
     responses, which trigger blockwise transfer."""
 
@@ -123,7 +123,7 @@ async def start_coap_server():
     root.add_resource(['.well-known', 'core'], resource.WKCResource(root.get_resources_as_linkheader))
     root.add_resource(['time'], TimeResource())
     root.add_resource(['whoami'], WhoAmI())
-    root.add_resource(['sensors'], BlockResource())
+    root.add_resource(['sensors'], SensorsResource())
     return await aiocoap.Context.create_server_context(root, bind=[SERVER_IP, COAP_PORT])
 
 async def send_command(message):
