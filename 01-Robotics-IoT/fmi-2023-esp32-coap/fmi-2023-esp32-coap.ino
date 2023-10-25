@@ -8,7 +8,7 @@
 #define MAX_JSON_SIZE 1024
 #define REMOTE_PORT 5683
 
-IPAddress remote_ip(192, 168, 1, 101);
+IPAddress remote_ip(192, 168, 1, 100);
 WiFiUDP udp;
 Coap coap(udp, MAX_JSON_SIZE);
 StaticJsonDocument<MAX_JSON_SIZE> doc;
@@ -64,15 +64,18 @@ void callback_commands(CoapPacket &packet, IPAddress ip, int port) {
     return;
   }
 
-   String cmd = doc["command"];
-   if (cmd.equals("SWEEP_DISTANCE")) {
-      isSweeping = true;
-      sweepingAngle = 0;
-   }
+  JsonObject cmdObj = doc.as<JsonObject>();
+  String cmd = cmdObj["command"];
+  Serial.printf("Command: %s\n", cmd);
+
+  if (cmd.equals("SWEEP_DISTANCE")) {
+    isSweeping = true;
+    sweepingAngle = 0;
+  }
 
   const char *responseStr = reinterpret_cast<const char *>(&message[0]);
-  coap.sendResponse(ip, port, packet.messageid, responseStr, strlen(responseStr), COAP_CONTENT, COAP_APPLICATION_JSON, 
-    packet.token, packet.tokenlen);
+  coap.sendResponse(ip, port, packet.messageid, responseStr, strlen(responseStr), COAP_CONTENT, COAP_APPLICATION_JSON,
+                    packet.token, packet.tokenlen);
 }
 
 
@@ -120,18 +123,18 @@ void setup() {
 }
 
 void loop() {
-    if(isSweeping) {
-      sweepingAngle += sweepingDelta;
-      potVal = analogRead(potPin);
-      Serial.printf("potVal: %d\n", potVal); 
-      sprintf(eventString, "{\"type\":\"distance\", \"time\":%d, \"angle\":%d, \"distance\":%f}", millis();, sweepingAngle, potVal);
-      Serial.println(eventString);
-      coap.put(remote_ip, 5683, "sensors", eventString, strlen(eventString));
-      if(sweepingAngle >= 180) {
-        sweepingAngle = 0;
-        isSweeping = false;
-      }
+  if (isSweeping) {
+    sweepingAngle += sweepingDelta;
+    potVal = analogRead(potPin);
+    Serial.printf("potVal: %d\n", potVal);
+    sprintf(eventString, "{\"type\":\"distance\", \"time\":%d, \"angle\":%d, \"distance\":%d}", millis(), sweepingAngle, potVal);
+    Serial.println(eventString);
+    coap.put(remote_ip, 5683, "sensors", eventString, strlen(eventString));
+    if (sweepingAngle >= 180) {
+      sweepingAngle = 0;
+      isSweeping = false;
     }
-    coap.loop();
-    delay(1000);
+  }
+  coap.loop();
+  delay(1000);
 }
