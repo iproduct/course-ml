@@ -32,17 +32,20 @@ void callback_commands(CoapPacket &packet, IPAddress ip, int port) {
   memcpy(p, packet.payload, packet.payloadlen);
   p[packet.payloadlen] = NULL;
 
-  char t[packet.tokenlen + 1];
+  byte t[packet.tokenlen + 1];
   memcpy(t, packet.token, packet.tokenlen);
   t[packet.tokenlen] = NULL;
 
   String message(p);
-  String token(t);
+  byte token = t[0];
 
   Serial.println(message);
-  Serial.println(token);
+  Serial.printf("Token: %d\n", token);
   Serial.println(ip);
   Serial.println(port);
+
+  const char *responseStr = reinterpret_cast<const char *>(&message[0]);
+  coap.sendResponse(ip, port, packet.messageid, responseStr, strlen(responseStr), COAP_CONTENT, COAP_APPLICATION_JSON, reinterpret_cast<const uint8_t *>(&t[0]), packet.tokenlen);
 }
 
 
@@ -83,7 +86,9 @@ void setup() {
 
   // test if coap server is running
   coap.get(remote_ip, 5683, "time");
+  delay(10);
   coap.get(remote_ip, 5683, "whoami");
+  delay(10);
   coap.get(remote_ip, 5683, "sensors");
 }
 
