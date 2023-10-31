@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  kafka-broker-01:
+    image: tiliev/docker-kafka-kraft:latest
+    restart: always
+    ports:
+      - "9093:9093"
+#      - "8093:8093"
+      - "8282:8282"
+    environment:
+      - KRAFT_CONTAINER_HOST_NAME=kafka-broker-01
+      - BROKER_ID=1
+      - BROKER_EXTERNAL_PORT=9093
+      - BROKER_EXTERNAL_PORT_SSL=8093
+      - BOOTSTRAP_SERVERS=localhost:9093,localhost:8093
+      - CONTROLLER_QUORUM_VOTERS=1@kafka-broker-01:19092
+      - KAFKA_CREATE_TOPICS=temperature,prices
+      - KAFKA_PARTITIONS_PER_TOPIC=12
+      - KAFKA_PARTITIONS_REPLICATION_FACTOR=1
+#      - KAFKA_OPTS=-javaagent:./jmx_prometheus_javaagent-0.17.0.jar=8282:./config/kafka_broker.yml -Djava.security.auth.login.config=/opt/kafka/kafka_server_jaas.conf
+      - KAFKA_OPTS=-javaagent:./jmx_prometheus_javaagent-0.17.0.jar=8282:./config/kafka_broker.yml
+      - KAFKA_HEAP_OPTS=-Xmx1G -Xms1G
+

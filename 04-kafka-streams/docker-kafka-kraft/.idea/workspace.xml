@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6198410-ec1d-4556-8276-39af5209cfb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/docker-compose-standalone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/docker-compose-standalone.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="GOROOT" url="file://C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="28ex9cPbYF3ApWkvNn42LwhVdwx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CourseKafka/git/docker-kafka-kraft/examples&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Docker&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft\examples" />
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft\security" />
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft" />
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft\configs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft\prometheus" />
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft\examples\prometheus" />
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft\configs" />
+      <recent name="D:\CourseKafka\git\docker-kafka-kraft\prometheus-jmx-agent-config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.examples/docker-compose-standalone.yml: Compose Deployment">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="tiliev/docker-kafka-kraft" />
+          <option name="containerName" value="standalone-docker-kafka-kraft-container" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9093" />
+                <option name="hostPort" value="9093" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8282" />
+                <option name="hostPort" value="8282" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8093" />
+                <option name="hostPort" value="8093" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="examples/docker-compose-kafka-prometheus-grafana.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="examples/docker-compose-kafka-prometheus-grafana.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="examples/docker-compose-standalone-nosecurity.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="examples/docker-compose-standalone-nosecurity.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="examples/docker-compose-standalone.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="examples/docker-compose-standalone.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="examples/docker-compose-standalone.yml.kafka-broker-01: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="kafka-broker-01" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="examples/docker-compose-standalone.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.examples/docker-compose-standalone-nosecurity.yml: Compose Deployment" />
+      <item itemvalue="Docker.examples/docker-compose-kafka-prometheus-grafana.yml: Compose Deployment" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.examples/docker-compose-standalone.yml.kafka-broker-01: Compose Deployment" />
+      <item itemvalue="Docker.examples/docker-compose-standalone.yml: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.examples/docker-compose-standalone.yml: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.examples/docker-compose-standalone-nosecurity.yml: Compose Deployment" />
+        <item itemvalue="Docker.examples/docker-compose-kafka-prometheus-grafana.yml: Compose Deployment" />
+        <item itemvalue="Docker.examples/docker-compose-standalone.yml.kafka-broker-01: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6198410-ec1d-4556-8276-39af5209cfb6" name="Changes" comment="" />
+      <created>1651590701573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651590701573</updated>
+      <workItem from="1651590702997" duration="25818000" />
+      <workItem from="1651749016372" duration="8527000" />
+      <workItem from="1651762553996" duration="442000" />
+      <workItem from="1651763049063" duration="13000" />
+      <workItem from="1651763095711" duration="966000" />
+      <workItem from="1652093652989" duration="839000" />
+      <workItem from="1652157953093" duration="1434000" />
+      <workItem from="1652159849193" duration="94000" />
+      <workItem from="1652160207900" duration="12000" />
+      <workItem from="1652160235926" duration="488000" />
+      <workItem from="1652160785325" duration="1530000" />
+      <workItem from="1652169354130" duration="846000" />
+      <workItem from="1652183009561" duration="202000" />
+      <workItem from="1652351494870" duration="1178000" />
+      <workItem from="1652697635692" duration="589000" />
+      <workItem from="1653023019531" duration="5376000" />
+      <workItem from="1653052967439" duration="490000" />
+      <workItem from="1653053571081" duration="1214000" />
+      <workItem from="1653055628806" duration="30186000" />
+      <workItem from="1653649551572" duration="9757000" />
+      <workItem from="1653905702192" duration="3833000" />
+      <workItem from="1654507267388" duration="606000" />
+      <workItem from="1654525229392" duration="102000" />
+      <workItem from="1654608770240" duration="2488000" />
+      <workItem from="1655459574724" duration="2577000" />
+      <workItem from="1656091680333" duration="521000" />
+      <workItem from="1656346419820" duration="34132000" />
+      <workItem from="1656595748202" duration="36000" />
+      <workItem from="1693242914772" duration="5224000" />
+      <workItem from="1697032324853" duration="715000" />
+      <workItem from="1698467862466" duration="662000" />
+      <workItem from="1698486565051" duration="694000" />
+    </task>
+    <task id="LOCAL-00001" summary="docker image updated">
+      <created>1651608417241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651608417241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="kraft cluster deployment using docker compose">
+      <created>1651629231841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651629231841</updated>
+    </task>
+    <task id="LOCAL-00003" summary="kraft standalone deployment using docker compose">
+      <created>1651750716781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651750716781</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kraft standalone deployment using docker compose">
+      <created>1652093948274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652093948274</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kraft standalone deployment using docker compose &amp; Prometheus exporter">
+      <created>1653562499613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653562499613</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kraft standalone deployment using docker compose &amp; Prometheus exporter">
+      <created>1653564792007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653564792007</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docker compose  Kafka + Prometheus exporter">
+      <created>1653566162506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653566162506</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docker compose  Kafka + Prometheus exporter + Grafana">
+      <created>1653567625742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653567625742</updated>
+    </task>
+    <task id="LOCAL-00009" summary="docker compose  Kafka + Prometheus exporter + Grafana running">
+      <created>1653568116770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653568116770</updated>
+    </task>
+    <task id="LOCAL-00010" summary="kafka-overview.json dashboard config added">
+      <created>1653568595302</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653568595302</updated>
+    </task>
+    <task id="LOCAL-00011" summary="kafka-overview.json dashboard config added">
+      <created>1653655007550</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653655007550</updated>
+    </task>
+    <task id="LOCAL-00012" summary="kafka Dockerfile image tag changed to tiliev/docker-kafka-kraft">
+      <created>1653658490997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653658490997</updated>
+    </task>
+    <task id="LOCAL-00013" summary="kafka Dockerfile image tag changed to tiliev/docker-kafka-kraft">
+      <created>1653909320262</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653909320263</updated>
+    </task>
+    <task id="LOCAL-00014" summary="SSL + SASL + JAAS PLAIN authentication confidured for docker-compose-standalone.yml">
+      <created>1656417514898</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656417514898</updated>
+    </task>
+    <task id="LOCAL-00015" summary="SSL + SASL + JAAS PLAIN authentication confidured for docker-compose-standalone.yml">
+      <created>1656422036717</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656422036717</updated>
+    </task>
+    <task id="LOCAL-00016" summary="SSL + SASL + JAAS PLAIN authentication confidured for docker-compose-standalone.yml">
+      <created>1656595765903</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656595765903</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="docker image updated" />
+    <MESSAGE value="kraft cluster deployment using docker compose" />
+    <MESSAGE value="kraft standalone deployment using docker compose" />
+    <MESSAGE value="kraft standalone deployment using docker compose &amp; Prometheus exporter" />
+    <MESSAGE value="docker compose  Kafka + Prometheus exporter" />
+    <MESSAGE value="docker compose  Kafka + Prometheus exporter + Grafana" />
+    <MESSAGE value="docker compose  Kafka + Prometheus exporter + Grafana running" />
+    <MESSAGE value="kafka-overview.json dashboard config added" />
+    <MESSAGE value="kafka Dockerfile image tag changed to tiliev/docker-kafka-kraft" />
+    <MESSAGE value="SSL + SASL + JAAS PLAIN authentication confidured for docker-compose-standalone.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSL + SASL + JAAS PLAIN authentication confidured for docker-compose-standalone.yml" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

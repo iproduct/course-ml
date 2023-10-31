@@ -1,0 +1,141 @@
+bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+bin\windows\kafka-server-start.bat config\server.properties
+
+bin\zookeeper-server-start.sh config\zookeeper.properties
+bin\kafka-server-start.sh config\server.properties
+
+kafka-topics.bat --list --bootstrap-server localhost:9093
+kafka-topics.bat --create --bootstrap-server localhost:9093 --replication-factor 1 --partitions 1 --topic my-new-topic
+kafka-topics.bat --create --bootstrap-server localhost:9093 --replication-factor 1 --partitions 1 --topic events
+kafka-topics.bat --list --bootstrap-server localhost:9093
+kafka-topics.bat --describe --bootstrap-server localhost:9093 --topic sweepDistances
+kafka-console-producer.bat --broker-list localhost:9093 --topic sweepDistances
+kafka-console-producer.bat --broker-list localhost:9093 --topic sweepDistances –sync
+kafka-console-consumer.bat --bootstrap-server localhost:9093 --topic sweepDistances --from-beginning
+kafka-topics.bat --describe --bootstrap-server localhost:9093 --topic temperature
+
+copy config\server.properties config\server-1.properties
+copy config\server.properties config\server-2.properties
+config/server-1.properties:
+    broker.id=1
+    listeners=PLAINTEXT://:9093
+    log.dirs=D:\\CourseKafka\\kafka_2.12-2.2.1\\kafka-logs-1
+config/server-2.properties:
+    broker.id=2
+    listeners=PLAINTEXT://:9094
+    log.dirs=D:\\CourseKafka\\kafka_2.12-2.2.1\\kafka-logs-2
+bin\windows\kafka-server-start config\server-1.properties
+bin\windows\kafka-server-start config\server-2.properties
+kafka-topics --describe --bootstrap-server localhost:9092 --topic my-replicated-topic
+wmic process where "caption = 'java.exe' and commandline like '%server-1.properties%'" get processid
+taskkill /F /PID pid_number
+
+
+connect-standalone config\connect-standalone.properties config\connect-file-source.properties config\connect-file-sink.properties
+connect-standalone .\src\main\resources\connect-standalone.properties .\src\main\resources\connect-file-source.properties .\src\main \resources\connect-file-sink.properties
+
+bin\windows\kafka-storage.bat format --config .\config\kraft\server.properties --cluster-id 1-wTPNMYQkinQ7KUbCZi9g
+bin\windows\kafka-server-start.bat config\kraft\server.properties
+
+on Linux/Mac:
+./bin/kafka-storage format --config ./etc/kafka/kraft/server.properties --cluster-id $(./bin/kafka-storage random-uuid)
+./bin/kafka-server-start ./etc/kafka/kraft/server.properties
+
+# Docker compose
+wsl --distribution docker-desktop-data
+docker-compose -f examples\docker-compose.yml run kafka
+
+#topics compaction
+kafka-topics --create --bootstrap-server localhost:9093 --topic latest-product-price --replication-factor 1 --partitions 1 --config "cleanup.policy=compact" --config "delete.retention.ms=100"  --config "segment.ms=100" --config "min.cleanable.dirty.ratio=0.01" --config "min.compaction.lag.ms=100"
+kafka-topics.bat --describe --bootstrap-server localhost:9093 --topic latest-product-price
+kafka-console-producer --broker-list localhost:9093 --topic latest-product-price --property parse.key=true --property key.separator=:
+>p3:10$
+>p5:7$
+>p3:11$
+>p6:25$
+>p6:12$
+>p5:14$
+>p5:17$
+--config log.cleaner.min.compaction.lag.ms
+kafka-console-consumer --bootstrap-server localhost:9093 --topic latest-product-price --property  print.key=true --property key.separator=: --from-beginning
+p3:11$
+p6:12$
+p5:14$
+p5:17$
+
+cd /tmp/kraft-combined-logs/latest-product-price-0
+cd /opt/kafka
+./bin/kafka-run-class.sh kafka.tools.DumpLogSegments --deep-iteration --print-data-log --files /tmp/kraft-combined-logs/latest-product-price-0/00000000000000000000.log
+
+# Kafka Streams - Resetting internal topics, do KafkaStreams#cleanUp() after that
+bin\windows\kafka-streams-application-reset --application-id heating-bills --bootstrap-servers localhost:9093
+
+# Kafka Connect
+bin\windows\connect-standalone config\connect-standalone.properties config\connect-file-source.properties config\connect-file-sink.properties
+
+bin\windows\connect-standalone config\connect-standalone.properties D:\CourseKafka\kafka_2.12-3.1.0\connect\debezium-connector-mysql\mysql-connector.properties
+
+############################################################################################################################
+## Security - SSL
+[https://docs.oracle.com/en/java/javase/11/tools/keytool.html]
+keytool -genkeypair -alias localhost -keyalg RSA -keysize 4096 -storetype PKCS12 -keystore server.keystore.p12 -validity 365 -storepass changeit -ext SAN=DNS:{FQDN},IP:{IPADDRESS1}
+keytool -genkeypair -alias localhost -keyalg RSA -keysize 4096 -storetype PKCS12 -keystore server.keystore.p12 -validity 365 -storepass changeit -ext SAN=DNS:localhost,IP:127.0.0.1
+keytool -list -v -keystore server.keystore.p12
+openssl req -x509 -config openssl-ca.cnf -newkey rsa:4096 -sha256 -nodes -out cacert.pem -outform PEM -days 365
+keytool -keystore client.truststore.jks -alias CARoot -import -file cacert.pem
+keytool -keystore server.truststore.jks -alias CARoot -import -file cacert.pem
+
+keytool -keystore server.keystore.p12 -alias localhost -certreq -file cert-file.crt
+openssl x509 -req -CA cacert.pem -CAkey cakey.pem -in cert-file.crt -out cert-signed.crt -days 365 -CAcreateserial -passin pass:changeit
+keytool -keystore server.keystore.p12 -alias CARoot -import -file cacert.pem
+keytool -keystore server.keystore.p12 -alias localhost -import -file cert-signed.crt
+
+# keytool -delete -alias CARoot -keystore server.keystore.jks -storepass changeit
+
+# Kafka SSL Security - Brokers:
+############################ SSL Config ####################################
+listeners=PLAINTEXT://:9092,SSL://:8092
+
+ssl.endpoint.identification.algorithm=
+ssl.keystore.location=server.keystore.jks
+ssl.keystore.password=changeit
+ssl.key.password=changeit
+ssl.truststore.location=server.truststore.jks
+ssl.truststore.password=changeit
+ssl.client.auth=none
+ssl.enabled.protocols=TLSv1.2,TLSv1.1,TLSv1
+ssl.keystore.type=JKS
+ssl.truststore.type=JKS
+
+# Kafka SSL Security - Clients:
+################################ SSL Config ###############################
+bootstrap.servers=localhost:8092
+ssl.endpoint.identification.algorithm=
+security.protocol=SSL
+ssl.truststore.location=client.truststore.jks
+ssl.truststore.password=changeit
+ssl.truststore.type=JKS
+ssl.enabled.protocols=TLSv1.2,TLSv1.1,TLSv1
+
+openssl s_client -debug -connect localhost:8092 -tls1_2
+openssl s_client -debug -connect localhost:8093
+-Djavax.net.debug=ssl:handshake
+
+
+kafka-console-producer --broker-list localhost:8092 --topic temperature --producer.config config/producer-ssl.properties
+kafka-console-consumer.bat --bootstrap-server localhost:8092 --topic temperature --from-beginning --consumer.config config/consumer-ssl.properties
+kafka-console-consumer.bat --bootstrap-server localhost:8093 --topic temperature2 --from-beginning --consumer.config config/consumer-ssl.properties
+kafka-console-consumer.bat --bootstrap-server localhost:8093 --topic temperature2 --consumer.config config/consumer-ssl.properties
+
+# Kafka ACLs:
+bin\windows\kafka-acls --bootstrap-server localhost:9093 --list --topic temperature2
+-> Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=temperature2, patternType=LITERAL)`:
+        (principal=admin, host=localhost, operation=ALL, permissionType=ALLOW)
+bin\windows\kafka-acls --bootstrap-server localhost:9093 --list --topic temperature2 --resource-pattern-type match
+-> Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=temperature2, patternType=LITERAL)`:
+           (principal=User:admin, host=*, operation=DESCRIBE, permissionType=ALLOW)
+           (principal=User:admin, host=*, operation=WRITE, permissionType=ALLOW)
+           (principal=User:trayan, host=*, operation=ALL, permissionType=DENY)
+           (principal=User:admin, host=*, operation=CREATE, permissionType=ALLOW)
+bin\windows\kafka-acls --bootstrap-server localhost:9093 --add --allow-principal User:trayan --producer --topic temperature2
+bin\windows\kafka-acls --bootstrap-server localhost:9093 --add --allow-principal User:trayan --allow-host * --operation Read --topic temperature2
