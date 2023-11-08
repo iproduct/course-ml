@@ -1,0 +1,3 @@
+uvicorn[standard]~=0.23.2
+aiocoap~=0.4.7
+fastapi~=0.104.0

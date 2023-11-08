@@ -2,7 +2,7 @@ FROM openjdk:8u292-slim-buster
 
 WORKDIR /opt
 
-ARG kafkaversion=3.2.0
+ARG kafkaversion=3.6.0
 ARG scalaversion=2.13
 
 ENV KAFKA_CONTAINER_HOST_NAME=kafka-broker-03

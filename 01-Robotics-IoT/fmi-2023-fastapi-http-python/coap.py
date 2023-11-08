@@ -15,10 +15,10 @@ import aiocoap
 import aiocoap.resource as resource
 
 
-SERVER_IP='192.168.1.100'
+SERVER_IP='0.0.0.0'
 WEBAPP_PORT=3000
 COAP_PORT=5683
-ROBOT_IP='192.168.1.105'
+ROBOT_IP='192.168.1.101'
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger("coap-server").setLevel(logging.INFO)
@@ -43,7 +43,7 @@ html = """
         <ul id='messages'>
         </ul>
         <script>
-            var ws = new WebSocket("ws://""" + SERVER_IP +":" + str(WEBAPP_PORT) + """/ws");
+            var ws = new WebSocket("ws://192.168.1.100:""" + str(WEBAPP_PORT) + """/ws");
             var distances = document.getElementById('distances')
             var speeds = document.getElementById('speeds')
             var messages = document.getElementById('messages')
@@ -75,7 +75,7 @@ html = """
 async def lifespan(app: FastAPI):
     global coap_ctx
     coap_ctx = await start_coap_server()
-    await send_command('{"command":"SWEEP_DISTANCE"}')
+    # await send_command('{"command":"SWEEP_DISTANCE"}')
     # coap_ctx = await aiocoap.Context.create_client_context()
     yield
     await coap_ctx.shutdown()
@@ -184,12 +184,12 @@ async def start_coap_server():
     root.add_resource(['time'], TimeResource())
     root.add_resource(['whoami'], WhoAmI())
     root.add_resource(['sensors'], SensorsResource())
-    return await aiocoap.Context.create_server_context(root, bind=[SERVER_IP, COAP_PORT])
+    return await aiocoap.Context.create_server_context(root)
 
 async def send_command(message):
-    logging.info(f'Sending to ESP32: {message}')
+    logging.info(f'Sending to ESP32[coap://{ROBOT_IP}:{COAP_PORT}/commands]: {message}')
     req = aiocoap.Message(code=aiocoap.PUT, token=bytes(random.randint(1, 255)), payload=message.encode(encoding='utf-8'),
-                          uri='coap://' + ROBOT_IP + f':{COAP_PORT}/commands')
+                          uri=f'coap://{ROBOT_IP}:{COAP_PORT}/commands')
 
     try:
         response = await coap_ctx.request(req).response
