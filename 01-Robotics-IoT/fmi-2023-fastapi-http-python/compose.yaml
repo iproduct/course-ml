@@ -11,9 +11,9 @@ version: "3.8"
 # https://github.com/docker/awesome-compose
 services:
   server:
-    image: fmi-2023-fastapi-ws-coap-python
-#    build:
-#      context: .
+#    image: fmi-2023-fastapi-ws-coap-python
+    build:
+      context: .
     expose:
       - "3000"
       - "5683/udp"
