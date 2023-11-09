@@ -15,6 +15,7 @@ import aiocoap
 import aiocoap.resource as resource
 
 
+# SERVER_IP='192.168.1.100'
 SERVER_IP='0.0.0.0'
 WEBAPP_PORT=3000
 COAP_PORT=5683
@@ -184,7 +185,7 @@ async def start_coap_server():
     root.add_resource(['time'], TimeResource())
     root.add_resource(['whoami'], WhoAmI())
     root.add_resource(['sensors'], SensorsResource())
-    return await aiocoap.Context.create_server_context(root)
+    return await aiocoap.Context.create_server_context(root, bind=(SERVER_IP, COAP_PORT))
 
 async def send_command(message):
     logging.info(f'Sending to ESP32[coap://{ROBOT_IP}:{COAP_PORT}/commands]: {message}')

@@ -136,5 +136,5 @@ void loop() {
     }
   }
   coap.loop();
-  delay(1000);
+  delay(200);
 }
