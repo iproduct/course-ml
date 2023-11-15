@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (fmi-2023-fastapi-http-python)" project-jdk-type="Python SDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
   <component name="PythonCompatibilityInspectionAdvertiser">
     <option name="version" value="3" />
   </component>

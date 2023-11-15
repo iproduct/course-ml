@@ -8,7 +8,7 @@
 #define MAX_JSON_SIZE 1024
 #define REMOTE_PORT 5683
 
-IPAddress remote_ip(192, 168, 1, 100);
+IPAddress remote_ip(192, 168, 1, 101);
 WiFiUDP udp;
 Coap coap(udp, MAX_JSON_SIZE);
 StaticJsonDocument<MAX_JSON_SIZE> doc;
