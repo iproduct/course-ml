@@ -42,4 +42,9 @@ public class DemoConsumer implements Runnable {
             consumer.close();
         }
     }
+
+    public static void main(String[] args) {
+        var consumer = new DemoConsumer();
+        consumer.run();
+    }
 }
