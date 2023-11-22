@@ -1,6 +1,5 @@
 package org.iproduct.ksdemo.kstream;
 
-import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.StreamsBuilder;
@@ -8,9 +7,6 @@ import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.kstream.*;
 import org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp;
 import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
-import org.iproduct.ksdemo.kstream.serialization.JsonDeserializer;
-import org.iproduct.ksdemo.kstream.serialization.JsonSerializer;
-import org.iproduct.ksdemo.model.DistanceReading;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -34,9 +30,6 @@ import static org.apache.kafka.streams.kstream.Suppressed.untilWindowCloses;
 @EnableKafka
 @EnableKafkaStreams
 public class KafkaStreamsConfig {
-    // create custom JSON Serdes
-    private static Serde<DistanceReading> readingsJsonSerde = Serdes.serdeFrom(
-            new JsonSerializer<>(), new JsonDeserializer<>(DistanceReading.class));
 
     @Value(value = "${spring.kafka.bootstrap-servers}")
     private String bootstrapAddress;
@@ -67,24 +60,19 @@ public class KafkaStreamsConfig {
     }
 
     @Bean
-    public KStream<Integer, DistanceReading> kStream(StreamsBuilder kStreamBuilder) {
-        KStream<Integer, DistanceReading> stream = kStreamBuilder.stream("sweepDistances", Consumed.with(Serdes.Integer(), readingsJsonSerde));
+    public KStream<Integer, String> kStream(StreamsBuilder kStreamBuilder) {
+        KStream<Integer, String> stream = kStreamBuilder.stream("sweepDistances");
         stream
 //                .mapValues((ValueMapper<String, String>) String::toUpperCase)
-                .filter((i, r) -> r != null && r.getType().equals("distance"))
-                .groupByKey()
+                .groupByKey(Grouped.with(Serdes.Integer(), Serdes.String()))
                 .windowedBy(SessionWindows.ofInactivityGapWithNoGrace(Duration.ofMillis(1000)))
-                //  .reduce((String value1, String value2) -> value1 + value2) //,  Named.as("windowStore"))
-                .reduce((DistanceReading value1, DistanceReading value2) ->
-                        value1.getDistance() < value2.getDistance() ? value1 : value2)
+                .reduce((String value1, String value2) -> value1 + value2) //,  Named.as("windowStore"))
 //                .suppress(untilTimeLimit(ofMillis(200), maxBytes(1_000L).emitEarlyWhenFull()))
 //                .suppress(Suppressed.untilWindowCloses(Suppressed.BufferConfig.unbounded()))
                 .toStream()
-                .filter((key, value) -> value != null)
-                .map((windowedId, value) -> new KeyValue<>(windowedId.key(), String.format("Type:%s, Angle:%3.0f, Distance:%9.5f, Time: %d",
-                        value.getType(), value.getAngle(), value.getDistance(), value.getTime())))
-//                .filter((i, s) -> s != null && s.endsWith("{\"type\":\"sweep_end\"}"))
-                .to("minSweepDistance");
+                .map((windowedId, value) -> new KeyValue<>(windowedId.key(), value))
+                .filter((i, s) -> s != null && s.endsWith("{\"type\":\"sweep_end\"}"))
+                .to("allSweepDistances");
 
         stream.print(Printed.toSysOut());
 

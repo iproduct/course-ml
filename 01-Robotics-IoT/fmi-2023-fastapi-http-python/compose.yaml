@@ -19,9 +19,8 @@ services:
       - "5683/udp"
     ports:
       - "3000:3000"
-      - "192.168.1.100:5683:5683/udp"
-      - "192.168.1.100:5683:5683/tcp"
-    network_mode: bridge
+      - "5683:5683/udp"
+#    network_mode: bridge
 
   # The commented out section below is an example of how to define a PostgreSQL
   # database that your application can use. `depends_on` tells Docker Compose to

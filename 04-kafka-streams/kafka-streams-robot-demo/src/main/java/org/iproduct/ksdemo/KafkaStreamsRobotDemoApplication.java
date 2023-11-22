@@ -58,7 +58,7 @@ public class KafkaStreamsRobotDemoApplication {
                     request.send();
                     Response response = request.waitForResponse(1000);
                     log.info("!!! Received: " + response);
-                    robotService.getSensorReadings().emitNext(String.format("{\"type\":\"command_ack\", \"command\":\"%s\"}", response.getPayloadString()), FAIL_FAST);
+                    robotService.getSensorReadings().emitNext(String.format("{\"type\":\"command_ack\", \"command\":\"%s\"}",response.getPayloadString()), FAIL_FAST);
                 } catch (Exception e) {
                     log.error("Error sending command to robot: {}", e);
                     robotService.getSensorReadings().emitNext(String.format("{\"error\":\"%s\"}", e.getMessage()), FAIL_FAST);

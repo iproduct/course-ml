@@ -30,6 +30,6 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic streamingTopic2() {
-        return new NewTopic("minSweepDistance", 1, (short) 1);
+        return new NewTopic("allSweepDistances", 1, (short) 1);
     }
 }
