@@ -2,6 +2,8 @@ package course.dml.serialization;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import course.dml.exception.JsonSerializationException;
 import org.apache.kafka.common.serialization.Serializer;
 
 public class JsonSerializer<T> implements Serializer<T> {

@@ -2,7 +2,7 @@ package course.dml.serialization;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import course.kafka.exception.JsonSerializationException;
+import course.dml.exception.JsonSerializationException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.common.serialization.Deserializer;
 
