@@ -10,7 +10,7 @@ public class CoapSimpleClient {
 
     public static void main(String[] args) {
 
-        CoapClient client = new CoapClient("coap://192.168.1.100/time");
+        CoapClient client = new CoapClient("coap://192.168.1.102/time");
 
         CoapResponse response = null;
         try {

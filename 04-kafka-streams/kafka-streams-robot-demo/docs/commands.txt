@@ -1,1 +1,2 @@
 {"command":"SWEEP_DISTANCE"}
+{"command":"SWEEP_DISTANCE", "resolution": 60}

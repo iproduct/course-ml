@@ -30,7 +30,7 @@ public class KafkaTemplateConfig {
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, IntegerSerializer.class);
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-        props.put(ProducerConfig.LINGER_MS_CONFIG, 10);
+        props.put(ProducerConfig.LINGER_MS_CONFIG, 0);
         // See https://kafka.apache.org/documentation/#producerconfigs for more properties
         return props;
     }

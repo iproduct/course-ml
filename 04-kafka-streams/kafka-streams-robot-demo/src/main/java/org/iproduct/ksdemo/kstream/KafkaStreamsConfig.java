@@ -1,9 +1,11 @@
 package org.iproduct.ksdemo.kstream;
 
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.*;
 import org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp;
 import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
@@ -12,9 +14,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.annotation.EnableKafkaStreams;
+import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.annotation.KafkaStreamsDefaultConfiguration;
 import org.springframework.kafka.config.KafkaStreamsConfiguration;
 import org.springframework.kafka.config.StreamsBuilderFactoryBeanConfigurer;
+import org.springframework.stereotype.Component;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -60,23 +64,42 @@ public class KafkaStreamsConfig {
     }
 
     @Bean
-    public KStream<Integer, String> kStream(StreamsBuilder kStreamBuilder) {
+    public Topology kStream(StreamsBuilder kStreamBuilder) {
         KStream<Integer, String> stream = kStreamBuilder.stream("sweepDistances");
         stream
 //                .mapValues((ValueMapper<String, String>) String::toUpperCase)
                 .groupByKey(Grouped.with(Serdes.Integer(), Serdes.String()))
-                .windowedBy(SessionWindows.ofInactivityGapWithNoGrace(Duration.ofMillis(1000)))
-                .reduce((String value1, String value2) -> value1 + value2) //,  Named.as("windowStore"))
+                .windowedBy(SessionWindows.ofInactivityGapWithNoGrace(Duration.ofMillis(1500)))
+                .reduce((String value1, String value2) -> value1 + value2 ,  Named.as("windowStore"), Materialized.as("windowStore"))
 //                .suppress(untilTimeLimit(ofMillis(200), maxBytes(1_000L).emitEarlyWhenFull()))
 //                .suppress(Suppressed.untilWindowCloses(Suppressed.BufferConfig.unbounded()))
                 .toStream()
                 .map((windowedId, value) -> new KeyValue<>(windowedId.key(), value))
-                .filter((i, s) -> s != null && s.endsWith("{\"type\":\"sweep_end\"}"))
+//                .filter((i, s) -> s != null && s.endsWith("{\"type\":\"sweep_end\"}"))
                 .to("allSweepDistances");
 
         stream.print(Printed.toSysOut());
 
-        return stream;
+        var topology = kStreamBuilder.build(kStreamsConfigs().asProperties());
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.println(topology.describe());
+        return topology;
+    }
+
+    @Component
+    class SweepDistancesConsumer {
+        @KafkaListener(topics = {"sweepDistances"}, groupId = "robot-demo-distances")
+        public void consume(ConsumerRecord<Integer, String> record) {
+            System.out.println("received = " + record.value() + " with key " + record.key());
+        }
+    }
+
+    @Component
+    class AggregatedSweepConsumer {
+        @KafkaListener(topics = {"allSweepDistances"}, groupId = "robot-demo-aggregated-distances")
+        public void consume(ConsumerRecord<Integer, String> record) {
+            System.out.println("received = " + record.value() + " with key " + record.key());
+        }
     }
 
 }

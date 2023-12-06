@@ -1,6 +1,7 @@
 package org.iproduct.ksdemo;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.clients.producer.ProducerRecord;
 import org.eclipse.californium.core.coap.Request;
 import org.eclipse.californium.core.coap.Response;
 import org.eclipse.californium.core.network.CoapEndpoint;
@@ -23,9 +24,9 @@ import java.net.InetSocketAddress;
 @SpringBootApplication
 @Slf4j
 public class KafkaStreamsRobotDemoApplication {
-    public static final String SERVER_IP = "192.168.1.100";
+    public static final String SERVER_IP = "192.168.1.102";
     public static final int COAP_PORT = 5683;
-    public static final String ROBOT_IP = "192.168.1.101";
+    public static final String ROBOT_IP = "192.168.1.103";
 
     @Autowired
     private KafkaTemplate<Integer, String> template;
@@ -58,7 +59,9 @@ public class KafkaStreamsRobotDemoApplication {
                     request.send();
                     Response response = request.waitForResponse(1000);
                     log.info("!!! Received: " + response);
-                    robotService.getSensorReadings().emitNext(String.format("{\"type\":\"command_ack\", \"command\":\"%s\"}",response.getPayloadString()), FAIL_FAST);
+                    if(response != null) {
+                        robotService.getSensorReadings().emitNext(String.format("{\"type\":\"command_ack\", \"command\":\"%s\"}", response.getPayloadString()), FAIL_FAST);
+                    }
                 } catch (Exception e) {
                     log.error("Error sending command to robot: {}", e);
                     robotService.getSensorReadings().emitNext(String.format("{\"error\":\"%s\"}", e.getMessage()), FAIL_FAST);
@@ -116,7 +119,7 @@ public class KafkaStreamsRobotDemoApplication {
                 value = new String(payload, "UTF-8");
                 log.info("Received request: {} - {}:{}", value, exchange.getSourceAddress(), exchange.getSourcePort());
                 robotService.getSensorReadings().emitNext(value, FAIL_FAST);
-                template.send("sweepDistances", 1, value);
+                template.send(new ProducerRecord<>("sweepDistances", 1, value));
                 exchange.respond(CHANGED, value);
             } catch (Exception e) {
                 e.printStackTrace();
