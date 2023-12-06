@@ -21,9 +21,16 @@ if __name__ == '__main__':
                 break
             # frame = cv.resize(frame, (1024, 768))
             frame = cv.resize(frame, None, fx=0.5, fy=0.5)
-            cv.imshow("Video", frame)
             gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
-            cv.imshow("Video Grayscale", gray)
+            faces = faceCascade.detectMultiScale(gray, 1.3, 5)
+            for (x,y,w,h) in faces:
+                frame = cv.rectangle(frame, (x,y), (x+w, y+h), (255, 0, 0), 2)
+                roi_gray = gray[y:y + h, x: x + w]
+                eyes = eyesCascade.detectMultiScale(roi_gray, scaleFactor=1.1, minNeighbors=3,
+                                                    maxSize=(50, 40), flags=cv.CASCADE_SCALE_IMAGE)
+                for(ex, ey, ew, eh) in eyes[:2]:
+                    cv.rectangle(frame, (x + ex, y + ey), (x + ex + ew, y + ey + eh), (0, 0, 255), 2)
+            cv.imshow("Video", frame)
     else:
         print("Error opening video file.")
     cap.release()
