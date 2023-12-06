@@ -1,8 +1,13 @@
 import cv2 as cv
 
 if __name__ == '__main__':
+
+
     # read a camera video stream
     cap = cv.VideoCapture(0)
+    # load Haar cascade face and eye detectors
+    faceCascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
+    eyesCascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_eye.xml')
     if cap.isOpened():
         print("Video opened successfully")
         cap.set(cv.CAP_PROP_FRAME_WIDTH, 1280)
