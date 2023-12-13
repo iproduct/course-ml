@@ -5,106 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e421226-7178-4684-b79a-18482dabdde0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/events.out.tfevents.1673380691.OFFICE27.25540.131.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/events.out.tfevents.1673380698.OFFICE27.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/plugins/profile/2023_01_10_19_58_18/OFFICE27.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/plugins/profile/2023_01_10_19_58_18/OFFICE27.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/plugins/profile/2023_01_10_19_58_18/OFFICE27.memory_profile.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/plugins/profile/2023_01_10_19_58_18/OFFICE27.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/plugins/profile/2023_01_10_19_58_18/OFFICE27.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/plugins/profile/2023_01_10_19_58_18/OFFICE27.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/train/plugins/profile/2023_01_10_19_58_18/OFFICE27.xplane.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215810/validation/events.out.tfevents.1673380702.OFFICE27.25540.4408.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/events.out.tfevents.1673380754.OFFICE27.7128.131.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/events.out.tfevents.1673380757.OFFICE27.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/plugins/profile/2023_01_10_19_59_17/OFFICE27.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/plugins/profile/2023_01_10_19_59_17/OFFICE27.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/plugins/profile/2023_01_10_19_59_17/OFFICE27.memory_profile.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/plugins/profile/2023_01_10_19_59_17/OFFICE27.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/plugins/profile/2023_01_10_19_59_17/OFFICE27.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/plugins/profile/2023_01_10_19_59_17/OFFICE27.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/train/plugins/profile/2023_01_10_19_59_17/OFFICE27.xplane.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-215914/validation/events.out.tfevents.1673380761.OFFICE27.7128.4408.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/events.out.tfevents.1673380998.OFFICE27.18108.131.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/events.out.tfevents.1673381000.OFFICE27.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/plugins/profile/2023_01_10_20_03_20/OFFICE27.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/plugins/profile/2023_01_10_20_03_20/OFFICE27.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/plugins/profile/2023_01_10_20_03_20/OFFICE27.memory_profile.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/plugins/profile/2023_01_10_20_03_20/OFFICE27.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/plugins/profile/2023_01_10_20_03_20/OFFICE27.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/plugins/profile/2023_01_10_20_03_20/OFFICE27.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/train/plugins/profile/2023_01_10_20_03_20/OFFICE27.xplane.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220318/validation/events.out.tfevents.1673381005.OFFICE27.18108.4408.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/events.out.tfevents.1673381216.OFFICE27.4588.131.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/events.out.tfevents.1673381218.OFFICE27.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/plugins/profile/2023_01_10_20_06_59/OFFICE27.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/plugins/profile/2023_01_10_20_06_59/OFFICE27.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/plugins/profile/2023_01_10_20_06_59/OFFICE27.memory_profile.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/plugins/profile/2023_01_10_20_06_59/OFFICE27.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/plugins/profile/2023_01_10_20_06_59/OFFICE27.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/plugins/profile/2023_01_10_20_06_59/OFFICE27.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/train/plugins/profile/2023_01_10_20_06_59/OFFICE27.xplane.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220656/validation/events.out.tfevents.1673381223.OFFICE27.4588.4408.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/events.out.tfevents.1673381260.OFFICE27.32.131.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/events.out.tfevents.1673381262.OFFICE27.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/plugins/profile/2023_01_10_20_07_42/OFFICE27.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/plugins/profile/2023_01_10_20_07_42/OFFICE27.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/plugins/profile/2023_01_10_20_07_42/OFFICE27.memory_profile.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/plugins/profile/2023_01_10_20_07_42/OFFICE27.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/plugins/profile/2023_01_10_20_07_42/OFFICE27.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/plugins/profile/2023_01_10_20_07_42/OFFICE27.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/train/plugins/profile/2023_01_10_20_07_42/OFFICE27.xplane.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-220739/validation/events.out.tfevents.1673381266.OFFICE27.32.4408.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/events.out.tfevents.1673381705.OFFICE27.14840.131.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/events.out.tfevents.1673381706.OFFICE27.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/plugins/profile/2023_01_10_20_15_06/OFFICE27.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/plugins/profile/2023_01_10_20_15_06/OFFICE27.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/plugins/profile/2023_01_10_20_15_06/OFFICE27.memory_profile.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/plugins/profile/2023_01_10_20_15_06/OFFICE27.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/plugins/profile/2023_01_10_20_15_06/OFFICE27.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/plugins/profile/2023_01_10_20_15_06/OFFICE27.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/train/plugins/profile/2023_01_10_20_15_06/OFFICE27.xplane.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-dnn-keras/logs/20230110-221504/validation/events.out.tfevents.1673381710.OFFICE27.14840.4408.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fmi-2023-ml-scikit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bagging_vs_bosting.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.ipynb_checkpoints/PewDiePie-checkpoint.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.ipynb_checkpoints/example-checkpoint.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/PewDiePie.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gender_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k-means-clustering.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linear_regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linear_regresssion_lab.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logistic_regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matplotlib_demo.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matplotlib_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml-01.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_intro_linear_regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_classification.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_compare_calibration.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_iris_dataset.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_iris_random_forest.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_iris_svc.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_lle_digits.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seaborn_demo.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stacking.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-numpy-pandas-lab/.idea/10-numpy-pandas-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-numpy-pandas-lab/.idea/10-numpy-pandas-lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2023-08-sklearn/knn-hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2023-08-sklearn/plot_iris_svc.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-machine_learning_jupyter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-dnn-keras/fashion_mnist_ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras/fashion_mnist_ann.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-dnn-keras/tensorboard_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras/tensorboard_demo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fmi-2022-09-image-recognition-opencv-dnn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fmi-2022-09-image-recognition-opencv-dnn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-machine_learning_jupyter/linear_regresssion_lab.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +36,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -173,6 +79,7 @@
       <updated>1673371044453</updated>
       <workItem from="1673371048918" duration="731000" />
       <workItem from="1673372034581" duration="2257000" />
+      <workItem from="1702496530649" duration="1145000" />
     </task>
     <servers />
   </component>
