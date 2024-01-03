@@ -1,3 +1,4 @@
-numpy~=1.19.4
+numpy~=1.24.4
 matplotlib~=3.3.3
-Keras~=2.4.3
+keras~=2.10.0
+tensorflow~=2.10.1
