@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # print("Final intercept: " + str(model.intercept))
     # sc.stop()
 
-    spark = SparkSession.builder.master("local[*]").appName("Word Count").config("spark.some.config.option",
+    spark = SparkSession.builder.master("local[*]").appName("Logistic Regression").config("spark.some.config.option",
                                                                                  "some-value").getOrCreate()
     # Load training data
     training = spark.read.format("libsvm").load("data/mllib/sample_libsvm_data.txt")

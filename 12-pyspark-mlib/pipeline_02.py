@@ -29,7 +29,7 @@ if __name__ == "__main__":
         (4, "spark i j k"),
         (5, "l m n"),
         (6, "spark hadoop spark"),
-        (7, "apache hadoop")
+        (7, "spar hadoop")
     ], ["id", "text"])
 
     # Make predictions on test documents and print columns of interest.

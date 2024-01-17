@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ef1b596-e5f2-4b20-aa02-5989d920605b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11-dnn-keras-lab/keras_custom_gradient_optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras-lab/keras_custom_gradient_optimization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +134,7 @@
       <workItem from="1673384321394" duration="4721000" />
       <workItem from="1703089881605" duration="722000" />
       <workItem from="1704311955253" duration="116000" />
+      <workItem from="1704908914789" duration="1428000" />
     </task>
     <servers />
   </component>
@@ -137,6 +143,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/12_dnn_mxnet_lab$hello_mxnet.coverage" NAME="hello_mxnet Coverage Results" MODIFIED="1673388363129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/12_dnn_mxnet_lab$train_mnist.coverage" NAME="train_mnist Coverage Results" MODIFIED="1704311981021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/12_dnn_mxnet_lab$train_mnist.coverage" NAME="train_mnist Coverage Results" MODIFIED="1704909145692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

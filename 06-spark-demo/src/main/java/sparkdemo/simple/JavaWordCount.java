@@ -54,7 +54,7 @@ public final class JavaWordCount {
         JavaPairRDD<String, Integer> counts = ones.reduceByKey((i1, i2) -> i1 + i2);
 
         List<Tuple2<String, Integer>> output = counts.collect();
-        output.stream().sorted((a,b) -> b._2 - a._2).limit(10)
+        output.stream().sorted((a,b) -> b._2 - a._2).limit(20)
                 .forEach(tuple -> System.out.println(tuple._1() + ": " + tuple._2()));
 
         spark.stop();

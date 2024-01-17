@@ -24,6 +24,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Encoders;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
+import scala.Function1;
 import scala.Tuple2;
 
 import java.util.Arrays;
@@ -53,8 +54,9 @@ public final class JavaWordCountDataset {
         ;
 
         Dataset<String> words = lines
-                .flatMap((String s) -> Arrays.asList(s.split("[:,.!?]*\\s+")).iterator(), Encoders.STRING())
-                .filter((String word) -> word.length() > 3);
+                .flatMap((String s) -> Arrays.asList(s.split("\\W+")).iterator(), Encoders.STRING())
+                .map((MapFunction<String, String>) (String w) -> w.toLowerCase(), Encoders.STRING())
+                .filter((String word) -> word.length() > 3 && Pattern.matches(".*[A-Za-z]+.*", word));
 
 
         Dataset<Tuple2<String, Integer>> ones = words

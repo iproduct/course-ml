@@ -1,3 +1,5 @@
+import datetime
+
 import tensorflow as tf
 from keras import layers
 from keras import models
@@ -27,6 +29,11 @@ if __name__ == '__main__':
     model.compile(optimizer='adam',
                     loss='categorical_crossentropy',
                     metrics=['accuracy'])
+
+    logdir = os.path.join("logs", datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
+    tboard_callback = tf.keras.callbacks.TensorBoard(log_dir=logdir,
+                                                     histogram_freq=1,
+                                                     profile_batch='500,520')
 
     # Prepare an optimizer.
     optimizer = tf.keras.optimizers.Adam()

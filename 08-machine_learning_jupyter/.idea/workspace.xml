@@ -5,8 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750eb707-897e-4ba6-ade8-23a63b6bb2c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../08-sklearn/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11-dnn-keras-lab/.ipynb_checkpoints/deep_q_network_breakout-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11-dnn-keras-lab/deep_q_network_breakout.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11-dnn-keras-lab/deep_q_network_breakout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12-pyspark-mlib/data/allice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12-pyspark-mlib/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12-pyspark-mlib/word2vec_allice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/alice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/graphx/followers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/graphx/users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/als/sample_movielens_ratings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/als/test.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/gmm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/kittens/29.5.a_b_EGDP022204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/kittens/54893.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/kittens/DP153539.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/kittens/DP802813.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/kittens/not-image.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/multi-channel/BGRA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/multi-channel/BGRA_alpha_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/multi-channel/chr30.4.184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/origin/multi-channel/grayscale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=kittens/date=2018-01/29.5.a_b_EGDP022204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=kittens/date=2018-01/not-image.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=kittens/date=2018-02/54893.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=kittens/date=2018-02/DP153539.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=kittens/date=2018-02/DP802813.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=multichannel/date=2018-01/BGRA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=multichannel/date=2018-01/BGRA_alpha_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=multichannel/date=2018-02/chr30.4.184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/images/partitioned/cls=multichannel/date=2018-02/grayscale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/iris_libsvm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/kmeans_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/pagerank_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/pic_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/ridge-data/lpsa.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_binary_classification_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_fpgrowth.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_isotonic_regression_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_kmeans_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_lda_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_lda_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_linear_regression_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_movielens_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_multiclass_classification_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/sample_svm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/mllib/streaming_kmeans_data_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/streaming/AFINN-111.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/text8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/data/yelp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/lda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-nlp-python/word2vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCountDataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCountDataset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/MlPipelineDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/MlPipelineDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/SimpleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/SimpleApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_regresssion_lab.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11-dnn-keras-lab/keras_custom_gradient_optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras-lab/keras_custom_gradient_optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12-dnn-mxnet-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-dnn-mxnet-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12-pyspark-mlib/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../12-pyspark-mlib/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12-pyspark-mlib/pipeline_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../12-pyspark-mlib/pipeline_02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +112,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CourseDML\git\course-ml\08-machine_learning_jupyter" />
@@ -208,6 +282,7 @@
       <workItem from="1673370876203" duration="817000" />
       <workItem from="1673372033402" duration="597000" />
       <workItem from="1702459579075" duration="1622000" />
+      <workItem from="1705516781273" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="machine_learning_jupyter project config updated">
       <created>1606516029460</created>

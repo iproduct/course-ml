@@ -23,7 +23,7 @@ public class MlPipelineDemo {
         SparkSession spark = SparkSession
                 .builder()
                 .master("local")
-                .appName("JavaWordCount")
+                .appName("LogisticRegression")
                 .getOrCreate();
 
         // Prepare training data.
