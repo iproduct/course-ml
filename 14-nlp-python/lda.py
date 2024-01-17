@@ -119,7 +119,7 @@ if __name__ == '__main__':
 
     # Build LDA model
     lda_model = LDA(corpus=doc_term_matrix, id2word=dictionary,
-                    num_topics=20, random_state=100,
+                    num_topics=10, random_state=100,
                     chunksize=1000, passes=50, iterations=100,
                     update_every=1,
                     alpha='auto',
@@ -142,5 +142,4 @@ if __name__ == '__main__':
 
     # Now, we use pyLDA vis to visualize it
     vis_data = pyLDAvis.gensim_models.prepare(lda_model, doc_term_matrix, dictionary, sort_topics=False)
-    pyLDAvis.show(vis_data)
-    # pyLDAvis.gensim_models.prepare(lda_model.get_topic_terms(), lda_model.get_document_topics(), lda_model.)
+    pyLDAvis.save_html(vis_data, 'out_file.html')
