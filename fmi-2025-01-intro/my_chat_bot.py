@@ -1,9 +1,10 @@
-import gTTS
+from gtts import gTTS
 import ollama
 import speech_recognition as sr
 import sounddevice as sd
+import soundfile as sf
 
-SAMPLE_RATE = 16000
+SAMPLE_RATE = 22050
 
 
 class ChatBot:
@@ -26,8 +27,10 @@ class ChatBot:
 
 
     def text_to_speech(self, message):
-        audio_array = gTTS(text=message, lang='en', slow=False, sample_rate=SAMPLE_RATE)
-        sd.play(audio_array, SAMPLE_RATE)
+        audio_obj = gTTS(text=message, lang='en', slow=False)
+        audio_obj.save('output.mp3')
+        audio_arr, fs = sf.read('output.mp3')
+        sd.play(audio_arr, SAMPLE_RATE)
         sd.wait()
 
     def run(self):
@@ -49,6 +52,8 @@ class ChatBot:
             ])
         text = resp['message']['content']
         print(text)
+        first_sentence = text.split('.')[0]
+        self.text_to_speech(first_sentence)
 
 if __name__ == "__main__":
     # ChatBot demo
