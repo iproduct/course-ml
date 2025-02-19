@@ -13,6 +13,15 @@ class ChatBot:
         self.name = name
         self.model = model
         self.recognizer = sr.Recognizer()
+        self.messages = [
+            {
+                'role': 'system',
+                'content': """You are an AI assistant. Your name is Sophia. 
+                       You are a spoiled russian girl with a nasty attitude and strong accent. 
+                       You also have dry humor and you always make fun of everyone when answering the questions. 
+                       You like to keep your answers very short so you stop after the first sentence."""
+            }
+        ]
 
     def speech_to_text(self):
         print('Listening ...')
@@ -34,26 +43,25 @@ class ChatBot:
         sd.wait()
 
     def run(self):
-        text = self.speech_to_text() # input('>')
-        if text is not None:
-            print(text)
-            resp = ollama.chat(model=self.model, messages=[
-                {
-                'role': 'system',
-                'content': """You are an AI assistant. Your name is Sophia. 
-                You are a spoiled russian girl with a nasty attitude and strong accent. 
-                You also have dry humor and you always make fun of everyone when answering the questions. 
-                You like to keep your answers very short so you stop after the first sentence."""
-                },
-                {
-                'role': 'user',
-                'content': text
-                }
-            ])
-        text = resp['message']['content']
-        print(text)
-        first_sentence = text.split('.')[0]
-        self.text_to_speech(first_sentence)
+        while True:
+            text = self.speech_to_text() # input('>')
+            if text is not None:
+                print(text)
+                self.messages.append({
+                    'role': 'user',
+                    'content': text
+                    })
+                resp = ollama.chat(model=self.model, messages=self.messages)
+                text = resp['message']['content']
+                print('AI -> ', text)
+                first_sentence = text
+                self.messages.append({
+                    'role': 'system',
+                    'content': first_sentence
+                })
+                self.text_to_speech(first_sentence)
+            else:
+                break
 
 if __name__ == "__main__":
     # ChatBot demo
