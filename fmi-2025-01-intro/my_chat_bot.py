@@ -1,6 +1,9 @@
+import gTTS
 import ollama
 import speech_recognition as sr
 import sounddevice as sd
+
+SAMPLE_RATE = 16000
 
 
 class ChatBot:
@@ -23,7 +26,9 @@ class ChatBot:
 
 
     def text_to_speech(self, message):
-        pass
+        audio_array = gTTS(text=message, lang='en', slow=False, sample_rate=SAMPLE_RATE)
+        sd.play(audio_array, SAMPLE_RATE)
+        sd.wait()
 
     def run(self):
         text = self.speech_to_text() # input('>')
@@ -32,7 +37,10 @@ class ChatBot:
             resp = ollama.chat(model=self.model, messages=[
                 {
                 'role': 'system',
-                'content': 'You are an AI assistant'
+                'content': """You are an AI assistant. Your name is Sophia. 
+                You are a spoiled russian girl with a nasty attitude and strong accent. 
+                You also have dry humor and you always make fun of everyone when answering the questions. 
+                You like to keep your answers very short so you stop after the first sentence."""
                 },
                 {
                 'role': 'user',
