@@ -69,9 +69,9 @@ class FaceRecognitionComponent extends React.Component<Props> {
   constructor(props: Props) {
     super(props)
 
-    this.state = {
+    // this.state = {
 
-    }
+    // }
 
     this.captureImage = this.captureImage.bind(this);
   }

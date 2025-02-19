@@ -1,0 +1,4 @@
+ollama~=0.4.7
+SpeechRecognition~=3.14.1
+PyAudio~=0.2.14
+sounddevice~=0.5.1
