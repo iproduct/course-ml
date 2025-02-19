@@ -4,8 +4,6 @@ import speech_recognition as sr
 import sounddevice as sd
 import soundfile as sf
 
-SAMPLE_RATE = 22050
-
 
 class ChatBot:
     def __init__(self, name, model):
@@ -38,8 +36,8 @@ class ChatBot:
     def text_to_speech(self, message):
         audio_obj = gTTS(text=message, lang='en', slow=False)
         audio_obj.save('output.mp3')
-        audio_arr, fs = sf.read('output.mp3')
-        sd.play(audio_arr, SAMPLE_RATE)
+        audio_arr, sample_rate = sf.read('output.mp3')
+        sd.play(audio_arr, sample_rate)
         sd.wait()
 
     def run(self):
