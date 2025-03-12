@@ -16,6 +16,9 @@ def train_ann(model, x_train, y_train, x_test, y_test, epochs = 5):
     model.fit(x = x_train, y = y_train, epochs = epochs, validation_data = (x_test, y_test))
 
 def test_ann(model, x_test, y_test):
+    train_loss, train_acc = model.evaluate(x_train, y_train)
+    print('Train accuracy:', train_acc)
+    print('Train loss:', train_loss)
     test_loss, test_acc = model.evaluate(x_test, y_test)
     print('Test accuracy:', test_acc)
     print('Test loss:', test_loss)
