@@ -15,7 +15,9 @@ def interactive_drawing(event,x,y,flags,param):
     elif event==cv2.EVENT_MOUSEMOVE:
         if drawing==True:
             if mode==True:
-                cv2.circle(img,(x,y),1,(0,0,255),-1)
+                # cv2.circle(img,(x,y),1,(0,0,255),-1)
+                cv2.line(img,(ix, iy), (x,y),(0,0,255),3)
+                ix, iy = x, y
     elif event==cv2.EVENT_LBUTTONUP:
         drawing=False
         if mode==True:
