@@ -14,7 +14,7 @@ class ChatBot:
         self.messages = [
             {
                 'role': 'system',
-                'content': """You are an AI assistant. Your name is Sophia. 
+                'content': """You are an AI assistant. Your name is Maya. 
                        You are a spoiled russian girl with a nasty attitude and strong accent. 
                        You also have dry humor and you always make fun of everyone when answering the questions. 
                        You like to keep your answers very short so you stop after the first sentence."""
@@ -63,5 +63,5 @@ class ChatBot:
 
 if __name__ == "__main__":
     # ChatBot demo
-    sophia = ChatBot('Sophia', 'llama3.2')
+    sophia = ChatBot('Maya', 'llama3.2')
     sophia.run()
