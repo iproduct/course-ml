@@ -12,7 +12,7 @@ def create_ann():
     ])
 
 def train_ann(model, x_train, y_train, x_test, y_test, epochs = 5):
-    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=keras.optimizers.Adam(), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
     model.fit(x = x_train, y = y_train, epochs = epochs, validation_data = (x_test, y_test))
 
 def test_ann(model, x_test, y_test):
