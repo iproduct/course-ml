@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titanic Survival Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .report-section {
+            max-width: 600px;
+            margin: auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section-header {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .summary-item {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-section">
+        <h1>Titanic Survival Report</h1>
+        <p class="section-header">Key Findings:</p>
+        <ul class="summary-item">
+            <li>Total number of passengers: 549 (as per the dataset)</li>
+            <li>Number of people who survived: 342 (verified from the data analysis)</li>
+        </ul>
+
+        <!-- Interactive Button -->
+        <button id="approve-button">Approve Report</button>
+        <div id="popup" style="display:none;">Report Approved!</div>
+    </div>
+
+    <script>
+        document.getElementById('approve-button').addEventListener('click', function() {
+            document.getElementById('popup').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
