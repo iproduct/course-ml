@@ -1,4 +1,5 @@
-FROM openjdk:8u292-slim-buster
+#FROM openjdk:8u292-slim-buster
+FROM openjdk:17.0.2-slim-buster
 
 WORKDIR /opt
 

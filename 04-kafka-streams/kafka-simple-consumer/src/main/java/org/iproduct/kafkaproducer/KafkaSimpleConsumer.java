@@ -25,7 +25,7 @@ public class KafkaSimpleConsumer {
 //    }
 
 //    @KafkaListener(id = "myId", topics = "streamingTopic2")
-    @KafkaListener(id = "myId", topics = "minSweepDistance", batch = "false", properties = "max.poll.records=1")
+    @KafkaListener(id = "myId", topics = "events", batch = "false", properties = "max.poll.records=1")
     public void listen(ConsumerRecord<Integer, String> inRecord) {
         System.out.printf("Robot %d -> %s%n", inRecord.key(), inRecord.value());
     }

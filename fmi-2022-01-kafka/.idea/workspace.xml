@@ -5,63 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d401814-b4c8-426b-acf5-059b7673b8f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../12-pyspark-mlib/simple_baes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12-pyspark-mlib/svc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker-kafka-kraft/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/7.2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCountDataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/JavaWordCountDataset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/SimpleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-spark-demo/src/main/java/sparkdemo/simple/SimpleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/07-opencv-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/07-opencv-lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-opencv-lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-dnn-keras/mnist_dnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../11-dnn-keras/mnist_dnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/kafka-consumer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/kafka_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/kafka_producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/python_producer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/01-kafka-intro/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/01-kafka-intro/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/java/org/iproduct/kafkaproducer/KafkaSimpleConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/java/org/iproduct/kafkaproducer/KafkaSimpleConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-kafka-kraft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-kafka-kraft/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fmi-2022-09-image-recognition-opencv-dnn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fmi-2022-09-image-recognition-opencv-dnn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/.idea/kafka-2022-03-streams.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-2022-03-streams/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-2022-03-streams/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-kafka-kraft/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-kafka-kraft/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +168,7 @@
       <workItem from="1667928682090" duration="2038000" />
       <workItem from="1685284646774" duration="1727000" />
       <workItem from="1685287028240" duration="5770000" />
+      <workItem from="1746027908745" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="kafka demo project added">
       <created>1666191620504</created>
