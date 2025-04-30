@@ -22,7 +22,7 @@ public class DemoProducer implements Runnable {
 
     public DemoProducer(int numReadings) {
         this.numReadings = numReadings;
-        props.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9093");
+        props.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         props.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         props.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class.getName());
         props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, TemperatureReadingsPartitioner.class.getName());
