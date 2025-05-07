@@ -5,17 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d401814-b4c8-426b-acf5-059b7673b8f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/kafka-consumer.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/kafka_consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/kafka_producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fmi-2025-07-kafka-python/python_producer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-kafka-streams/Californium3.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-kafka-streams/01-kafka-intro/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/01-kafka-intro/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/java/org/iproduct/kafkaproducer/KafkaSimpleConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/java/org/iproduct/kafkaproducer/KafkaSimpleConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-simple-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/fmi-2023-esp32-robot/fmi-2023-esp32-robot.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/fmi-2023-esp32-robot/fmi-2023-esp32-robot.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-stock-prices/out/production/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-stock-prices/out/production/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-demos/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-demos/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-demos/out/production/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-demos/out/production/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/docs/commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/CoapSimpleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/CoapSimpleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/KafkaStreamsRobotDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/KafkaStreamsRobotDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/kstream/KafkaStreamsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/kstream/KafkaStreamsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/kstream/KafkaTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/java/org/iproduct/ksdemo/kstream/KafkaTopicConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafka-streams/kafka-streams-robot-demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-kafka-kraft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-kafka-kraft/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-kafka-kraft/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-kafka-kraft/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafkademo/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafkademo/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafkademo/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafkademo/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafkademo/.idea/01-kafkademo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafkademo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafkademo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafkademo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafkademo/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-kafkademo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-kafkademo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactor-esp32-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactor-esp32-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactor-esp32-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactor-esp32-demo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +183,7 @@
       <workItem from="1685284646774" duration="1727000" />
       <workItem from="1685287028240" duration="5770000" />
       <workItem from="1746027908745" duration="597000" />
+      <workItem from="1746617313397" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="kafka demo project added">
       <created>1666191620504</created>

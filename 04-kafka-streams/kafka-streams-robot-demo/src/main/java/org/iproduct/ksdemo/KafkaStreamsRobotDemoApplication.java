@@ -24,9 +24,9 @@ import java.net.InetSocketAddress;
 @SpringBootApplication
 @Slf4j
 public class KafkaStreamsRobotDemoApplication {
-    public static final String SERVER_IP = "192.168.1.102";
+    public static final String SERVER_IP = "192.168.1.100";
     public static final int COAP_PORT = 5683;
-    public static final String ROBOT_IP = "192.168.1.103";
+    public static final String ROBOT_IP = "192.168.1.101";
 
     @Autowired
     private KafkaTemplate<Integer, String> template;

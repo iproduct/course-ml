@@ -32,7 +32,7 @@
 const char *ssid = "robots";
 const char *password = "robot123";
 
-IPAddress remote_ip(192, 168, 1, 102);  // backend FastAPI python server IP
+IPAddress remote_ip(192, 168, 1, 100);  // backend FastAPI python server IP
 const int remote_port = 5683;
 
 typedef struct

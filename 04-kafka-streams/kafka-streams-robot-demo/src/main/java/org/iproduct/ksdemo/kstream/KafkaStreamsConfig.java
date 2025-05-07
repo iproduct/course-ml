@@ -1,5 +1,8 @@
 package org.iproduct.ksdemo.kstream;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KeyValue;
@@ -9,6 +12,7 @@ import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.*;
 import org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp;
 import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
+import org.iproduct.ksdemo.model.DistanceReading;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,8 +25,11 @@ import org.springframework.kafka.config.StreamsBuilderFactoryBeanConfigurer;
 import org.springframework.stereotype.Component;
 
 import java.time.Duration;
+import java.util.DoubleSummaryStatistics;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofMinutes;
@@ -37,6 +44,8 @@ public class KafkaStreamsConfig {
 
     @Value(value = "${spring.kafka.bootstrap-servers}")
     private String bootstrapAddress;
+
+    private static final ObjectMapper objectMapper = new ObjectMapper();
 
     //    public static final String TOPIC = "prices";
 //    public static final String CLIENT_ID = "TestProducer";
@@ -70,7 +79,7 @@ public class KafkaStreamsConfig {
 //                .mapValues((ValueMapper<String, String>) String::toUpperCase)
                 .groupByKey(Grouped.with(Serdes.Integer(), Serdes.String()))
                 .windowedBy(SessionWindows.ofInactivityGapWithNoGrace(Duration.ofMillis(1500)))
-                .reduce((String value1, String value2) -> value1 + value2 ,  Named.as("windowStore"), Materialized.as("windowStore"))
+                .reduce((String value1, String value2) -> value1 + "," + value2, Named.as("windowStore"), Materialized.as("windowStore"))
 //                .suppress(untilTimeLimit(ofMillis(200), maxBytes(1_000L).emitEarlyWhenFull()))
 //                .suppress(Suppressed.untilWindowCloses(Suppressed.BufferConfig.unbounded()))
                 .toStream()
@@ -79,6 +88,24 @@ public class KafkaStreamsConfig {
                 .to("allSweepDistances");
 
         stream.print(Printed.toSysOut());
+
+        KStream<Integer, String> allDistances = kStreamBuilder.stream("allSweepDistances");
+        allDistances
+                .filter((i, s) -> s != null && s.endsWith("{\"type\":\"sweep_end\"}"))
+                .map((Integer key, String eventsJson) -> {
+                    try {
+                        List<DistanceReading> distances = objectMapper.readValue("[" + eventsJson + "]", new TypeReference<List<DistanceReading>>() {
+                        });
+                        DoubleSummaryStatistics distanceStats = distances.stream().takeWhile(event -> event.type().equals("distance"))
+                                .collect(Collectors.summarizingDouble(event -> event.distance()));
+                        return new KeyValue<>(key, objectMapper.writeValueAsString(distanceStats));
+                    } catch (JsonProcessingException e) {
+                        throw new RuntimeException(e);
+                    }
+
+                })
+                .to("distanceStats");
+
 
         var topology = kStreamBuilder.build(kStreamsConfigs().asProperties());
         System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
@@ -94,9 +121,17 @@ public class KafkaStreamsConfig {
         }
     }
 
+//    @Component
+//    class AggregatedSweepConsumer {
+//        @KafkaListener(topics = {"allSweepDistances"}, groupId = "robot-demo-aggregated-distances")
+//        public void consume(ConsumerRecord<Integer, String> record) {
+//            System.out.println("received = " + record.value() + " with key " + record.key());
+//        }
+//    }
+
     @Component
-    class AggregatedSweepConsumer {
-        @KafkaListener(topics = {"allSweepDistances"}, groupId = "robot-demo-aggregated-distances")
+    class AverageDistanceConsumer {
+        @KafkaListener(topics = {"distanceStats"}, groupId = "robot-demo-distance-stats")
         public void consume(ConsumerRecord<Integer, String> record) {
             System.out.println("received = " + record.value() + " with key " + record.key());
         }
