@@ -32,10 +32,10 @@ public class DemoProducer implements Runnable {
 
     @Override
     public void run() {
-        var latch = new CountDownLatch(numReadings);
+        CountDownLatch latch = new CountDownLatch(numReadings);
         for (int i = 0; i < numReadings; i++) {
-            var sensor = "sensor-0" + (i % 2 + 1);
-            var record = new ProducerRecord<String, TemperatureReading>("temperature", sensor,
+            String sensor = "sensor-0" + (i % 2 + 1);
+            ProducerRecord<String, TemperatureReading> record = new ProducerRecord<String, TemperatureReading>("temperature", sensor,
                     new TemperatureReading(i + "", sensor,  18 + i * 0.5, LocalDateTime.now()));
 //                sendResult = producer.send(record).get();
             int finalI = i;
@@ -64,7 +64,7 @@ public class DemoProducer implements Runnable {
     }
 
     public static void main(String[] args) {
-        var producer = new DemoProducer(100);
+        DemoProducer producer = new DemoProducer(100);
         producer.run();
     }
 }

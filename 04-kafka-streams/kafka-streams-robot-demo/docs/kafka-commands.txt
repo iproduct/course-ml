@@ -1,0 +1,4 @@
+docker run --volume /path/to/property/folder:/mnt/shared/config -p 9092:9092 apache/kafka:latest
+
+D:\CourseDML\kafka\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic distanceStats
+

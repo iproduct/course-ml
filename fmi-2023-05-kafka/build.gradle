@@ -12,6 +12,7 @@ idea {
         downloadSources = true
     }
 }
+sourceCompatibility = '18'
 
 repositories {
     mavenCentral()

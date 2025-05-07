@@ -3,6 +3,9 @@ package course.dml;
 import course.dml.model.TemperatureReading;
 import course.dml.serialization.JsonDeserializer;
 import lombok.extern.slf4j.Slf4j;
+import lombok.val;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
@@ -36,11 +39,11 @@ public class DemoConsumer implements Runnable {
         try {
             consumer.subscribe(Collections.singletonList("temperature"));
             while (true) {
-                var records = consumer.poll(Duration.ofMillis(POLLING_DURATION_MS));
+                ConsumerRecords<String, TemperatureReading> records = consumer.poll(Duration.ofMillis(POLLING_DURATION_MS));
                 if (records.count() == 0) {
                     continue;
                 }
-                for (var r : records) {
+                for (ConsumerRecord<String, TemperatureReading> r : records) {
                     System.out.printf("Topic: %s, Partition: %d, Offset: %d, Key: %s, Value: %s\n",
                             r.topic(), r.partition(), r.offset(), r.key(), r.value());
                 }
@@ -53,7 +56,7 @@ public class DemoConsumer implements Runnable {
     }
 
     public static void main(String[] args) {
-        var consumer = new DemoConsumer();
+        DemoConsumer consumer = new DemoConsumer();
         consumer.run();
     }
 }
