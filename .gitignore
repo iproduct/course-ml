@@ -28,3 +28,6 @@ hs_err_pid*
 
 # TF Log files
 logs/
+__pycache__/
+common/
+.DS_Store
