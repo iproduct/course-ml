@@ -18,9 +18,9 @@ if __name__ == '__main__':
 
 
     # Subscrine for notifications
-    events = client.listen_bucket_notification('posts', None,
+    events = client.listen_bucket_notification('posts-2025', None,
                                                None,
-                                               ['s3:ObjectCreated:*',
+                                               ['s3:BucketCreated:*', 's3:ObjectCreated:*',
                                                 's3:ObjectRemoved:*',
                                                 's3:ObjectAccessed:*'])
     for event in events:
