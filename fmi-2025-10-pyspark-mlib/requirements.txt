@@ -1,2 +1,6 @@
 pyspark~=3.5.5
 numpy~=2.2.6
+pandas~=2.2.3
+pyarrow~=20.0.0
+grpcio~=1.71.0
+protobuf~=6.31.0
