@@ -1,7 +1,9 @@
 ## Spark & Pyspark Installation and Configuration
 
 `Python 3.10` is required (tested to work, `3.12` gives problem with `distutils` package)
-`PYSPARK_PYTHON` and `PYSPARK_DRIVER_PYTHON` environment variables should be set to python install directory
+`PYSPARK_PYTHON` and `PYSPARK_DRIVER_PYTHON` environment variables should be set to 
+virtual environment python.exe script - e.g. 
+`D:\CourseDML\git\course-ml\fmi-2025-10-pyspark-mlib\.venv\Scripts\python.exe`
 
 `Spark 3.5.5` should be unzipped in a directory of choice 
 and `SPARK_HOME` environment variable should be set to this directory
