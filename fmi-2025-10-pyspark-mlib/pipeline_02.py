@@ -4,7 +4,7 @@ from pyspark.ml.classification import LogisticRegression
 from pyspark.ml.feature import HashingTF, Tokenizer
 
 if __name__ == "__main__":
-    spark = SparkSession.builder.master("spark://10.108.5.3:7077").appName("Word Count").config("spark.some.config.option",
+    spark = SparkSession.builder.master("local[*]").appName("Word Count").config("spark.some.config.option",
                                                                                  "some-value").getOrCreate()
 
     # Prepare training documents from a list of (id, text, label) tuples.
@@ -12,13 +12,15 @@ if __name__ == "__main__":
         (0, "a b c d e spark", 1.0),
         (1, "b d", 0.0),
         (2, "spark f g h", 1.0),
-        (3, "hadoop mapreduce", 0.0)
+        (3, "new spark demo here", 1.0),
+        (4, "a b cd spark h", 1.0),
+        (5, "hadoop mapreduce", 0.0)
     ], ["id", "text", "label"])
 
     # Configure an ML pipeline, which consists of three stages: tokenizer, hashingTF, and lr.
     tokenizer = Tokenizer(inputCol="text", outputCol="words")
     hashingTF = HashingTF(inputCol=tokenizer.getOutputCol(), outputCol="features")
-    lr = LogisticRegression(maxIter=10, regParam=0.001)
+    lr = LogisticRegression(maxIter=20, regParam=0.001)
     pipeline = Pipeline(stages=[tokenizer, hashingTF, lr])
 
     # Fit the pipeline to training documents.
