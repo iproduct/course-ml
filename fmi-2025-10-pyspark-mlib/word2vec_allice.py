@@ -10,10 +10,10 @@ from pyspark.sql.types import ArrayType, StringType
 # from nltk.tokenize import sent_tokenize, word_tokenize
 
 if __name__ == "__main__":
-    # with open("data/allice.txt", encoding='utf-8') as f:
-    #     with open("data/allice_tokenized.txt", 'w', encoding='utf-8') as out:
-    #         for line in f:
-    #             out.write(' '.join(re.split(r'\W', line)) + '\n')
+    with open("data/allice.txt", encoding='utf-8') as f:
+        with open("data/allice_tokenized.txt", 'w', encoding='utf-8') as out:
+            for line in f:
+                out.write(' '.join(re.split(r'\W', line)) + '\n')
 
 
     # findspark.init(r'D:\CourseDML\spark-3.5.5-bin-hadoop3')
@@ -21,10 +21,10 @@ if __name__ == "__main__":
     # conf = SparkConf().set('spark.executor.memory','4g').set('spark.driver.memory','4g')
 
     spark = (SparkSession.builder
-             .master("spark://192.168.0.17:7077")
+             .master("spark://10.108.5.92:7077")
              .appName("Word2Vec")
-             .config('spark.executor.memory','4g')
-             .config('spark.driver.memory','4g')
+             .config('spark.executor.memory','8g')
+             .config('spark.driver.memory','8g')
              .getOrCreate())
 
     spark.sparkContext.setLogLevel("INFO")
@@ -41,6 +41,7 @@ if __name__ == "__main__":
 
     inp = spark.read.text("data/allice_tokenized.txt").transform(df_split)
 
+    inp.printSchema()
     inp.show(n = 10, truncate=150)
 
     word2vec = Word2Vec(vectorSize=10, seed=42, inputCol="sentence", outputCol="model")
@@ -48,7 +49,7 @@ if __name__ == "__main__":
 
     model.getVectors().show(1000, 200)
 
-    model.save('models/word2vec_allice')
+    model.write().overwrite().save('models/word2vec_allice')
 
     # synonyms = model.findSynonyms('economic', 5)
     synonyms = model.findSynonymsArray('game', 10)

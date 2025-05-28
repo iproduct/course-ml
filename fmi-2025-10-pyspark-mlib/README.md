@@ -6,7 +6,7 @@ virtual environment python.exe script - e.g.
 `D:\CourseDML\git\course-ml\fmi-2025-10-pyspark-mlib\.venv\Scripts\python.exe`
 
 `Spark 3.5.5` should be unzipped in a directory of choice 
-and `SPARK_HOME` environment variable should be set to this directory
+`SPARK_HOME` and `HADOOP_HOME` environment variables should be set to this directory
 
 ## Installing PySpark
 

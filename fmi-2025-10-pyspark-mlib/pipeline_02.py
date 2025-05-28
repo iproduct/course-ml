@@ -20,6 +20,7 @@ if __name__ == "__main__":
     # Configure an ML pipeline, which consists of three stages: tokenizer, hashingTF, and lr.
     tokenizer = Tokenizer(inputCol="text", outputCol="words")
     hashingTF = HashingTF(inputCol=tokenizer.getOutputCol(), outputCol="features")
+
     lr = LogisticRegression(maxIter=20, regParam=0.001)
     pipeline = Pipeline(stages=[tokenizer, hashingTF, lr])
 
@@ -36,6 +37,7 @@ if __name__ == "__main__":
 
     # Make predictions on test documents and print columns of interest.
     prediction = model.transform(test)
+    prediction.show(n = 10, truncate=150)
     selected = prediction.select("id", "text", "probability", "prediction")
     for row in selected.collect():
         rid, text, prob, prediction = row
