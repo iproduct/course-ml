@@ -10,10 +10,10 @@ from pyspark.sql.types import ArrayType, StringType
 # from nltk.tokenize import sent_tokenize, word_tokenize
 
 if __name__ == "__main__":
-    with open("data/allice.txt", encoding='utf-8') as f:
-        with open("data/allice_tokenized.txt", 'w', encoding='utf-8') as out:
-            for line in f:
-                out.write(' '.join(re.split(r'\W', line)) + '\n')
+    # with open("data/allice.txt", encoding='utf-8') as f:
+    #     with open("data/allice_tokenized.txt", 'w', encoding='utf-8') as out:
+    #         for line in f:
+    #             out.write(' '.join(re.split(r'\W', line)) + '\n')
 
 
     # findspark.init(r'D:\CourseDML\spark-3.5.5-bin-hadoop3')
@@ -39,7 +39,8 @@ if __name__ == "__main__":
             result.append((row.value.split(' '),))
         return spark.createDataFrame(result, ["sentence"])
 
-    inp = spark.read.text("data/allice_tokenized.txt").transform(df_split)
+    # inp = spark.read.text("data/allice_tokenized.txt").transform(df_split)
+    inp = spark.read.text("data/text8.txt").transform(df_split)
 
     inp.printSchema()
     inp.show(n = 10, truncate=150)
@@ -49,7 +50,7 @@ if __name__ == "__main__":
 
     model.getVectors().show(1000, 200)
 
-    model.write().overwrite().save('models/word2vec_allice')
+    model.write().overwrite().save('models/word2vec_text8')
 
     # synonyms = model.findSynonyms('economic', 5)
     synonyms = model.findSynonymsArray('game', 10)
