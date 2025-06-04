@@ -1,5 +1,6 @@
 # Import the required modules and classes
 import sparknlp
+import pandas as pd
 from sparknlp.base import DocumentAssembler, Pipeline, LightPipeline
 from sparknlp.annotator import (
     UniversalSentenceEncoder,
