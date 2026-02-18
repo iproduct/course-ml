@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
     df = sns.load_dataset('iris')
+    print(df.describe())
     print(df.shape)
     print(df.head(20))
     sns.pairplot(df, hue='species')
